@@ -1,0 +1,21 @@
+name: 'dbt_aws_snowflake_project'    # Project name with lower_case and underscores
+version: '1.0.0'                      # Project version
+profile: 'dbt_aws_snowflake_project'  # Profile used for dbt configurations
+
+
+model-paths: ["models"]              # Directory for model files
+analysis-paths: ["analyses"]         # Directory for analysis files
+test-paths: ["tests"]                # Directory for test files
+seed-paths: ["seeds"]                # Directory for seed files
+macro-paths: ["macros"]              # Directory for macro files
+snapshot-paths: ["snapshots"]        # Directory for snapshot files
+
+clean-targets:                       # directories to be removed by `dbt clean`
+  - "target"                         # Build artifacts directory
+  - "dbt_packages"                   # Directory for packages
+
+models:
+  dbt_aws_snowflake_project:         # The project name
+    bronze:                          # Configuration for the `bronze` subdirectory
+      +materialized: table           # All models in the bronze directory will be materialized as tables
+      +schema: bronze                # All models in the bronze directory will be created in the bronze layer schema
