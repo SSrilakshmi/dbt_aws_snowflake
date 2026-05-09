@@ -1,3 +1,5 @@
+version: 2
+
 name: 'dbt_aws_snowflake_project'    # Project name with lower_case and underscores
 version: '1.0.0'                      # Project version
 profile: 'dbt_aws_snowflake_project'  # Profile used for dbt configurations

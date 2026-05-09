@@ -1,0 +1,6 @@
+[33m64400f6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;32mfeat_dbt_snowflake_connection[m[33m)[m HEAD@{0}: merge feat_dbt_snowflake_connection: Fast-forward
+[33m6fc1f78[m HEAD@{1}: checkout: moving from feat_dbt_snowflake_connection to main
+[33m64400f6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;32mfeat_dbt_snowflake_connection[m[33m)[m HEAD@{2}: commit (amend): connection added. bronze layer complete
+[33m6eadb93[m HEAD@{3}: commit: created storage integration for secure communication between s3 and snowflake - created stage object and populated raw data to corresponding tables - created bronze schema and populated corresponding tables - created appropriate models and established lineage.
+[33m6fc1f78[m HEAD@{4}: checkout: moving from main to feat_dbt_snowflake_connection
+[33m6fc1f78[m HEAD@{5}: commit (initial): Initial project setup
