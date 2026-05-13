@@ -1,0 +1,9 @@
+macros:
+  - name: multiply- name of the macro
+    description: This macro multiplies two numbers together and returns the result.
+    arguments:
+      - name: num1
+        description: The first number to multiply.
+      - name: num2
+        description: The second number to multiply.
+    return_type: number

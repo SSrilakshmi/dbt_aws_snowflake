@@ -1,7 +1,7 @@
 dbt_aws_snowflake_project:
   outputs:
     dev:
-      account: CHLSLAN-VW07299
+      account: SJANPLY-ZQC35611
       database: db_airbnb
       password: BuildPipeline3
       role: ACCOUNTADMIN

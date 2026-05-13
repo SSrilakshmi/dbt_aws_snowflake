@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: bronze_bookings
+    columns:
+      - name: booking_status
+        description: "Status of the booking (e.g., confirmed, cancelled, pending)"
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['confirmed', 'cancelled']
+
+      - name: nights_booked
+        description: "Number of nights booked for the reservation"
+        data_tests:
+          - not_null
+
+      - name: listing_id
+        description: "Unique identifier for the listing"
+        data_tests:
+          - not_null # Added because primary keys should always be not_null
+          - relationships:
+              arguments:
+                to: ref('bronze_listings')
+                field: listing_id
+
+      
+  - name: bronze_listings
+    columns:
+      - name: listing_id
+        description: "Unique identifier for the listing"
+        data_tests:
+          - unique
+          - not_null # Added because primary keys should always be not_null
+          
+      - name: property_type
+        description: "Type of the property (e.g., apartment, house)"
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Apartment', 'House', 'Condo']
+                
+      - name: room_type
+        description: "Type of the room (e.g., private, entire home)"
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Private room', 'Entire home']
+                
+      - name: host_id
+        description: "Reference to the host of the listing"
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('bronze_hosts')
+                field: host_id
+
+  - name: bronze_hosts
+    columns:
+      - name: host_id
+        description: "Unique identifier for the host"
+        data_tests:
+          - unique
+          - not_null
+        
+      - name: host_since
+        description: "Date when the host started hosting"
+        data_tests:
+          - not_null  
+        

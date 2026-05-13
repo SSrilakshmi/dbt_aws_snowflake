@@ -1,5 +1,3 @@
-version: 2
-
 name: 'dbt_aws_snowflake_project'    # Project name with lower_case and underscores
 version: '1.0.0'                      # Project version
 profile: 'dbt_aws_snowflake_project'  # Profile used for dbt configurations
@@ -21,3 +19,8 @@ models:
     bronze:                          # Configuration for the `bronze` subdirectory
       +materialized: table           # All models in the bronze directory will be materialized as tables
       +schema: bronze                # All models in the bronze directory will be created in the bronze layer schema
+
+    silver:                          # Configuration for the `silver` subdirectory
+      +materialized: table           # All models in the silver directory will be materialized as tables
+      +schema: silver                # All models in the silver directory will be created in the silver layer schema
+
