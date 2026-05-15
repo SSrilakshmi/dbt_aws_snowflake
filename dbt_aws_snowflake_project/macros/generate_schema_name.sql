@@ -1,3 +1,4 @@
+# used to over write the default schema name in dbt_project.yml
 {% macro generate_schema_name(custom_schema_name, node) -%}
 
     {%- set default_schema = target.schema -%}
@@ -7,7 +8,7 @@
 
     {%- else -%}
 
-        {{ custom_schema_name | trim }}
+        {{ custom_schema_name | trim }} 
 
     {%- endif -%}
 
