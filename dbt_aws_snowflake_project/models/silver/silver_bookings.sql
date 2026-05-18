@@ -9,12 +9,22 @@ select
     booking_id, 
     listing_id, 
     booking_date, 
+    year(booking_date) as booking_year,
+    month(booking_date) as booking_month,
+    day(booking_date) as booking_day,   
+    quarter(booking_date) as booking_quarter,
+    week(booking_date) as booking_week,
+    dayname(booking_date) as booking_dayname,
     (
         {{multiply('booking_amount', 'nights_booked', 2) }} 
-        + service_fee ::NUMBER(10, 2)
-        + cleaning_fee ::NUMBER(10, 2)  
+        + service_fee ::number(10, 2)
+        + cleaning_fee ::number(10, 2)  
     ) AS total_price,
-    
-    booking_status, 
+    nights_booked,
+    case 
+        when nights_booked >= 7 then TRUE
+        else FALSE
+    end as is_long_stay,
+    {{-standardize_text('booking_status')}} as booking_status,
     created_at 
 from {{ ref('bronze_bookings') }}
