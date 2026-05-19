@@ -25,6 +25,11 @@ models:
                 to: ref('bronze_listings')
                 field: listing_id
 
+      - name: booking_date
+        description: "Date when the booking was made"
+        data_tests:
+          - is_valid_date # Custom test to ensure the date is valid and not null
+
       
   - name: bronze_listings
     columns:
@@ -47,7 +52,7 @@ models:
           - accepted_values:
               arguments:
                 values: ['Private room', 'Entire home']
-                
+                       
       - name: host_id
         description: "Reference to the host of the listing"
         data_tests:
@@ -57,6 +62,32 @@ models:
                 to: ref('bronze_hosts')
                 field: host_id
 
+      - name: bathrooms
+        description: "Number of bathrooms in the listing"
+        data_tests:
+          - not_null
+         # - dbt_utils.expression_is_true:
+         #     arguments:
+         #       expression: ">= 1"
+
+      - name: bedrooms
+        description: "Number of bedrooms in the listing"
+        data_tests:
+          - not_null
+
+      
+      - name: accommodates
+        description: "Number of guests the listing can accommodate"
+        data_tests:
+          - not_null
+
+      - name: price_per_night
+        description: "Price per night for the listing"
+        data_tests:
+          - not_null
+          # - dbt_utils.expression_is_true:
+          #     arguments:
+          #       expression: ">= 1"
   - name: bronze_hosts
     columns:
       - name: host_id
@@ -68,5 +99,5 @@ models:
       - name: host_since
         description: "Date when the host started hosting"
         data_tests:
-          - not_null  
+          - is_valid_date # Custom test to ensure the date is valid and not null  
         

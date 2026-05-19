@@ -1,5 +1,7 @@
 name: 'dbt_aws_snowflake_project'    # Project name with lower_case and underscores
 version: '1.0.0'                      # Project version
+
+# This setting configures which "profile" dbt uses for this project.
 profile: 'dbt_aws_snowflake_project'  # Profile used for dbt configurations
 
 
@@ -14,6 +16,9 @@ clean-targets:                       # directories to be removed by `dbt clean`
   - "target"                         # Build artifacts directory
   - "dbt_packages"                   # Directory for packages
 
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
 models:
   dbt_aws_snowflake_project:         # The project name
     bronze:                          # Configuration for the `bronze` subdirectory
@@ -23,4 +28,9 @@ models:
     silver:                          # Configuration for the `silver` subdirectory
       +materialized: table           # All models in the silver directory will be materialized as tables
       +schema: silver                # All models in the silver directory will be created in the silver layer schema
+    
+    gold:                            # Configuration for the `gold` subdirectory
+      +materialized: table           # All models in the gold directory will be materialized as tables
+      +schema: gold                  # All models in the gold directory will be created in the gold layer schema
+
 
