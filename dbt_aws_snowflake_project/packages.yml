@@ -1,5 +1,3 @@
-
 packages:
   - package: dbt-labs/dbt_utils
-    version: 1.3.3                   # Check dbt Hub for the best version matching your dbt-core
-
+    version: [">=1.0.0", "<2.0.0"]

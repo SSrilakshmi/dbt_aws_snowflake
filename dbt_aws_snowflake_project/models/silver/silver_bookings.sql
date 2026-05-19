@@ -19,8 +19,10 @@ select
         {{multiply('booking_amount', 'nights_booked', 2) }} 
         + service_fee ::number(10, 2)
         + cleaning_fee ::number(10, 2)  
-    ) AS total_price,
+    ) as total_price,
     nights_booked,
+    service_fee::number(10,2) as service_fee,
+    cleaning_fee::number(10,2) as cleaning_fee,    
     case 
         when nights_booked >= 7 then TRUE
         else FALSE

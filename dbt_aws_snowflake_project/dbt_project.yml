@@ -1,26 +1,32 @@
-name: 'dbt_aws_snowflake_project'    # Project name with lower_case and underscores
-version: '1.0.0'                      # Project version
-profile: 'dbt_aws_snowflake_project'  # Profile used for dbt configurations
+name: dbt_aws_snowflake_project
+version: '1.0.0'
 
+profile: dbt_aws_snowflake_project
 
-model-paths: ["models"]              # Directory for model files
-analysis-paths: ["analyses"]         # Directory for analysis files
-test-paths: ["tests"]                # Directory for test files
-seed-paths: ["seeds"]                # Directory for seed files
-macro-paths: ["macros"]              # Directory for macro files
-snapshot-paths: ["snapshots"]        # Directory for snapshot files
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
 
-clean-targets:                       # directories to be removed by `dbt clean`
-  - "target"                         # Build artifacts directory
-  - "dbt_packages"                   # Directory for packages
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars: {}
 
 models:
-  dbt_aws_snowflake_project:         # The project name
-    bronze:                          # Configuration for the `bronze` subdirectory
-      +materialized: table           # All models in the bronze directory will be materialized as tables
-      +schema: bronze                # All models in the bronze directory will be created in the bronze layer schema
+  dbt_aws_snowflake_project:
+    bronze:
+      +materialized: table
+      +schema: bronze
 
-    silver:                          # Configuration for the `silver` subdirectory
-      +materialized: table           # All models in the silver directory will be materialized as tables
-      +schema: silver                # All models in the silver directory will be created in the silver layer schema
+    silver:
+      +materialized: table
+      +schema: silver
+
+    gold:
+      +materialized: table
+      +schema: gold
 
