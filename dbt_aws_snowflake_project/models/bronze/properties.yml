@@ -30,7 +30,11 @@ models:
         data_tests:
           - is_valid_date # Custom test to ensure the date is valid and not null
 
-      
+      - name: booking_id
+        description: "Unique identifier for the booking"
+        data_tests:
+          - not_null # Added because primary keys should always be not_null
+          - unique
   - name: bronze_listings
     columns:
       - name: listing_id
@@ -66,9 +70,9 @@ models:
         description: "Number of bathrooms in the listing"
         data_tests:
           - not_null
-         # - dbt_utils.expression_is_true:
-         #     arguments:
-         #       expression: ">= 1"
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: "> 0"
 
       - name: bedrooms
         description: "Number of bedrooms in the listing"

@@ -11,7 +11,7 @@ select * from {{ ref('bronze_hosts') }}
 /*
 HOST_ID	        -- unique identifier for each host
 HOST_NAME	
-HOST_SINCE      -- cannot be less than 2010-01-01
+HOST_SINCE      -- cannot be less than 1900-01-01
 IS_SUPERHOST	-- true, false
 RESPONSE_RATE	-- not null
 CREATED_AT

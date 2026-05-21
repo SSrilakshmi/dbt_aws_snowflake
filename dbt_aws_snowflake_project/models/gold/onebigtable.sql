@@ -11,7 +11,7 @@
         },
         {
             "table": "db_airbnb.silver.silver_hosts",
-            "columns": "sil_h.host_name, sil_h.host_since, sil_h.is_superhost, sil_h.response_rate, sil_h.response_quality",
+            "columns": "sil_h.host_name, sil_h.host_since, sil_h.is_superhost, sil_h.response_rate, sil_h.response_quality, sil_h.created_at as host_created_at",
             "alias": "sil_h",
             "join_condition": "sil_l.host_id = sil_h.host_id"
         }

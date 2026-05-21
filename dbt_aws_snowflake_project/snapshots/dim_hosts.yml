@@ -1,0 +1,11 @@
+snapshots:
+  - name: dim_hosts
+    description: "A snapshot of the hosts data from the hosts table"
+    relation: ref('eph_hosts')
+    config:
+      schema: gold
+      database: db_airbnb
+      unique_key: host_id
+      strategy: timestamp
+      updated_at: host_created_at
+      dbt_valid_to_current: "to_date('9999-12-31')" # Specifies that current records should have `dbt_valid_to` set to `'9999-12-31'` instead of `NULL`.
