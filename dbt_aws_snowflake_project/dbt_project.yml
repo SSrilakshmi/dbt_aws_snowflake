@@ -1,7 +1,7 @@
-name: dbt_aws_snowflake_project
+name: 'dbt_aws_snowflake_project'
 version: '1.0.0'
 
-profile: dbt_aws_snowflake_project
+profile: 'dbt_aws_snowflake_project'
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
