@@ -1,16 +1,16 @@
 {% set configs = 
     [
-        { "table": "db_airbnb.gold.onebigtable",
+        { "table": ref('onebigtable'),
             "columns": "gld_obt.booking_id, gld_obt.host_id, gld_obt.listing_id, gld_obt.total_price, gld_obt.service_fee, gld_obt.cleaning_fee, gld_obt.accommodates, gld_obt.bedrooms, gld_obt.bathrooms, gld_obt.nights_booked, gld_obt.price_per_night, gld_obt.response_rate",
             "alias": "gld_obt"
         },
-        { "table": "db_airbnb.silver.silver_listings",
+        { "table": ref('silver_listings'),
             "columns": "",
             "alias": "sil_l",
             "join_condition": "gld_obt.listing_id = sil_l.listing_id"
         },
         {
-            "table": "db_airbnb.silver.silver_hosts",
+            "table": ref('silver_hosts'),
             "columns": "",
             "alias": "sil_h",
             "join_condition": "sil_l.host_id = sil_h.host_id"

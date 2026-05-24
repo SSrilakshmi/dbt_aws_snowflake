@@ -1,13 +1,36 @@
 dbt_aws_snowflake_project:
   outputs:
     dev:
-      account: SJANPLY-ZQC35611
-      database: db_airbnb
-      password: BuildPipeline3
-      role: ACCOUNTADMIN
-      schema: dbt_schema
-      threads: 1
       type: snowflake
-      user: Shree
-      warehouse: COMPUTE_WH
+      schema: dbt_schema          # This is the default schema that dbt will build into for this target. You can override this in your model configs, but it is required to be set here.
+      threads: "{{ env_var('DBT_THREADS') | int}}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+    
+    test:              
+      type: snowflake
+      schema: dbt_schema
+      threads: "{{ env_var('DBT_THREADS') | int}}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+
+    prod:
+      type: snowflake
+      schema: dbt_schema          
+      threads: "{{ env_var('DBT_THREADS') | int}}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+     
   target: dev

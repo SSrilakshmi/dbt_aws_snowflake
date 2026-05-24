@@ -1,16 +1,16 @@
 {% set configs = 
     [
-        { "table": "db_airbnb.silver.silver_bookings",
+        { "table": ref('silver_bookings'),
             "columns": "sil_b.*",
             "alias": "sil_b"
         },
-        { "table": "db_airbnb.silver.silver_listings",
+        { "table": ref('silver_listings'),
             "columns": "sil_l.host_id, sil_l.property_type, sil_l.room_type, sil_l.accommodates, sil_l.bathrooms, sil_l.bedrooms, sil_l.bedroom_size, sil_l.city, sil_l.country, sil_l.price_per_night,sil_l.price_segment, sil_l.created_at as listing_created_at ",
             "alias": "sil_l",
             "join_condition": "sil_b.listing_id = sil_l.listing_id"
         },
         {
-            "table": "db_airbnb.silver.silver_hosts",
+            "table": ref('silver_hosts'),
             "columns": "sil_h.host_name, sil_h.host_since, sil_h.is_superhost, sil_h.response_rate, sil_h.response_quality, sil_h.created_at as host_created_at",
             "alias": "sil_h",
             "join_condition": "sil_l.host_id = sil_h.host_id"
