@@ -1,36 +1,38 @@
 dbt_aws_snowflake_project:
+  target: "{{ env_var('DBT_TARGET', 'dev') }}"
+
   outputs:
     dev:
-      type: snowflake
-      schema: dbt_schema          # This is the default schema that dbt will build into for this target. You can override this in your model configs, but it is required to be set here.
-      threads: "{{ env_var('DBT_THREADS') | int}}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
       password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
       role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      schema: dbt_schema
+      threads: "{{ env_var('DBT_THREADS') | int }}"
+      type: snowflake
+      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
       warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
     
-    test:              
-      type: snowflake
+    test:    
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
       schema: dbt_schema
-      threads: "{{ env_var('DBT_THREADS') | int}}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
-      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
-      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
-      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
-
-    prod:
+      threads: "{{ env_var('DBT_THREADS') | int }}"
       type: snowflake
-      schema: dbt_schema          
-      threads: "{{ env_var('DBT_THREADS') | int}}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
-      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
       user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+      
+    prod:
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
       password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
       role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      schema: dbt_schema
+      threads: "{{ env_var('DBT_THREADS') | int }}"
+      type: snowflake
+      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
       warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
      
-  target: dev
+ 

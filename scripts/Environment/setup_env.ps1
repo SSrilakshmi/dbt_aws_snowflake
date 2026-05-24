@@ -2,6 +2,8 @@ param(
     [string]$env = "dev"
 )
 
+Write-Host ""
+Write-Host "Setting dbt environment: $env" -ForegroundColor Cyan
 
 # Common variables (shared across environments)
 $env:SNOWFLAKE_ACCOUNT = "SJANPLY-ZQC35611"
@@ -12,35 +14,45 @@ $env:SNOWFLAKE_USERNAME = "already created as environment variable in the system
 $env:SNOWFLAKE_PASSWORD = ""already created as environment variable in the system, so not hardcoding here"
 #>
 
-if ($env -eq "dev") {
+# Environment-specific settings
+switch ($env.ToLower()) {
 
-    $env:DBT_TARGET = "dev"
-    $env:DBT_THREADS = "2"
+    "dev" {
+        $env:SNOWFLAKE_DATABASE = "DB_AIRBNB_DEV"
+        $env:SNOWFLAKE_ROLE = "DBT_DEV_ROLE"
+        $env:DBT_THREADS = 1
+        $env:DBT_TARGET = "dev"
+    }
 
-    $env:SNOWFLAKE_DATABASE = "db_airbnb_dev"    
-    $env:SNOWFLAKE_ROLE = "dbt_dev_role"
-  
-    Write-Host "Loaded DEV environment"
+    "test" {
+        $env:SNOWFLAKE_DATABASE = "DB_AIRBNB_TEST"
+        $env:SNOWFLAKE_ROLE = "DBT_TEST_ROLE"
+        $env:DBT_THREADS = 2
+        $env:DBT_TARGET = "test"
+    }
 
+    "prod" {
+        $env:SNOWFLAKE_DATABASE = "DB_AIRBNB_PROD"
+        $env:SNOWFLAKE_ROLE = "DBT_PROD_ROLE"
+        $env:DBT_THREADS = 4
+        $env:DBT_TARGET = "prod"
+    }
+
+    default {
+        Write-Host "Invalid environment. Use dev/test/prod." -ForegroundColor Red
+        return
+    }
 }
-elseif ($env -eq "test") {
 
-    $env:DBT_TARGET = "test"
-    $env:DBT_THREADS = "4"
-  
-    $env:SNOWFLAKE_DATABASE = "db_airbnb_test"
-    $env:SNOWFLAKE_ROLE = "dbt_test_role"
+Write-Host ""
+Write-Host "Environment variables set successfully." -ForegroundColor Green
+Write-Host ""
 
-    Write-Host "Loaded TEST environment"
+Write-Host "Current Configuration:" -ForegroundColor Yellow
+Write-Host "DBT_TARGET              = $env:DBT_TARGET"
+Write-Host "SNOWFLAKE_DATABASE      = $env:SNOWFLAKE_DATABASE"
+Write-Host "SNOWFLAKE_ROLE          = $env:SNOWFLAKE_ROLE"
+Write-Host "SNOWFLAKE_WAREHOUSE     = $env:SNOWFLAKE_WAREHOUSE"
+Write-Host "DBT_THREADS             = $env:DBT_THREADS" 
+Write-Host ""
 
-}
-elseif ($env -eq "prod") {
-
-    $env:DBT_TARGET = "prod"
-    $env:DBT_THREADS = "8"
-
-    $env:SNOWFLAKE_DATABASE = "db_airbnb_prod"
-    $env:SNOWFLAKE_ROLE = "dbt_prod_role"
-
-    Write-Host "Loaded PROD environment"
-}
