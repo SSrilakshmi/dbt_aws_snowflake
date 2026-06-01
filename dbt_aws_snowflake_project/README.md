@@ -204,6 +204,7 @@ dbt_aws_snowflake
     
     ```
     </details>
+    
 
 3. Set up Snowflake Database
    - Run **1_airbnb_setup.sql** available in /setup/environment/infrastruture in Snowflake to create different environments, databases, roles, schemas, tables in stage, file formats and storage integration. Assign privileges to roles
