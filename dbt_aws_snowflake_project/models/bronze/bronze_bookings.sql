@@ -6,7 +6,7 @@
 }}
 
 select *
-from {{ source('staging', 'bookings') }}
+from {{ source('db_airbnb_raw', 'bookings') }}
 {% if is_incremental() -%}
 where created_at > (select coalesce(max(created_at), '1900-01-01') from {{ this }})
 {% endif %}

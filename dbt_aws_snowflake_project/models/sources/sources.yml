@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: staging 
-    database: "{{ target.database }}"     
+  - name: db_airbnb_raw 
+    database: db_airbnb_raw  
     schema: staging
     tables:
       - name: bookings
