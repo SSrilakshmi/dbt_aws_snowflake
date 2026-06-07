@@ -210,7 +210,6 @@ BEGIN
     --       After creation, run DESCRIBE INTEGRATION IO_AIRBNB to get the
     --       STORAGE_AWS_IAM_USER_ARN and STORAGE_AWS_EXTERNAL_ID values
     --       needed to configure the IAM trust policy in AWS.
-    --       Using IF NOT EXISTS to preserve the external ID on re-runs.
     -- =========================================================================
     current_section := 'SECTION 6'; -- for debug purpose
 
@@ -246,10 +245,60 @@ BEGIN
         END IF;
     END FOR;
 
-    -- =========================================================================
-    -- SECTION 8: ALL GRANTS (looped over database-role pairs)
-    -- =========================================================================
+    
+    -- =============================================================================
+    -- SECTION 8: CREATE SNOWPIPE
+    -- Pipes are created only for raw database
+    -- =============================================================================
     current_section := 'SECTION 8'; -- for debug purpose
+
+    FOR i IN 0 TO ARRAY_SIZE(:arr_databases) - 1 DO
+        LET db VARCHAR := :arr_databases[i];
+
+        FOR j IN 0 to ARRAY_SIZE(:arr_schemas) -1 DO
+            LET sch VARCHAR := :arr_schemas[j];
+
+            IF (:db = 'DB_AIRBNB_RAW' AND :sch = 'STAGING') THEN
+            
+                FOR k IN 0 TO ARRAY_SIZE(:arr_tables) - 1 DO
+                    LET pipename VARCHAR := :arr_tables[k];
+                    LET tablename VARCHAR := :arr_tables[k];
+                    LET filenamepattern VARCHAR := '.*' || LOWER(:arr_tables[k]) || '.*[.]csv';
+                  
+
+    
+                    LET sql_stmt VARCHAR := '
+                        CREATE PIPE IF NOT EXISTS ' || :db || '.' || :sch || '.' || :pipename || '_PIPE
+                            AUTO_INGEST = TRUE
+                            AS
+                            COPY INTO ' || :db || '.' || :sch || '.' || :tablename || '
+                            FROM @' || :db || '.' || :sch || '.STG_AIRBNB_S3
+                            PATTERN = ''' || :filenamepattern || '''
+                            FILE_FORMAT = (FORMAT_NAME = ' || :db || '.' || :sch || '.CSV_FORMAT_HEADER_METADATA)
+                            MATCH_BY_COLUMN_NAME = CASE_INSENSITIVE
+                            INCLUDE_METADATA = (
+                                FILENAME = METADATA$FILENAME,
+                                FILE_ROW_NUMBER = METADATA$FILE_ROW_NUMBER,
+                                FILE_CONTENT_KEY = METADATA$FILE_CONTENT_KEY,
+                                FILE_LAST_MODIFIED = METADATA$FILE_LAST_MODIFIED,
+                                START_SCAN_TIME = METADATA$START_SCAN_TIME
+                            )';
+    
+                    IF (:debug_mode) THEN
+                        LET pipe_label VARCHAR := :tablename || '_PIPE';
+                        INSERT INTO DB_AIRBNB_DEBUG.PUBLIC.SECTION_DEBUG (section, object_name, ddl) VALUES (:current_section, :pipe_label, :sql_stmt);
+                    ELSE
+                        EXECUTE IMMEDIATE :sql_stmt;
+                    END IF;
+                END FOR;
+            END IF;
+        END FOR;
+    END FOR;
+
+    -- =========================================================================
+    -- SECTION 9: ALL GRANTS (looped over database-role pairs)
+    -- =========================================================================
+    current_section := 'SECTION 9'; -- for debug purpose
 
     LET shared_db VARCHAR := :arr_databases[0];
     LET arr_privileges ARRAY := ARRAY_CONSTRUCT('MONITOR', 'OPERATE');
@@ -345,54 +394,6 @@ BEGIN
     EXECUTE IMMEDIATE 'GRANT USAGE ON INTEGRATION IO_AIRBNB TO ROLE SYSADMIN';
 
 
-    -- =============================================================================
-    -- SECTION 9: CREATE SNOWPIPE
-    -- Pipes are created only for raw database
-    -- =============================================================================
-    current_section := 'SECTION 9'; -- for debug purpose
-
-    FOR i IN 0 TO ARRAY_SIZE(:arr_databases) - 1 DO
-        LET db VARCHAR := :arr_databases[i];
-
-        FOR j IN 0 to ARRAY_SIZE(:arr_schemas) -1 DO
-            LET sch VARCHAR := :arr_schemas[j];
-
-            IF (:db = 'DB_AIRBNB_RAW' AND :sch = 'STAGING') THEN
-            
-                FOR k IN 0 TO ARRAY_SIZE(:arr_tables) - 1 DO
-                    LET pipename VARCHAR := :arr_tables[k];
-                    LET tablename VARCHAR := :arr_tables[k];
-                    LET filenamepattern VARCHAR := '.*' || LOWER(:arr_tables[k]) || '.*[.]csv';
-                  
-
-    
-                    LET sql_stmt VARCHAR := '
-                        CREATE PIPE IF NOT EXISTS ' || :db || '.' || :sch || '.' || :pipename || '_PIPE
-                            AUTO_INGEST = TRUE
-                            AS
-                            COPY INTO ' || :db || '.' || :sch || '.' || :tablename || '
-                            FROM @' || :db || '.' || :sch || '.STG_AIRBNB_S3
-                            PATTERN = ''' || :filenamepattern || '''
-                            FILE_FORMAT = (FORMAT_NAME = ' || :db || '.' || :sch || '.CSV_FORMAT_HEADER_METADATA)
-                            MATCH_BY_COLUMN_NAME = CASE_INSENSITIVE
-                            INCLUDE_METADATA = (
-                                FILENAME = METADATA$FILENAME,
-                                FILE_ROW_NUMBER = METADATA$FILE_ROW_NUMBER,
-                                FILE_CONTENT_KEY = METADATA$FILE_CONTENT_KEY,
-                                FILE_LAST_MODIFIED = METADATA$FILE_LAST_MODIFIED,
-                                START_SCAN_TIME = METADATA$START_SCAN_TIME
-                            )';
-    
-                    IF (:debug_mode) THEN
-                        LET pipe_label VARCHAR := :tablename || '_PIPE';
-                        INSERT INTO DB_AIRBNB_DEBUG.PUBLIC.SECTION_DEBUG (section, object_name, ddl) VALUES (:current_section, :pipe_label, :sql_stmt);
-                    ELSE
-                        EXECUTE IMMEDIATE :sql_stmt;
-                    END IF;
-                END FOR;
-            END IF;
-        END FOR;
-    END FOR;
 
     
 EXCEPTION
