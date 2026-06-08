@@ -561,7 +561,7 @@ This project demonstrates:
   | Database | Schema | Usage |
   | --- |--- |--- |
   | DB_AIRBNB_DEV | BRONZE | Raw Layer |
-  | DB_AIRBNB_DEV | SILVER | CLeaned Layer |
+  | DB_AIRBNB_DEV | SILVER | Cleaned Layer |
   | DB_AIRBNB_DEV | GOLD | Analytics Ready Layer |
 
 
