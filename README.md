@@ -655,6 +655,7 @@ This project demonstrates:
 ---
 ## Future Enhancements
 Model enhancements:
+- dynamically create table structures bsed on the .csv headers /table headers
 - quarantine test failures in dedicated quarantine schema
   
 Business Enhancements:
