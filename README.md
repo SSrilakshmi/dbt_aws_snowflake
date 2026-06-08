@@ -561,7 +561,7 @@ This project demonstrates:
   | Database | Schema | Usage |
   | --- |--- |--- |
   | DB_AIRBNB_DEV | BRONZE | Raw Layer |
-  | DB_AIRBNB_DEV | SILVER | CLeaned Layer |
+  | DB_AIRBNB_DEV | SILVER | Cleaned Layer |
   | DB_AIRBNB_DEV | GOLD | Analytics Ready Layer |
 
 
@@ -655,6 +655,7 @@ This project demonstrates:
 ---
 ## Future Enhancements
 Model enhancements:
+- dynamically create table structures bsed on the .csv headers /table headers
 - quarantine test failures in dedicated quarantine schema
   
 Business Enhancements:
