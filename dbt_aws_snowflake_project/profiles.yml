@@ -2,37 +2,41 @@ dbt_aws_snowflake_project:
   target: "{{ env_var('DBT_TARGET', 'dev') }}"
 
   outputs:
+
     dev:
+      type: snowflake
       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
       database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
       password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
       role: "{{ env_var('SNOWFLAKE_ROLE') }}"
-      schema: dbt_schema
+      schema: "BRONZE"
       threads: "{{ env_var('DBT_THREADS') | int }}"
-      type: snowflake
+      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+  
+    test: 
+      type: snowflake   
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      schema: "BRONZE"
+      threads: "{{ env_var('DBT_THREADS') | int }}"
       user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
       warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
     
-    test:    
-      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
-      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
-      schema: dbt_schema
-      threads: "{{ env_var('DBT_THREADS') | int }}"
-      type: snowflake
-      user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
-      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
-      
     prod:
+      type: snowflake
       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
       database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
       password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
       role: "{{ env_var('SNOWFLAKE_ROLE') }}"
-      schema: dbt_schema
+      schema: "BRONZE"
       threads: "{{ env_var('DBT_THREADS') | int }}"
-      type: snowflake
       user: "{{ env_var('SNOWFLAKE_USERNAME') }}"
       warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+     
+ 
+
      
  

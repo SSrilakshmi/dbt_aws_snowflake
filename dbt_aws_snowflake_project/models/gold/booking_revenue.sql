@@ -9,8 +9,8 @@ WITH bookings AS (
 
 SELECT
 
-    listing_id,
-
+    booking_year,
+    booking_month,
     -- Confirmed revenue
     SUM(
         CASE
@@ -78,6 +78,6 @@ SELECT
     MAX(booking_date) AS last_booking_date
 
 FROM bookings
-GROUP BY listing_id
+GROUP BY booking_year, booking_month
 
 -- TODO Add host, city, country from listing and host table

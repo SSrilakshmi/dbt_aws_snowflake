@@ -1,0 +1,51 @@
+name: dbt CI Pipeline
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  dbt-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dbt
+        run: |
+          pip install dbt-snowflake
+
+      - name: Create profiles.yml
+        run: |
+          mkdir -p ~/.dbt
+          cat > ~/.dbt/profiles.yml << EOF
+          airbnb_project:
+            target: dev
+            outputs:
+              dev:
+                type: snowflake
+                account: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+                user: ${{ secrets.SNOWFLAKE_USER }}
+                password: ${{ secrets.SNOWFLAKE_PASSWORD }}
+                role: ${{ secrets.SNOWFLAKE_ROLE }}
+                database: ${{ secrets.SNOWFLAKE_DATABASE }}
+                warehouse: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+                schema: ${{ secrets.SNOWFLAKE_SCHEMA }}
+                threads: 4
+          EOF
+
+      - name: Install Dependencies
+        run: dbt deps
+
+      - name: Compile Models
+        run: dbt compile
+
+      - name: Run Tests
+        run: dbt test

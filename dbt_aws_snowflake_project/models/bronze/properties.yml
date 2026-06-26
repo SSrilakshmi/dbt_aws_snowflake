@@ -9,7 +9,7 @@ models:
           - not_null
           - accepted_values:
               arguments:
-                values: ['confirmed', 'cancelled']
+                values: ['confirmed', 'cancelled', 'completed']  
 
       - name: nights_booked
         description: "Number of nights booked for the reservation"
@@ -48,14 +48,14 @@ models:
         data_tests:
           - accepted_values:
               arguments:
-                values: ['Apartment', 'House', 'Condo']
+                values: ['Apartment', 'House', 'Condo', 'Townhouse', 'Loft'] 
                 
       - name: room_type
         description: "Type of the room (e.g., private, entire home)"
         data_tests:
           - accepted_values:
               arguments:
-                values: ['Private room', 'Entire home']
+                values: ['Private room', 'Entire home', 'Shared room']    
                        
       - name: host_id
         description: "Reference to the host of the listing"

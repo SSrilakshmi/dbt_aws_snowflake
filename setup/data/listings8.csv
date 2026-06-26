@@ -1,0 +1,1492 @@
+listing_id,host_id,listing_name,property_type,room_type,city,state,country,accommodates,bedrooms,bathrooms,price_per_night,minimum_nights,created_at
+200000,100000,Jacob Extensions Apartment,Apartment,Private room,South Billyview,Oklahoma,United States,1,1,1.7,429,5,2025-05-13
+200001,100000,Eugene Vista Apartment,Apartment,Shared room,Adammouth,Virginia,United States,11,5,1.3,429,14,2023-08-02
+200002,100000,Bill Islands Apartment,Apartment,Entire home,Port Sarahport,New York,United States,1,1,1.7,97,20,2026-06-13
+200003,100000,Jones Station Apartment,Apartment,Shared room,Aliciaburgh,North Dakota,United States,9,4,2.9,151,18,2025-10-27
+200004,100001,Robert Plain Townhouse,Townhouse,Shared room,Davisbury,Indiana,United States,4,2,1.8,279,28,2022-10-01
+200005,100001,Rivera Hill Apartment,Apartment,Private room,Port Christine,New Mexico,United States,3,1,2.0,407,5,2025-04-13
+200006,100001,Danny Key House,House,Entire home,Allenbury,Arizona,United States,6,3,2.1,102,12,2024-11-06
+200007,100001,James Underpass Condo,Condo,Entire home,South Jonathanport,Alaska,United States,10,5,3.2,185,18,2025-05-13
+200008,100001,Robertson Pass Apartment,Apartment,Shared room,Tuckerport,Tennessee,United States,7,3,1.9,90,21,2026-05-03
+200009,100002,Palmer Court Loft,Loft,Entire home,Port Amanda,Alabama,United States,6,3,3.1,345,2,2023-04-13
+200010,100002,Jason Roads House,House,Entire home,Port Gina,Connecticut,United States,5,2,3.6,90,13,2025-02-15
+200011,100003,Lucas Cliffs Condo,Condo,Private room,North Stephen,Michigan,United States,8,4,1.5,375,12,2023-05-03
+200012,100003,Charles Fall House,House,Shared room,Angelashire,Iowa,United States,11,5,3.8,186,21,2022-08-15
+200013,100004,Russell Mission Apartment,Apartment,Entire home,Hamiltontown,Missouri,United States,10,5,2.6,375,8,2026-05-03
+200014,100004,Amanda Row House,House,Private room,Port Julieton,Vermont,United States,8,4,4.0,244,21,2025-04-28
+200015,100004,Michael Parkway Loft,Loft,Private room,West Kristinport,Rhode Island,United States,4,2,3.5,400,25,2026-01-25
+200016,100004,Hubbard Mill Apartment,Apartment,Entire home,Fostertown,New Mexico,United States,4,2,3.4,470,13,2022-10-30
+200017,100005,Derek Lock Condo,Condo,Shared room,Susanberg,Maryland,United States,2,1,3.6,158,11,2023-02-15
+200018,100005,Bernard Branch House,House,Private room,North Bobby,Oregon,United States,11,5,3.7,305,21,2025-05-05
+200019,100005,Medina Corner Townhouse,Townhouse,Entire home,Jasonstad,Indiana,United States,3,1,1.7,185,18,2024-12-30
+200020,100006,Eugene Forges Loft,Loft,Shared room,Jamesburgh,Texas,United States,5,2,2.3,432,19,2024-03-20
+200021,100006,Melissa Plaza Townhouse,Townhouse,Entire home,Newmanland,Maine,United States,6,3,2.5,162,3,2025-11-11
+200022,100007,John Flat Apartment,Apartment,Shared room,Lynnstad,Florida,United States,2,1,1.5,128,22,2025-04-26
+200023,100007,Craig River Townhouse,Townhouse,Private room,East Louismouth,Michigan,United States,10,5,2.1,82,15,2025-04-25
+200024,100007,Steele Drives Loft,Loft,Entire home,Lindseychester,Hawaii,United States,5,2,3.0,333,4,2025-01-30
+200025,100007,Sanchez Forges Loft,Loft,Shared room,Hillstad,Florida,United States,5,2,2.0,443,10,2022-06-25
+200026,100008,Humphrey Mountain Townhouse,Townhouse,Entire home,Howardport,New York,United States,3,1,3.9,282,29,2025-05-08
+200027,100009,Gregory Rest Condo,Condo,Entire home,Port Juanberg,Ohio,United States,9,4,2.5,440,4,2024-10-21
+200028,100009,Gross Road Condo,Condo,Shared room,Lake Charlestown,North Carolina,United States,11,5,1.6,309,12,2023-04-19
+200029,100009,Lisa Prairie House,House,Shared room,Hammondborough,Arizona,United States,9,4,3.8,448,20,2025-02-23
+200030,100010,Stephens Plains Condo,Condo,Entire home,Valdezberg,Mississippi,United States,8,4,3.8,59,29,2024-10-21
+200031,100011,Patricia Radial Condo,Condo,Entire home,Dennishaven,North Carolina,United States,4,2,3.6,79,3,2024-02-17
+200032,100011,Cox Branch Apartment,Apartment,Entire home,Port Tamara,South Carolina,United States,12,6,3.9,298,18,2022-11-05
+200033,100011,Katherine Dam House,House,Private room,Mooreshire,Oregon,United States,3,1,3.8,387,6,2025-05-15
+200034,100012,Jill Orchard Condo,Condo,Shared room,Billyfort,Iowa,United States,9,4,2.3,496,7,2025-04-07
+200035,100012,Wood Canyon Loft,Loft,Entire home,New Rebecca,Mississippi,United States,12,6,3.1,403,13,2022-09-23
+200036,100012,Hardin Cape Condo,Condo,Private room,Lake Mariohaven,South Dakota,United States,8,4,1.4,314,8,2024-02-10
+200037,100013,Davenport Greens Apartment,Apartment,Shared room,South Desiree,Mississippi,United States,6,3,2.7,60,19,2025-12-27
+200038,100014,Zachary Lane House,House,Shared room,New Richard,Minnesota,United States,1,1,2.9,86,8,2024-12-16
+200039,100014,Eaton Avenue Apartment,Apartment,Private room,South Gabriel,California,United States,1,1,1.2,490,8,2024-07-13
+200040,100015,Lewis Ferry Condo,Condo,Entire home,West Carolyn,Delaware,United States,11,5,2.6,298,24,2024-08-25
+200041,100015,Robert Isle Loft,Loft,Entire home,South Emmafort,Indiana,United States,10,5,3.4,292,26,2025-04-09
+200042,100015,Deborah Loop Townhouse,Townhouse,Entire home,East Bradleyshire,Pennsylvania,United States,4,2,3.0,98,12,2024-12-21
+200043,100015,Crystal Canyon Townhouse,Townhouse,Shared room,North Gabriel,Idaho,United States,7,3,1.2,289,21,2023-02-23
+200044,100016,Greene Port Apartment,Apartment,Shared room,Lake Jessicaport,Colorado,United States,1,1,2.0,256,28,2024-08-28
+200045,100016,Obrien Mountains Apartment,Apartment,Entire home,Jacksonchester,Rhode Island,United States,4,2,2.6,148,5,2023-05-20
+200046,100017,Cindy Pass Townhouse,Townhouse,Private room,Garymouth,New Jersey,United States,3,1,1.7,192,30,2023-01-25
+200047,100017,Jerry Lights Apartment,Apartment,Shared room,North Allen,North Dakota,United States,8,4,1.3,463,21,2024-12-30
+200048,100017,Serrano Rest Loft,Loft,Entire home,East Thomaston,Ohio,United States,1,1,1.5,97,16,2026-02-12
+200049,100017,Christopher Shoals Townhouse,Townhouse,Private room,New Amber,Alabama,United States,4,2,3.7,492,6,2024-08-07
+200050,100017,Boyd Land Townhouse,Townhouse,Private room,Lake Alyssabury,New Mexico,United States,1,1,3.8,249,26,2026-04-11
+200051,100018,Bell Unions Townhouse,Townhouse,Shared room,South Dennisfort,Wyoming,United States,5,2,3.9,266,26,2025-10-26
+200052,100019,Justin Wells Loft,Loft,Private room,Scotttown,Virginia,United States,11,5,1.5,417,10,2023-06-14
+200053,100019,Becky Crest House,House,Shared room,South Diamondmouth,Nebraska,United States,1,1,2.6,346,24,2025-08-16
+200054,100019,Eric Run Condo,Condo,Shared room,Joseside,Nevada,United States,1,1,2.4,75,30,2024-01-01
+200055,100020,Carr Springs Loft,Loft,Shared room,Fischerchester,Oklahoma,United States,3,1,1.2,79,6,2024-11-11
+200056,100020,White Points Apartment,Apartment,Shared room,Kingport,Oregon,United States,10,5,3.6,84,13,2025-10-17
+200057,100021,Fitzgerald Walk Apartment,Apartment,Shared room,Lake Jerryburgh,Connecticut,United States,10,5,2.8,176,20,2023-12-04
+200058,100022,Hartman Unions Apartment,Apartment,Shared room,East Paultown,Colorado,United States,7,3,2.7,386,11,2023-05-17
+200059,100022,Thomas Rapid Condo,Condo,Shared room,Davisview,Iowa,United States,4,2,1.9,392,9,2025-12-17
+200060,100023,Chelsea Stream Townhouse,Townhouse,Shared room,Ariasfurt,South Carolina,United States,3,1,1.9,393,11,2024-01-15
+200061,100023,Dawson Ranch Apartment,Apartment,Shared room,Port Lorifort,New Hampshire,United States,1,1,4.0,284,4,2025-04-02
+200062,100024,Melissa Unions Apartment,Apartment,Shared room,Jameshaven,North Dakota,United States,9,4,1.8,159,30,2022-07-04
+200063,100024,Christina Spring Condo,Condo,Entire home,West Johntown,Hawaii,United States,2,1,2.1,500,6,2025-06-07
+200064,100024,Chan Knoll Townhouse,Townhouse,Private room,Sullivanborough,North Dakota,United States,9,4,2.8,410,26,2022-10-30
+200065,100024,Samantha Plaza Loft,Loft,Shared room,Jessicaside,Pennsylvania,United States,1,1,1.9,391,22,2022-07-11
+200066,100025,Richmond Harbor Apartment,Apartment,Entire home,New Sylvia,New Jersey,United States,3,1,3.7,185,24,2023-12-10
+200067,100025,Andrews Green Loft,Loft,Private room,South William,Oklahoma,United States,3,1,2.8,189,23,2026-06-01
+200068,100026,Morgan Crescent Condo,Condo,Shared room,Nancyshire,Kentucky,United States,4,2,3.6,401,17,2022-10-08
+200069,100027,Church Port Townhouse,Townhouse,Entire home,Carrillomouth,Wyoming,United States,5,2,1.3,483,14,2025-05-31
+200070,100028,Mosley Wall Condo,Condo,Private room,South Darrenland,Missouri,United States,1,1,3.3,51,21,2024-05-30
+200071,100029,Erica Forks Condo,Condo,Private room,Robertstad,North Dakota,United States,3,1,2.7,429,14,2025-02-26
+200072,100029,Jaclyn Greens Loft,Loft,Entire home,West Christopher,Utah,United States,1,1,3.8,107,23,2024-09-27
+200073,100030,Jones Fall House,House,Private room,Edwardsborough,Oregon,United States,9,4,2.7,68,5,2025-08-24
+200074,100030,Stacey Springs Townhouse,Townhouse,Private room,South Jillian,Kansas,United States,3,1,2.1,71,30,2023-08-09
+200075,100030,Monique Ford Apartment,Apartment,Shared room,East Mary,South Carolina,United States,6,3,1.7,157,4,2025-08-03
+200076,100030,Kimberly Crest Condo,Condo,Private room,Lake Stephaniefort,South Carolina,United States,9,4,3.9,497,24,2023-12-23
+200077,100031,Melanie Landing House,House,Entire home,Travisshire,Louisiana,United States,4,2,3.9,492,26,2022-06-28
+200078,100031,Tracey Pass House,House,Entire home,Raymondshire,Florida,United States,7,3,3.2,62,11,2024-07-19
+200079,100031,Mendoza Plains Townhouse,Townhouse,Shared room,New Michaelburgh,New Jersey,United States,11,5,3.4,492,9,2022-09-10
+200080,100032,Stewart Branch House,House,Private room,Lake Jasonshire,Connecticut,United States,12,6,3.6,105,28,2022-12-21
+200081,100032,Salazar Green Townhouse,Townhouse,Private room,New Jose,Louisiana,United States,4,2,2.0,152,27,2023-11-05
+200082,100032,Diaz Parks House,House,Shared room,Clarkstad,Mississippi,United States,4,2,1.6,62,11,2024-06-19
+200083,100032,Ramirez Falls Condo,Condo,Private room,New Gina,Connecticut,United States,2,1,2.1,445,17,2026-02-04
+200084,100032,Brock Point Townhouse,Townhouse,Shared room,Chaseborough,Georgia,United States,11,5,2.0,481,1,2025-07-11
+200085,100033,Thomas Branch Apartment,Apartment,Shared room,South Victor,South Dakota,United States,5,2,3.9,141,9,2025-11-11
+200086,100033,Floyd Hills Apartment,Apartment,Private room,Annashire,Arkansas,United States,2,1,2.0,355,26,2024-08-29
+200087,100033,Hannah Circle Condo,Condo,Shared room,Port Jonathan,South Dakota,United States,7,3,1.3,360,29,2024-02-26
+200088,100033,Garner Green Loft,Loft,Entire home,Michaelside,Kentucky,United States,4,2,3.1,180,1,2022-11-14
+200089,100033,Robert Keys Loft,Loft,Shared room,New Barbara,Tennessee,United States,9,4,3.8,401,24,2023-12-04
+200090,100034,Tiffany Haven House,House,Entire home,Markhaven,New York,United States,6,3,3.8,270,30,2024-10-01
+200091,100034,Preston Light Condo,Condo,Shared room,Stevenberg,Hawaii,United States,10,5,3.5,210,24,2025-10-03
+200092,100034,Fisher Ridge Condo,Condo,Shared room,Sweeneyland,Colorado,United States,9,4,2.2,208,13,2025-03-09
+200093,100035,Perez Island Condo,Condo,Entire home,Jenniferfurt,Louisiana,United States,9,4,2.3,115,13,2023-02-24
+200094,100035,Norman Lake House,House,Private room,Gutierrezburgh,Alaska,United States,10,5,2.2,341,27,2026-03-27
+200095,100035,Ebony Summit Apartment,Apartment,Entire home,East Garrettville,Connecticut,United States,5,2,2.3,196,19,2022-12-29
+200096,100035,Kelley Burg Loft,Loft,Private room,Warrenland,Connecticut,United States,11,5,2.3,214,22,2022-09-25
+200097,100036,Christopher Loaf House,House,Shared room,Jeromeport,New Hampshire,United States,9,4,1.5,292,3,2023-07-30
+200098,100037,David Villages Condo,Condo,Shared room,North Austin,Minnesota,United States,9,4,2.9,389,3,2025-02-15
+200099,100037,Lin Mountain House,House,Entire home,Amyberg,Vermont,United States,11,5,3.4,208,5,2026-02-13
+200100,100037,Brittany Motorway Apartment,Apartment,Private room,Millsside,Maryland,United States,1,1,2.8,175,25,2024-10-02
+200101,100038,Olson Forks Apartment,Apartment,Shared room,South Kylechester,Kentucky,United States,8,4,2.7,262,23,2026-04-29
+200102,100038,Smith Pike Townhouse,Townhouse,Entire home,West Justin,Ohio,United States,8,4,1.4,254,23,2023-02-14
+200103,100038,Arroyo Neck Apartment,Apartment,Private room,Albertchester,Maine,United States,2,1,1.7,448,26,2022-06-30
+200104,100038,Laura Plaza Loft,Loft,Shared room,Jacobside,Nevada,United States,8,4,1.7,75,28,2024-12-31
+200105,100039,Frank Street Apartment,Apartment,Private room,Claytonbury,Kentucky,United States,8,4,3.0,118,18,2024-02-21
+200106,100039,Garrett Path Loft,Loft,Private room,Justinside,Louisiana,United States,6,3,2.8,436,24,2022-10-19
+200107,100039,Melissa Falls Loft,Loft,Shared room,West Daniel,New Jersey,United States,7,3,2.3,475,6,2024-03-20
+200108,100039,Nelson Road Townhouse,Townhouse,Entire home,Lopeztown,Georgia,United States,8,4,3.5,182,9,2025-02-01
+200109,100040,Jacob Cove Loft,Loft,Entire home,Josephmouth,Washington,United States,8,4,1.8,370,3,2022-09-03
+200110,100040,Christopher Bridge Condo,Condo,Private room,Robinsonchester,Maryland,United States,4,2,2.0,189,18,2022-06-30
+200111,100040,Bolton Mountain Apartment,Apartment,Entire home,West Christopherberg,Arkansas,United States,3,1,2.1,127,5,2025-10-20
+200112,100041,Jones Mountains House,House,Private room,East Paula,Kentucky,United States,2,1,2.0,262,15,2023-08-05
+200113,100041,Clayton Crossing Townhouse,Townhouse,Private room,South Kelsey,New Hampshire,United States,1,1,2.2,155,25,2025-12-08
+200114,100042,James Street Loft,Loft,Shared room,New Elizabethborough,New Mexico,United States,12,6,2.1,60,1,2023-07-06
+200115,100042,Mayer Estate Condo,Condo,Private room,Lake Sharonhaven,Delaware,United States,5,2,3.6,435,27,2024-02-12
+200116,100043,Little Flat Townhouse,Townhouse,Shared room,Paigeborough,Delaware,United States,9,4,2.6,432,20,2023-07-16
+200117,100043,Nguyen Expressway House,House,Private room,Brendafurt,Kansas,United States,8,4,2.3,162,1,2023-06-19
+200118,100043,Bianca Spurs Townhouse,Townhouse,Shared room,Barkerberg,Mississippi,United States,6,3,3.4,392,24,2022-07-01
+200119,100044,John Parks House,House,Shared room,Lake Christineton,Arkansas,United States,8,4,2.6,115,30,2025-09-27
+200120,100044,Jacqueline Turnpike Townhouse,Townhouse,Shared room,East Tonymouth,Oklahoma,United States,10,5,1.1,338,21,2023-12-22
+200121,100044,Trujillo Mill Townhouse,Townhouse,Private room,North Hannah,Minnesota,United States,3,1,1.5,493,9,2025-10-24
+200122,100045,John Canyon Townhouse,Townhouse,Private room,Mannside,Maine,United States,6,3,2.0,158,25,2025-07-17
+200123,100045,Lopez Ferry Townhouse,Townhouse,Private room,Mariomouth,Louisiana,United States,5,2,1.8,435,3,2024-10-08
+200124,100045,Casey Drives Townhouse,Townhouse,Shared room,Phillipsview,Ohio,United States,1,1,1.2,433,12,2026-02-24
+200125,100045,Smith Route House,House,Shared room,Grosstown,South Carolina,United States,11,5,1.1,85,1,2024-01-09
+200126,100046,Parsons Garden House,House,Entire home,Jenniferside,Missouri,United States,4,2,2.9,479,8,2026-02-08
+200127,100047,Cannon Drives House,House,Entire home,Marcusmouth,Delaware,United States,8,4,2.7,392,7,2023-04-08
+200128,100047,Bradley Curve Townhouse,Townhouse,Private room,Port Anthony,Connecticut,United States,12,6,1.5,181,20,2022-11-14
+200129,100048,Corey Ports Apartment,Apartment,Entire home,Barretthaven,South Carolina,United States,3,1,2.7,209,30,2024-07-10
+200130,100048,Williams Forges Condo,Condo,Private room,North Sarahborough,Tennessee,United States,10,5,2.2,396,23,2025-06-11
+200131,100048,Taylor Route House,House,Shared room,West Angelachester,Mississippi,United States,2,1,3.5,353,8,2024-07-20
+200132,100048,Madison Grove Apartment,Apartment,Private room,Lake Chadport,California,United States,12,6,3.6,445,20,2025-11-02
+200133,100049,Craig Fort Apartment,Apartment,Entire home,Lopezhaven,Texas,United States,10,5,2.0,450,14,2023-05-19
+200134,100049,Angela Point Condo,Condo,Shared room,Reeseshire,Minnesota,United States,2,1,2.0,309,28,2023-07-09
+200135,100050,Park Meadow Townhouse,Townhouse,Private room,East Lauraside,Montana,United States,8,4,3.9,104,21,2025-04-30
+200136,100050,Sandoval Place Townhouse,Townhouse,Private room,Mahoneymouth,Oklahoma,United States,12,6,1.5,128,17,2024-08-10
+200137,100050,Gutierrez Roads Condo,Condo,Shared room,Mckenziemouth,Rhode Island,United States,10,5,3.3,463,15,2023-11-04
+200138,100050,Nicholas Plaza Townhouse,Townhouse,Private room,Michaelmouth,New Hampshire,United States,12,6,2.0,353,8,2023-06-26
+200139,100051,Jessica Haven Apartment,Apartment,Entire home,New Derekport,Alabama,United States,5,2,3.3,280,19,2024-02-24
+200140,100051,Jason Island Loft,Loft,Private room,Port Lynnview,Oklahoma,United States,11,5,1.1,244,28,2023-09-27
+200141,100051,Clinton Mount Condo,Condo,Entire home,Ericview,Mississippi,United States,3,1,2.1,299,9,2024-08-20
+200142,100052,Jesse Valleys Condo,Condo,Shared room,Christopherfurt,Oregon,United States,5,2,3.1,500,9,2026-03-30
+200143,100052,Jessica Stream Loft,Loft,Entire home,Lauraburgh,New York,United States,1,1,1.3,314,24,2026-05-13
+200144,100053,Caitlin Hills Townhouse,Townhouse,Entire home,Lake Lindseyfurt,Colorado,United States,8,4,3.1,334,21,2025-12-21
+200145,100053,Sandra Isle Townhouse,Townhouse,Entire home,Nicholechester,Nebraska,United States,8,4,1.3,455,8,2025-10-11
+200146,100053,Molly Forks Townhouse,Townhouse,Private room,Lake Kimberlyfurt,Arkansas,United States,12,6,3.0,174,12,2026-06-02
+200147,100054,Luis Port Townhouse,Townhouse,Private room,West Wayne,Iowa,United States,9,4,2.3,321,24,2023-10-04
+200148,100054,Emily Lock Loft,Loft,Shared room,Mullinsshire,North Carolina,United States,6,3,2.4,230,10,2023-02-10
+200149,100054,Ryan Turnpike Condo,Condo,Shared room,Hernandezmouth,Colorado,United States,4,2,1.6,111,4,2022-11-04
+200150,100054,Amy Greens Loft,Loft,Entire home,South Warrenberg,Wisconsin,United States,12,6,1.6,144,16,2024-06-26
+200151,100054,Hansen Oval Condo,Condo,Shared room,Pearsonborough,Oklahoma,United States,12,6,2.8,351,4,2023-01-13
+200152,100054,John Grove House,House,Private room,Morrisshire,Colorado,United States,5,2,1.5,166,1,2025-01-29
+200153,100054,Henderson Keys Loft,Loft,Entire home,West Melvin,Tennessee,United States,3,1,3.9,190,18,2022-12-09
+200154,100055,Jackson Keys Condo,Condo,Shared room,Hansonmouth,Arizona,United States,12,6,3.6,114,16,2022-07-25
+200155,100055,James Landing Apartment,Apartment,Private room,Port Jessica,Colorado,United States,1,1,2.4,343,15,2026-05-23
+200156,100055,John River Condo,Condo,Private room,Port Marissa,Maine,United States,3,1,3.8,76,16,2022-12-09
+200157,100056,Benson Creek Apartment,Apartment,Private room,Shannontown,Michigan,United States,2,1,1.2,255,21,2022-07-09
+200158,100056,James Pike Apartment,Apartment,Shared room,Anaberg,Vermont,United States,3,1,3.8,126,3,2023-05-08
+200159,100056,Nicholas Shore House,House,Private room,West Georgeport,Illinois,United States,2,1,2.8,335,26,2025-06-07
+200160,100056,Brown Shoal Loft,Loft,Shared room,North Paulview,Texas,United States,4,2,2.1,447,30,2025-10-25
+200161,100056,Lin Brook Townhouse,Townhouse,Shared room,Michellefurt,Iowa,United States,5,2,4.0,490,10,2026-01-31
+200162,100057,Rebecca Oval Loft,Loft,Shared room,East Jamesmouth,Oklahoma,United States,10,5,3.9,80,4,2024-01-30
+200163,100057,Bernard Pines House,House,Private room,Matthewfurt,West Virginia,United States,11,5,3.0,158,6,2026-05-27
+200164,100057,Michael Knoll House,House,Entire home,Colleenbury,North Carolina,United States,3,1,1.5,332,14,2023-02-16
+200165,100057,Connie Wells Townhouse,Townhouse,Private room,Zamoratown,Oklahoma,United States,12,6,1.9,354,8,2023-08-20
+200166,100057,Edward Lock Condo,Condo,Shared room,North Jessica,North Dakota,United States,12,6,3.6,194,3,2023-08-27
+200167,100057,Robert Ports House,House,Shared room,South Tara,Rhode Island,United States,5,2,2.8,453,26,2025-05-06
+200168,100057,Daniels Ford House,House,Shared room,New Amber,Illinois,United States,7,3,1.7,108,5,2023-11-11
+200169,100057,Kyle Squares Condo,Condo,Entire home,South Wendy,Wyoming,United States,3,1,1.5,86,10,2026-02-16
+200170,100058,Lonnie Point Loft,Loft,Shared room,East Lonnieberg,Washington,United States,12,6,3.8,472,15,2023-01-29
+200171,100059,Beard Loop Apartment,Apartment,Private room,Turnerview,Georgia,United States,8,4,3.1,402,9,2022-08-02
+200172,100059,Daniel Ferry Loft,Loft,Private room,Port Valerieview,Rhode Island,United States,9,4,1.2,302,2,2025-10-10
+200173,100060,Caitlyn Fort Townhouse,Townhouse,Shared room,West Christopherfort,Florida,United States,12,6,1.8,215,3,2024-11-14
+200174,100060,Joseph Landing House,House,Shared room,Port Paul,New Mexico,United States,11,5,2.8,478,1,2024-08-06
+200175,100061,James Bypass Condo,Condo,Entire home,Durantown,Louisiana,United States,10,5,2.4,70,21,2023-01-17
+200176,100062,Julia Flats Townhouse,Townhouse,Shared room,North Gregory,New Hampshire,United States,5,2,2.3,142,27,2024-03-20
+200177,100062,Watts Way Townhouse,Townhouse,Private room,Claychester,Montana,United States,2,1,2.2,290,11,2026-02-24
+200178,100062,Cathy Views Apartment,Apartment,Private room,Cortezfurt,South Carolina,United States,3,1,3.1,218,10,2025-10-05
+200179,100063,Abigail Mission Townhouse,Townhouse,Private room,Wilcoxton,Kansas,United States,9,4,1.3,68,9,2026-06-15
+200180,100063,Terrell Canyon Condo,Condo,Private room,Blackton,Illinois,United States,2,1,3.6,445,27,2024-08-31
+200181,100063,Sanders Hollow Apartment,Apartment,Shared room,Stevenchester,Maine,United States,11,5,2.4,495,2,2023-09-13
+200182,100063,Hannah Divide House,House,Shared room,Gallegosmouth,Colorado,United States,9,4,3.3,235,21,2025-01-25
+200183,100064,Hector Prairie Townhouse,Townhouse,Private room,South Robert,New Hampshire,United States,1,1,2.6,154,30,2025-07-14
+200184,100065,Shawn Station Condo,Condo,Shared room,South Christopher,Massachusetts,United States,8,4,2.5,500,1,2022-07-26
+200185,100065,Jennifer Crossing Loft,Loft,Entire home,North Jasminstad,Colorado,United States,4,2,1.9,413,1,2025-05-27
+200186,100065,Acosta Pass Loft,Loft,Entire home,South Andrea,Arizona,United States,7,3,4.0,97,30,2024-09-08
+200187,100065,Rhonda Port Apartment,Apartment,Shared room,East Misty,Idaho,United States,8,4,3.5,110,16,2025-09-23
+200188,100065,Robert Inlet Condo,Condo,Private room,Robertsburgh,Delaware,United States,9,4,2.2,411,16,2025-09-24
+200189,100065,Susan Alley Townhouse,Townhouse,Shared room,Alexanderfort,New York,United States,4,2,1.4,283,7,2026-04-13
+200190,100065,Cathy Park Loft,Loft,Entire home,East Brianna,New Mexico,United States,9,4,3.6,432,9,2024-10-09
+200191,100066,Ramos Rapid Townhouse,Townhouse,Shared room,East Nicoleview,South Carolina,United States,6,3,1.8,453,1,2024-05-22
+200192,100066,Brandon Drive Condo,Condo,Shared room,Lake Michaelberg,Arizona,United States,12,6,2.7,202,22,2025-02-18
+200193,100066,Rivera Corners Townhouse,Townhouse,Shared room,North Robertburgh,Hawaii,United States,3,1,2.5,278,11,2025-04-19
+200194,100066,Carr Square Loft,Loft,Private room,South Kara,Mississippi,United States,9,4,3.8,243,28,2025-04-27
+200195,100066,Christopher Hills House,House,Shared room,Miguelfurt,California,United States,12,6,2.1,172,28,2026-06-04
+200196,100066,Bridges Circles Townhouse,Townhouse,Shared room,Thomasville,Vermont,United States,1,1,2.4,212,30,2025-09-08
+200197,100067,Murphy Loop Townhouse,Townhouse,Shared room,Lake Jason,Arkansas,United States,7,3,3.9,389,16,2026-02-12
+200198,100067,Timothy Spurs Apartment,Apartment,Shared room,Ronaldmouth,Kentucky,United States,3,1,2.0,307,4,2022-12-04
+200199,100068,Ho Ridges Townhouse,Townhouse,Private room,Stonefort,New York,United States,2,1,1.0,319,5,2024-09-11
+200200,100068,Nicole Fort Townhouse,Townhouse,Entire home,Tiffanytown,Delaware,United States,11,5,2.4,129,9,2025-11-24
+200201,100069,Garrett Crest Condo,Condo,Private room,Port Christina,Nebraska,United States,10,5,2.9,404,28,2022-07-25
+200202,100070,Matthew Points Condo,Condo,Shared room,North Danielle,Vermont,United States,11,5,2.1,489,11,2024-03-22
+200203,100071,Tyler Inlet Townhouse,Townhouse,Shared room,Williammouth,Wyoming,United States,9,4,1.2,68,21,2023-08-29
+200204,100071,Gina Junctions Condo,Condo,Entire home,Ramseytown,Idaho,United States,4,2,2.3,432,4,2022-06-27
+200205,100071,Bass Spring Apartment,Apartment,Shared room,Hendrickston,Tennessee,United States,8,4,1.9,135,1,2023-04-15
+200206,100071,Moore Mount Apartment,Apartment,Entire home,Stevenchester,West Virginia,United States,6,3,1.9,457,12,2023-01-14
+200207,100072,Cunningham Springs Townhouse,Townhouse,Shared room,Angelatown,Indiana,United States,3,1,2.2,175,22,2022-09-13
+200208,100072,Marsh Underpass House,House,Entire home,Carlberg,Louisiana,United States,3,1,2.8,139,13,2024-11-30
+200209,100072,Matthew Lane Loft,Loft,Private room,New Catherine,Idaho,United States,11,5,3.7,173,5,2026-01-14
+200210,100073,Michelle Terrace House,House,Private room,Janetmouth,Virginia,United States,8,4,2.4,376,22,2024-12-28
+200211,100073,Gutierrez Parks Apartment,Apartment,Shared room,West Shannon,Maryland,United States,8,4,2.6,197,3,2022-08-06
+200212,100073,Thompson Landing Townhouse,Townhouse,Private room,Port Jamesland,New Hampshire,United States,6,3,2.9,350,14,2023-05-19
+200213,100073,Lauren Parkway Condo,Condo,Private room,East Matthew,New Mexico,United States,8,4,1.6,482,13,2024-08-12
+200214,100074,Rowe Divide Townhouse,Townhouse,Private room,Port Tonihaven,Utah,United States,2,1,2.7,171,19,2025-07-29
+200215,100074,Jenny Mount Condo,Condo,Entire home,Reeveshaven,Delaware,United States,12,6,3.9,201,22,2023-01-10
+200216,100074,Randolph Spur Townhouse,Townhouse,Shared room,West Steventon,Connecticut,United States,5,2,3.6,54,25,2022-06-24
+200217,100074,Johnson Trace Apartment,Apartment,Private room,Danielleborough,Massachusetts,United States,10,5,3.5,431,29,2024-09-03
+200218,100074,Justin Place Condo,Condo,Private room,Kendraville,Louisiana,United States,4,2,1.7,360,7,2023-04-25
+200219,100075,Joshua Bridge Loft,Loft,Shared room,East Amyside,Massachusetts,United States,5,2,3.3,397,22,2023-02-04
+200220,100076,Sherry Unions House,House,Shared room,Audreyburgh,California,United States,11,5,2.9,99,10,2023-08-13
+200221,100077,Fernandez Causeway Townhouse,Townhouse,Private room,North Thomas,Utah,United States,1,1,3.2,346,3,2023-10-14
+200222,100077,Patrick Corners Condo,Condo,Private room,Myersshire,South Dakota,United States,6,3,1.5,432,5,2022-09-04
+200223,100078,Jensen Inlet Loft,Loft,Shared room,Lisaside,Colorado,United States,6,3,3.7,321,27,2026-01-06
+200224,100078,Bradley Course House,House,Private room,Davisport,Utah,United States,5,2,3.9,472,10,2026-05-21
+200225,100078,Ruiz Fork Condo,Condo,Entire home,Port Paula,Kentucky,United States,2,1,1.4,289,8,2025-03-15
+200226,100078,Myers Squares Townhouse,Townhouse,Entire home,Kristinamouth,New Jersey,United States,9,4,3.4,237,1,2026-05-06
+200227,100078,Cameron Creek Condo,Condo,Private room,Timothyburgh,Maine,United States,9,4,2.1,113,24,2024-07-14
+200228,100078,Munoz Crossroad Condo,Condo,Shared room,South Lisaville,Massachusetts,United States,10,5,3.8,245,4,2025-09-22
+200229,100079,Laura Place House,House,Shared room,Moraleschester,Kansas,United States,8,4,3.7,62,18,2024-10-28
+200230,100079,Amy Orchard Condo,Condo,Shared room,Jonesborough,Vermont,United States,10,5,1.2,163,27,2025-02-06
+200231,100079,Mueller Mews Townhouse,Townhouse,Shared room,Amybury,Idaho,United States,12,6,2.2,204,5,2024-12-22
+200232,100080,Jodi Station Apartment,Apartment,Private room,Wilsonmouth,Massachusetts,United States,1,1,1.3,205,8,2025-04-12
+200233,100080,Lynn Fall Loft,Loft,Private room,Stephanieland,Rhode Island,United States,3,1,2.1,248,24,2024-10-27
+200234,100080,Murphy Rue Loft,Loft,Shared room,North Jeffberg,Pennsylvania,United States,7,3,3.2,350,29,2022-12-03
+200235,100081,Katherine Shore Townhouse,Townhouse,Private room,South Amanda,Missouri,United States,11,5,2.8,100,9,2026-04-21
+200236,100081,Gonzalez Springs Apartment,Apartment,Entire home,Kevinport,Nevada,United States,12,6,2.3,239,8,2025-01-29
+200237,100082,Mooney Prairie Condo,Condo,Private room,New Valeriefurt,Florida,United States,2,1,2.6,401,21,2025-07-07
+200238,100082,Brown Plaza Condo,Condo,Private room,North Jacquelinestad,Delaware,United States,1,1,1.6,253,4,2026-02-01
+200239,100082,Glenn Freeway Townhouse,Townhouse,Entire home,Parkfurt,South Dakota,United States,2,1,2.9,389,20,2026-02-14
+200240,100082,Sullivan Mews Apartment,Apartment,Private room,Lake Glenn,Florida,United States,1,1,1.7,452,5,2023-10-25
+200241,100082,Bridges Lake Loft,Loft,Shared room,Mooreberg,Florida,United States,4,2,1.6,85,7,2023-04-06
+200242,100082,Deborah Divide House,House,Entire home,Barrettberg,Colorado,United States,6,3,3.4,446,20,2022-07-06
+200243,100083,Dalton Turnpike Apartment,Apartment,Entire home,Hansonmouth,North Carolina,United States,5,2,4.0,489,18,2023-01-17
+200244,100084,Cruz Fork Condo,Condo,Shared room,South Cassandra,Oregon,United States,3,1,3.6,106,5,2024-04-06
+200245,100084,Jennifer Grove Apartment,Apartment,Entire home,Houseshire,Mississippi,United States,6,3,2.8,454,1,2024-07-30
+200246,100084,Ashley Squares House,House,Entire home,Danielfort,Vermont,United States,5,2,3.2,76,17,2022-08-08
+200247,100085,Jessica Pine Apartment,Apartment,Private room,Stevenland,North Dakota,United States,12,6,2.3,82,12,2022-10-20
+200248,100086,John Roads Loft,Loft,Private room,Lake Cynthiashire,Maryland,United States,10,5,2.5,105,20,2026-03-31
+200249,100086,Rebecca Place Apartment,Apartment,Shared room,South Shawnfort,Oregon,United States,12,6,2.6,451,15,2025-01-25
+200250,100087,Fisher Union Apartment,Apartment,Private room,Keithton,Vermont,United States,1,1,2.3,295,4,2025-07-31
+200251,100087,Acosta Port Townhouse,Townhouse,Entire home,Bryanfort,Pennsylvania,United States,12,6,3.7,277,11,2026-05-21
+200252,100087,Diana Highway Loft,Loft,Entire home,West Toddberg,North Carolina,United States,3,1,1.8,83,21,2023-03-07
+200253,100087,King Ridges Loft,Loft,Private room,Joshuaview,Alabama,United States,9,4,2.1,414,20,2022-10-15
+200254,100088,Cassandra Ramp Loft,Loft,Shared room,Lake Sean,Idaho,United States,5,2,2.8,282,4,2025-08-12
+200255,100088,Todd Union Apartment,Apartment,Shared room,West Traceyberg,Rhode Island,United States,11,5,3.2,383,7,2023-07-28
+200256,100088,Mary Terrace Townhouse,Townhouse,Private room,Townsendbury,Texas,United States,8,4,2.0,166,15,2026-06-07
+200257,100088,Jason Street Townhouse,Townhouse,Entire home,Brianview,Wisconsin,United States,7,3,1.9,423,11,2024-05-01
+200258,100088,Brian Mountain Condo,Condo,Shared room,Alvarezfort,West Virginia,United States,6,3,3.8,128,3,2025-12-12
+200259,100089,Noah Squares Apartment,Apartment,Private room,Wellsberg,North Dakota,United States,2,1,1.3,97,24,2025-08-29
+200260,100089,Smith Union Condo,Condo,Entire home,Reyesmouth,North Dakota,United States,3,1,2.8,334,18,2026-02-28
+200261,100089,Connor Place Loft,Loft,Entire home,Stephaniechester,South Carolina,United States,6,3,2.2,393,28,2025-05-13
+200262,100089,Rogers Grove Townhouse,Townhouse,Private room,West Destinyfurt,New Jersey,United States,12,6,2.8,76,12,2026-05-14
+200263,100089,Jessica Radial Apartment,Apartment,Entire home,New Matthew,Vermont,United States,10,5,1.5,309,16,2025-10-01
+200264,100089,Kelley Spring House,House,Shared room,Port Carloschester,Connecticut,United States,2,1,2.1,229,25,2023-03-24
+200265,100089,Gina Keys Condo,Condo,Private room,Lake Justin,Illinois,United States,10,5,3.5,165,25,2024-09-10
+200266,100089,Christine Centers Loft,Loft,Shared room,New Danielle,Virginia,United States,10,5,2.7,395,20,2022-08-09
+200267,100090,Melissa Curve Condo,Condo,Private room,Douglasshire,Idaho,United States,1,1,3.1,142,10,2022-12-21
+200268,100090,Heather Glen Condo,Condo,Entire home,Stevenland,South Dakota,United States,6,3,3.6,53,19,2026-04-09
+200269,100091,Hammond Square Townhouse,Townhouse,Shared room,Jonathanland,Louisiana,United States,2,1,2.9,122,1,2024-05-22
+200270,100091,Patrick Isle Apartment,Apartment,Entire home,West Stephanieview,Idaho,United States,12,6,2.1,321,15,2025-10-07
+200271,100092,Travis Flats Condo,Condo,Private room,Whitefort,Connecticut,United States,3,1,3.2,239,25,2024-05-02
+200272,100092,Robinson Row Loft,Loft,Entire home,South Jenniferville,Arizona,United States,10,5,1.5,93,25,2023-01-27
+200273,100092,Ashley Glen Loft,Loft,Entire home,Smithfort,Georgia,United States,1,1,1.8,395,22,2022-10-09
+200274,100092,Sarah Shores Townhouse,Townhouse,Private room,Adamsmouth,Montana,United States,8,4,2.2,360,7,2025-03-28
+200275,100093,Zachary Trail Loft,Loft,Private room,Mendozafurt,Washington,United States,2,1,1.3,226,22,2024-11-26
+200276,100094,Amber Alley Loft,Loft,Shared room,Finleyfort,Delaware,United States,8,4,1.9,319,8,2025-10-13
+200277,100094,Cook Hollow Townhouse,Townhouse,Entire home,Brownland,Mississippi,United States,10,5,1.6,78,7,2024-11-15
+200278,100094,Miller Mount House,House,Private room,Deborahburgh,Oklahoma,United States,5,2,1.4,198,16,2024-09-25
+200279,100094,Guerrero Hills Townhouse,Townhouse,Private room,Mosleystad,New York,United States,3,1,2.6,116,8,2022-08-18
+200280,100095,Moss Dam Loft,Loft,Shared room,East Anthonyshire,Kansas,United States,9,4,3.4,476,3,2022-10-27
+200281,100095,Brown Plains Townhouse,Townhouse,Private room,Victormouth,Alaska,United States,12,6,1.1,71,30,2024-07-16
+200282,100095,Brown Turnpike Apartment,Apartment,Private room,South Davidhaven,New Jersey,United States,6,3,2.7,344,23,2022-08-14
+200283,100096,Joyce Fort Townhouse,Townhouse,Private room,North Jillfort,Tennessee,United States,5,2,1.1,108,11,2026-06-17
+200284,100096,Meadows River House,House,Shared room,East Jacquelineberg,Alabama,United States,10,5,3.8,285,3,2022-07-17
+200285,100096,Rebecca View Townhouse,Townhouse,Private room,South Cherylshire,California,United States,2,1,2.8,174,17,2023-03-12
+200286,100096,Danny Ranch Apartment,Apartment,Private room,North Linda,Nevada,United States,7,3,3.2,495,8,2025-12-09
+200287,100096,Nguyen Spur Condo,Condo,Shared room,West Mary,Indiana,United States,3,1,2.9,89,17,2023-11-24
+200288,100096,Brittany Isle Loft,Loft,Private room,North Joshuachester,Hawaii,United States,4,2,2.1,447,27,2025-09-17
+200289,100097,Tran Mill House,House,Entire home,New Billy,Connecticut,United States,4,2,1.8,102,6,2025-06-03
+200290,100097,Strickland Brook Loft,Loft,Shared room,Millertown,Idaho,United States,3,1,1.2,439,25,2025-10-28
+200291,100098,Jasmine Ramp Townhouse,Townhouse,Shared room,Robertfort,Vermont,United States,8,4,3.3,436,15,2026-05-26
+200292,100098,Douglas Groves Loft,Loft,Shared room,Jenkinsburgh,South Carolina,United States,11,5,2.0,375,21,2023-01-01
+200293,100099,Caitlyn Stravenue Condo,Condo,Entire home,Salazarland,South Dakota,United States,3,1,2.4,275,21,2025-05-27
+200294,100099,Bailey Avenue Condo,Condo,Entire home,East David,North Dakota,United States,5,2,2.1,352,3,2025-12-22
+200295,100099,Huffman Plains Condo,Condo,Entire home,South Kaylee,Texas,United States,8,4,1.2,281,27,2022-11-13
+200296,100100,Brown Creek Condo,Condo,Entire home,Lake Megan,New Mexico,United States,2,1,2.8,380,17,2023-05-07
+200297,100100,Ernest Cape Townhouse,Townhouse,Shared room,Lake Michaelborough,Nevada,United States,8,4,3.9,347,24,2024-07-29
+200298,100100,Jensen Trace Apartment,Apartment,Shared room,Williamston,Ohio,United States,8,4,3.0,464,11,2023-07-13
+200299,100100,Kristen Oval Loft,Loft,Entire home,North Pattymouth,Pennsylvania,United States,8,4,3.9,306,15,2023-03-18
+200300,100100,Barnes Summit Apartment,Apartment,Entire home,Jerryville,Massachusetts,United States,6,3,2.5,415,6,2024-12-04
+200301,100100,Joel Loop Apartment,Apartment,Private room,South Patricia,California,United States,4,2,4.0,412,17,2023-06-06
+200302,100101,Brown Mews Loft,Loft,Private room,East Sarah,New Jersey,United States,10,5,2.1,131,10,2024-06-18
+200303,100102,Brooks Mount Townhouse,Townhouse,Private room,Lake Michael,Louisiana,United States,7,3,3.0,446,2,2023-03-21
+200304,100102,Martinez Square Condo,Condo,Entire home,West Derekmouth,New Jersey,United States,2,1,2.7,218,13,2023-04-28
+200305,100102,Kathleen Forges Condo,Condo,Shared room,Cassandraburgh,Oregon,United States,5,2,3.9,420,20,2024-03-28
+200306,100102,Christopher Walks House,House,Shared room,Atkinsborough,Pennsylvania,United States,6,3,3.0,91,30,2024-10-23
+200307,100103,Ramirez Stream Condo,Condo,Shared room,Fitzgeraldbury,Kansas,United States,5,2,3.0,385,5,2024-06-22
+200308,100103,Riley Ramp Loft,Loft,Private room,New Rachel,Nebraska,United States,12,6,2.7,93,21,2023-11-08
+200309,100103,Vickie Street Condo,Condo,Shared room,South Amandafort,Vermont,United States,3,1,3.5,393,24,2022-08-25
+200310,100103,Shaun Garden Loft,Loft,Shared room,New Karenchester,Indiana,United States,2,1,2.3,380,12,2025-12-14
+200311,100104,Phillips Rue Apartment,Apartment,Entire home,North Timothyport,Hawaii,United States,6,3,3.9,208,11,2023-01-10
+200312,100104,Hodge Summit Townhouse,Townhouse,Entire home,South Stevenberg,Virginia,United States,4,2,1.5,165,10,2025-06-14
+200313,100104,Kristy Land Apartment,Apartment,Shared room,Padillatown,South Dakota,United States,9,4,3.5,444,29,2024-03-08
+200314,100105,Barry Isle Loft,Loft,Private room,West Ronaldview,Vermont,United States,1,1,3.6,388,20,2022-10-05
+200315,100105,Kristin Common House,House,Entire home,Jillton,North Carolina,United States,10,5,1.5,242,27,2025-01-24
+200316,100105,Barron Creek Loft,Loft,Private room,Diazton,Mississippi,United States,3,1,1.1,419,12,2026-05-01
+200317,100105,Deborah Squares House,House,Private room,New Jennaborough,Florida,United States,8,4,3.3,362,26,2024-01-08
+200318,100106,Amber Run Townhouse,Townhouse,Entire home,Mclaughlinshire,Vermont,United States,4,2,1.9,323,26,2023-11-20
+200319,100106,Luke Grove Townhouse,Townhouse,Shared room,Ramirezland,Mississippi,United States,4,2,3.8,238,15,2023-05-09
+200320,100106,Tucker Pine Townhouse,Townhouse,Private room,South Jenniferside,Maine,United States,5,2,2.5,448,14,2023-12-06
+200321,100106,Marsh Square House,House,Shared room,East Patriciamouth,Colorado,United States,4,2,1.4,460,9,2024-05-20
+200322,100107,Hurst Heights Apartment,Apartment,Private room,North Fredville,Vermont,United States,11,5,2.7,296,4,2022-10-20
+200323,100107,Hernandez Ford Loft,Loft,Entire home,West Robertside,Florida,United States,2,1,3.3,195,9,2023-02-02
+200324,100107,Fisher Street Townhouse,Townhouse,Private room,West Jaimetown,Iowa,United States,9,4,1.3,125,30,2024-06-23
+200325,100107,Jenkins Junctions House,House,Entire home,Toddhaven,Oklahoma,United States,8,4,2.2,228,13,2026-01-05
+200326,100108,Torres Curve Loft,Loft,Private room,Georgeview,Iowa,United States,6,3,4.0,170,12,2024-05-09
+200327,100109,Arellano Trail House,House,Entire home,East Michaelmouth,Hawaii,United States,1,1,3.5,213,21,2024-07-09
+200328,100109,Jennifer Heights Condo,Condo,Entire home,East Mary,Vermont,United States,3,1,1.9,120,27,2025-02-03
+200329,100109,Evan Crescent Townhouse,Townhouse,Entire home,West Autumnmouth,Kentucky,United States,12,6,3.3,475,16,2026-04-23
+200330,100109,Jamie Station Townhouse,Townhouse,Entire home,Lake Loganstad,Georgia,United States,10,5,1.1,52,7,2024-01-13
+200331,100109,Fernandez Estates House,House,Shared room,Davidtown,Montana,United States,9,4,2.6,422,4,2024-01-18
+200332,100110,Mack Mount Condo,Condo,Entire home,Ericside,North Carolina,United States,4,2,1.1,204,14,2026-06-03
+200333,100110,Wells Highway Loft,Loft,Entire home,Port Annette,New Hampshire,United States,8,4,3.5,82,16,2023-11-14
+200334,100110,Jessica Canyon Loft,Loft,Shared room,Lake Andrea,Maryland,United States,9,4,2.5,58,8,2023-11-26
+200335,100110,Williamson Forges House,House,Entire home,Howardmouth,Arkansas,United States,5,2,2.8,269,8,2022-07-26
+200336,100110,Brandy Forges Loft,Loft,Shared room,Jamesland,Ohio,United States,7,3,3.0,145,17,2025-01-17
+200337,100110,Rhodes Corners Condo,Condo,Shared room,Leemouth,Rhode Island,United States,2,1,2.5,319,17,2026-01-27
+200338,100111,Rebekah Lake Loft,Loft,Private room,Hernandezchester,Mississippi,United States,1,1,1.1,249,13,2025-01-12
+200339,100112,Smith Key Condo,Condo,Entire home,Kylemouth,Oklahoma,United States,5,2,2.1,432,3,2024-02-07
+200340,100112,Jessica Mills Condo,Condo,Shared room,Laraport,Hawaii,United States,4,2,2.9,425,25,2022-11-01
+200341,100112,Chandler Mall Loft,Loft,Private room,Port Brenda,Colorado,United States,12,6,1.4,437,12,2025-11-20
+200342,100112,Kevin Ways Loft,Loft,Shared room,Carlshire,Wisconsin,United States,6,3,1.5,466,25,2023-01-27
+200343,100113,Adam Route Townhouse,Townhouse,Shared room,Robertside,New Jersey,United States,12,6,1.5,295,5,2024-01-22
+200344,100113,James Village Apartment,Apartment,Private room,Robertsfort,Arizona,United States,12,6,1.1,447,7,2025-06-25
+200345,100114,Davenport Hollow Apartment,Apartment,Private room,Hansenmouth,Iowa,United States,4,2,3.8,71,17,2025-12-17
+200346,100114,Eric Hills Townhouse,Townhouse,Private room,Martinezport,Nebraska,United States,9,4,1.1,292,21,2022-07-29
+200347,100115,Knox Rue House,House,Entire home,North David,Louisiana,United States,5,2,3.6,232,11,2023-03-23
+200348,100115,Carol Lake Condo,Condo,Private room,Cunninghamview,South Dakota,United States,2,1,2.3,459,13,2024-07-22
+200349,100115,Mccann Viaduct Townhouse,Townhouse,Entire home,West Williamshire,Alaska,United States,7,3,2.5,223,16,2025-05-18
+200350,100116,Martin Centers Condo,Condo,Entire home,West Steven,Vermont,United States,9,4,3.2,186,3,2026-01-21
+200351,100117,Martin Groves Townhouse,Townhouse,Entire home,Robertstad,Arkansas,United States,10,5,2.6,471,11,2023-01-14
+200352,100118,Moreno Club Apartment,Apartment,Shared room,Port Courtney,Wisconsin,United States,2,1,1.9,217,15,2023-09-11
+200353,100118,Amy Well Loft,Loft,Entire home,Margaretport,Louisiana,United States,12,6,3.1,268,12,2022-11-11
+200354,100118,Davis Prairie Townhouse,Townhouse,Private room,Madelinetown,Florida,United States,1,1,2.8,422,14,2025-05-17
+200355,100118,Watson Oval Condo,Condo,Entire home,Petersonburgh,Connecticut,United States,11,5,1.2,455,21,2024-08-30
+200356,100118,Wesley Village Townhouse,Townhouse,Shared room,Port Penny,South Carolina,United States,6,3,3.0,312,1,2023-05-22
+200357,100119,Robert Club House,House,Private room,Port Davidtown,New Mexico,United States,10,5,1.1,397,3,2025-05-24
+200358,100120,Vazquez Dam House,House,Private room,Prestonhaven,Wisconsin,United States,11,5,2.1,237,19,2023-12-10
+200359,100120,Jennifer Burgs Apartment,Apartment,Shared room,East Davidberg,Vermont,United States,10,5,2.3,128,12,2023-12-01
+200360,100121,Martinez Curve Condo,Condo,Entire home,South Hannahville,California,United States,8,4,2.7,440,17,2023-06-04
+200361,100121,Todd Canyon Condo,Condo,Shared room,North Antonio,Texas,United States,7,3,1.8,210,4,2022-07-17
+200362,100121,Taylor Glen Apartment,Apartment,Private room,North Kevintown,Wisconsin,United States,12,6,2.6,145,30,2024-08-23
+200363,100122,Samantha Ford Loft,Loft,Private room,East Ellen,Alaska,United States,2,1,3.1,184,7,2022-11-14
+200364,100122,Meghan Harbors Loft,Loft,Private room,Michaelhaven,Wyoming,United States,5,2,1.6,405,5,2022-11-06
+200365,100123,William Cliff Apartment,Apartment,Shared room,Port Belindatown,North Dakota,United States,8,4,2.3,138,3,2025-07-23
+200366,100123,Tamara Extension Condo,Condo,Shared room,Lake Coreyborough,North Carolina,United States,11,5,1.2,227,18,2023-05-21
+200367,100124,Richardson Radial Condo,Condo,Entire home,South Emily,Connecticut,United States,5,2,3.1,485,30,2026-01-30
+200368,100125,Zavala Manors House,House,Entire home,New Jeremy,Delaware,United States,6,3,1.4,310,7,2023-03-25
+200369,100126,Martinez Creek House,House,Private room,South Kathryn,Virginia,United States,4,2,1.1,454,18,2025-09-12
+200370,100126,Christopher Park Loft,Loft,Shared room,South Justinport,Utah,United States,6,3,1.4,289,29,2023-09-08
+200371,100126,Perez Lodge Apartment,Apartment,Private room,Tracichester,Illinois,United States,2,1,4.0,208,24,2026-01-14
+200372,100127,Patricia Unions Townhouse,Townhouse,Private room,Crosbystad,Idaho,United States,9,4,3.5,260,3,2026-02-07
+200373,100128,Powers Locks House,House,Entire home,Millsland,Delaware,United States,6,3,2.3,378,22,2022-07-07
+200374,100128,Morales Ramp Loft,Loft,Shared room,Lake Saraburgh,California,United States,6,3,2.9,115,6,2023-01-26
+200375,100129,Matthew Ranch House,House,Entire home,Martinezchester,Washington,United States,7,3,3.5,307,17,2024-01-04
+200376,100130,Hubbard Trafficway House,House,Entire home,Katelynfurt,Minnesota,United States,5,2,2.0,134,23,2024-08-01
+200377,100131,Archer Pass House,House,Private room,Dylanmouth,Connecticut,United States,6,3,3.5,315,9,2024-06-26
+200378,100131,Burns Fort House,House,Private room,North Cory,Arkansas,United States,11,5,1.4,332,10,2022-12-24
+200379,100131,Tyrone Burg Loft,Loft,Shared room,South Cassandra,Massachusetts,United States,9,4,2.9,97,19,2025-12-28
+200380,100131,Howell Court Loft,Loft,Shared room,Lake Karenfort,New Jersey,United States,3,1,2.9,137,29,2023-02-10
+200381,100131,Bates Overpass Loft,Loft,Shared room,Amyside,Ohio,United States,6,3,1.1,481,28,2023-04-27
+200382,100131,Vicki Crest Apartment,Apartment,Shared room,Colefurt,New Hampshire,United States,2,1,3.3,73,9,2022-07-15
+200383,100131,Antonio Point House,House,Shared room,Nicoleburgh,New York,United States,10,5,2.9,263,16,2024-06-01
+200384,100132,Larry Loaf Loft,Loft,Private room,Gallaghershire,Utah,United States,5,2,2.4,378,26,2024-04-17
+200385,100132,Alvarez Walk Townhouse,Townhouse,Entire home,New Brian,Kentucky,United States,5,2,3.1,282,6,2024-07-19
+200386,100132,Jensen Knoll Townhouse,Townhouse,Private room,Luketown,Pennsylvania,United States,7,3,1.6,297,20,2024-07-25
+200387,100132,Mary Keys House,House,Shared room,Port Patriciamouth,Missouri,United States,6,3,2.0,491,28,2022-08-27
+200388,100132,Reed Knolls Condo,Condo,Private room,Bellbury,Kansas,United States,7,3,2.5,116,4,2022-11-16
+200389,100132,Watkins Spurs Condo,Condo,Entire home,Port Kevinmouth,Hawaii,United States,4,2,1.8,288,8,2023-06-17
+200390,100133,Johnson Shoals House,House,Private room,Bradleychester,Louisiana,United States,2,1,3.8,75,28,2022-07-18
+200391,100134,Chapman Island Loft,Loft,Entire home,Hudsonmouth,Oregon,United States,7,3,3.4,177,30,2022-07-19
+200392,100135,Garcia Spring Loft,Loft,Entire home,West Tyler,Wisconsin,United States,12,6,3.3,210,16,2022-11-16
+200393,100135,Jackson Hills Loft,Loft,Private room,Taraborough,New York,United States,8,4,2.5,305,3,2025-04-19
+200394,100135,Mary Plain Townhouse,Townhouse,Entire home,West Joseph,Maryland,United States,9,4,1.6,284,12,2025-03-01
+200395,100135,Ballard Road Apartment,Apartment,Private room,Lake Meganville,Pennsylvania,United States,1,1,2.8,194,27,2024-11-24
+200396,100136,Jones Unions Townhouse,Townhouse,Entire home,Simmonsstad,California,United States,5,2,3.5,324,14,2023-11-23
+200397,100136,Wagner Hills House,House,Private room,Alvaradomouth,Illinois,United States,5,2,3.3,422,12,2025-03-26
+200398,100136,King Passage Apartment,Apartment,Shared room,Powersside,Idaho,United States,7,3,2.7,76,12,2024-03-22
+200399,100136,Courtney Path Loft,Loft,Private room,New Victor,Texas,United States,5,2,2.5,87,25,2026-03-17
+200400,100136,Adams Route Loft,Loft,Shared room,Michaelton,North Dakota,United States,5,2,3.0,472,4,2025-12-18
+200401,100137,Ford Garden House,House,Private room,Lake Gina,Maryland,United States,2,1,3.4,251,11,2023-04-25
+200402,100137,Jenkins Wall Loft,Loft,Entire home,Lake Jameschester,Louisiana,United States,6,3,1.6,436,17,2026-01-19
+200403,100137,Lucas Glens Townhouse,Townhouse,Entire home,South John,Georgia,United States,9,4,1.1,70,23,2025-12-18
+200404,100137,John Views Condo,Condo,Private room,Stevenside,Nevada,United States,8,4,1.4,315,29,2023-04-12
+200405,100137,James Groves Loft,Loft,Shared room,North Jonathan,Louisiana,United States,3,1,2.0,217,13,2024-04-03
+200406,100138,Dawn Canyon Loft,Loft,Private room,Caseyton,Colorado,United States,12,6,2.8,481,17,2025-04-06
+200407,100139,Camacho Lodge Loft,Loft,Shared room,Emilyland,Montana,United States,9,4,2.7,300,16,2023-10-18
+200408,100139,Joel Ports Apartment,Apartment,Shared room,New Elizabethshire,Wyoming,United States,6,3,1.3,219,14,2026-01-12
+200409,100139,Crawford Course Loft,Loft,Shared room,New David,Massachusetts,United States,5,2,3.6,457,21,2026-06-04
+200410,100139,Shaffer Summit Apartment,Apartment,Private room,South Jeffery,Connecticut,United States,10,5,3.9,292,26,2023-11-11
+200411,100139,Tara Mill Loft,Loft,Shared room,Kingshire,Arkansas,United States,10,5,1.2,166,16,2023-03-17
+200412,100140,Lyons Creek House,House,Shared room,Amyfort,Utah,United States,9,4,2.9,372,27,2024-07-18
+200413,100140,Suarez Drive Townhouse,Townhouse,Shared room,Thomasstad,Maryland,United States,3,1,1.7,470,19,2023-07-05
+200414,100140,Mckenzie Shore Apartment,Apartment,Private room,Lake Samanthabury,Kentucky,United States,4,2,1.9,59,5,2022-07-20
+200415,100141,Parker Squares Townhouse,Townhouse,Private room,Rebeccaville,Ohio,United States,12,6,2.5,154,20,2024-10-23
+200416,100141,Mia Loaf Townhouse,Townhouse,Entire home,South Saraview,Maryland,United States,12,6,3.1,422,17,2026-02-23
+200417,100141,Kenneth Wall House,House,Shared room,South Crystal,Wyoming,United States,9,4,2.4,216,13,2022-11-05
+200418,100141,Mccormick Harbor Condo,Condo,Shared room,Port Kimberlyfort,New Mexico,United States,3,1,2.0,285,12,2025-03-15
+200419,100141,House Isle Condo,Condo,Entire home,Mcdowellville,Hawaii,United States,10,5,3.9,297,9,2025-08-05
+200420,100141,Hunter Knoll Loft,Loft,Private room,Guzmanside,West Virginia,United States,5,2,3.3,165,23,2025-06-07
+200421,100141,Neal Track House,House,Private room,Lake Darlenemouth,Tennessee,United States,12,6,2.0,410,12,2023-11-07
+200422,100142,Richard Road Loft,Loft,Private room,Leeland,Delaware,United States,12,6,1.4,190,22,2023-01-15
+200423,100142,Zachary Trafficway Loft,Loft,Private room,Port Brooke,Nebraska,United States,7,3,3.9,252,26,2023-02-18
+200424,100142,Hayes Well House,House,Private room,West Glenn,Pennsylvania,United States,5,2,3.9,71,3,2025-10-31
+200425,100143,Marsh Flat Condo,Condo,Private room,South Michaelfurt,Missouri,United States,8,4,3.2,385,7,2025-12-23
+200426,100143,Andrew Brooks House,House,Shared room,North Terri,Illinois,United States,9,4,3.1,188,5,2026-01-04
+200427,100143,Brandon River Apartment,Apartment,Shared room,Burkeberg,Colorado,United States,10,5,1.7,429,2,2023-07-29
+200428,100144,Stacey Crest Loft,Loft,Entire home,Lake Aliciamouth,Utah,United States,4,2,1.2,376,14,2024-01-10
+200429,100144,Jeffrey Ford Condo,Condo,Entire home,Port Lisa,Louisiana,United States,12,6,3.0,291,5,2024-07-24
+200430,100144,Reyes Meadows Apartment,Apartment,Private room,New Jason,Maine,United States,9,4,3.0,130,29,2023-09-08
+200431,100145,Robert Lodge Townhouse,Townhouse,Entire home,North Kelly,Kentucky,United States,8,4,3.3,383,10,2025-07-20
+200432,100145,Solomon Land Condo,Condo,Entire home,Millerfort,Florida,United States,5,2,3.7,380,3,2023-06-18
+200433,100145,Mccann Locks Loft,Loft,Shared room,Lake Patrick,Nevada,United States,4,2,3.2,323,30,2026-03-02
+200434,100145,Jones Point Apartment,Apartment,Entire home,North Marvinbury,New Mexico,United States,3,1,3.8,263,2,2025-08-04
+200435,100146,Barajas Skyway Townhouse,Townhouse,Shared room,North Jonfurt,Maryland,United States,8,4,3.9,145,30,2026-04-28
+200436,100146,Anderson Points Condo,Condo,Private room,New Harryburgh,North Carolina,United States,1,1,2.7,54,4,2024-02-21
+200437,100146,Humphrey Curve Condo,Condo,Shared room,West Jenniferchester,Georgia,United States,5,2,2.6,282,16,2024-07-22
+200438,100146,Lawrence Crossroad House,House,Private room,Savageview,West Virginia,United States,9,4,1.6,289,4,2023-07-27
+200439,100147,Campbell Wells Condo,Condo,Private room,Chloeview,North Dakota,United States,3,1,2.9,424,23,2023-12-30
+200440,100147,Stafford Island House,House,Private room,Gallagherberg,Oklahoma,United States,1,1,3.4,427,19,2023-10-17
+200441,100147,Brown Drive House,House,Shared room,East Isaacfort,Kentucky,United States,3,1,3.7,362,27,2026-02-02
+200442,100148,Graham Park Townhouse,Townhouse,Entire home,South Michaelside,New York,United States,9,4,2.2,217,4,2023-02-27
+200443,100148,Rodriguez Stravenue House,House,Private room,North Michael,Indiana,United States,3,1,3.8,294,1,2024-05-29
+200444,100148,White Extension Condo,Condo,Private room,Annashire,Indiana,United States,7,3,3.3,170,11,2026-02-25
+200445,100149,Alicia Ports Condo,Condo,Shared room,South Samantha,Kansas,United States,10,5,1.0,420,21,2024-12-10
+200446,100149,Rhodes Isle Condo,Condo,Entire home,West Erinville,Montana,United States,12,6,3.0,170,15,2025-09-23
+200447,100149,Mary Drives Condo,Condo,Shared room,North Stevefort,New Jersey,United States,3,1,2.5,257,29,2024-01-19
+200448,100150,Wheeler Avenue Condo,Condo,Shared room,Taramouth,Massachusetts,United States,12,6,3.7,110,10,2025-02-18
+200449,100150,Jason Causeway Condo,Condo,Entire home,Marcuston,West Virginia,United States,10,5,3.9,163,16,2025-07-28
+200450,100151,Davis Glens House,House,Shared room,East Tammy,Montana,United States,8,4,2.1,432,23,2022-10-05
+200451,100151,Melissa Estates Loft,Loft,Shared room,Chanport,Tennessee,United States,8,4,3.4,437,27,2022-11-03
+200452,100151,David Overpass House,House,Shared room,Fitzgeraldport,Utah,United States,4,2,3.6,398,3,2025-08-30
+200453,100151,Michael Court Loft,Loft,Shared room,Williamfort,New Hampshire,United States,8,4,2.1,320,30,2025-01-10
+200454,100152,Alvarez Port Loft,Loft,Shared room,Davischester,Mississippi,United States,2,1,3.7,81,7,2026-03-24
+200455,100153,Ryan Meadow Loft,Loft,Entire home,North Williammouth,Utah,United States,9,4,2.0,126,17,2025-01-26
+200456,100154,Sarah Pine Townhouse,Townhouse,Entire home,West Taylorland,New Mexico,United States,2,1,3.2,398,16,2023-06-01
+200457,100154,Tracey Spur Apartment,Apartment,Entire home,Mckenziehaven,Nevada,United States,9,4,2.4,278,17,2023-09-27
+200458,100154,Andrea Cape Townhouse,Townhouse,Entire home,New Rogerville,New Jersey,United States,8,4,2.7,338,22,2023-09-20
+200459,100154,Kelly Prairie Condo,Condo,Private room,Port Wesleyville,West Virginia,United States,12,6,1.8,61,1,2025-04-09
+200460,100154,White Falls House,House,Entire home,Williamschester,Virginia,United States,10,5,2.3,87,23,2025-04-10
+200461,100154,Matthews Motorway Apartment,Apartment,Entire home,Hansonview,Michigan,United States,9,4,4.0,80,16,2023-09-23
+200462,100154,Jason Common Apartment,Apartment,Entire home,Monicaville,Nevada,United States,5,2,3.3,259,25,2026-05-14
+200463,100155,Adam Crescent Townhouse,Townhouse,Private room,East Dianamouth,Vermont,United States,6,3,3.6,245,30,2024-09-25
+200464,100156,Turner Via Townhouse,Townhouse,Shared room,Hannahfurt,Maryland,United States,7,3,3.9,91,28,2024-03-08
+200465,100157,Derek Field Loft,Loft,Private room,Port Allenborough,Alaska,United States,3,1,1.4,384,18,2022-11-01
+200466,100158,Wong Run Townhouse,Townhouse,Shared room,South Megan,Ohio,United States,9,4,3.9,115,27,2023-05-09
+200467,100158,Kevin Mountain Apartment,Apartment,Private room,South Robert,Delaware,United States,1,1,3.0,202,18,2023-04-10
+200468,100158,Joanne Mills Townhouse,Townhouse,Entire home,Ruizmouth,Pennsylvania,United States,9,4,1.7,244,12,2023-03-03
+200469,100159,Kenneth Village House,House,Shared room,Williamstown,Connecticut,United States,5,2,3.3,146,2,2023-06-29
+200470,100160,Petty Vista Townhouse,Townhouse,Entire home,Mclaughlinside,Maine,United States,10,5,1.7,442,3,2025-02-21
+200471,100160,Ross Passage Apartment,Apartment,Private room,Hallton,North Dakota,United States,10,5,2.8,67,23,2022-08-14
+200472,100160,Ray Plaza Apartment,Apartment,Entire home,West Patriciachester,New Mexico,United States,4,2,2.2,429,8,2022-07-17
+200473,100161,Dean Rue Loft,Loft,Entire home,Shanechester,Alaska,United States,4,2,1.4,436,10,2022-12-16
+200474,100161,Barber Mountains House,House,Private room,Samuelhaven,Iowa,United States,12,6,2.7,344,25,2023-02-23
+200475,100161,Dorsey Walk Condo,Condo,Entire home,Andersonport,Washington,United States,4,2,4.0,204,17,2024-12-16
+200476,100161,Moyer Village House,House,Private room,Lauraburgh,South Carolina,United States,7,3,1.2,203,19,2025-06-27
+200477,100161,Vazquez Corners House,House,Private room,Andersonborough,Hawaii,United States,11,5,2.7,397,2,2023-05-05
+200478,100161,Garcia Mall Condo,Condo,Private room,Torresborough,Oklahoma,United States,11,5,3.4,393,11,2025-01-13
+200479,100162,Michael Green Townhouse,Townhouse,Private room,Ericaburgh,North Carolina,United States,7,3,2.1,126,25,2022-08-30
+200480,100163,Matthew Crescent Loft,Loft,Entire home,North Anna,New York,United States,8,4,1.9,173,23,2022-08-06
+200481,100163,Glover Trafficway House,House,Shared room,Port Natalieview,Georgia,United States,8,4,2.2,79,14,2023-07-23
+200482,100164,Jasmine Mill Loft,Loft,Private room,Estesville,Connecticut,United States,9,4,1.7,118,7,2026-02-02
+200483,100164,Madison Canyon Condo,Condo,Private room,East Crystalborough,Mississippi,United States,11,5,3.5,90,3,2025-10-14
+200484,100164,Erickson Track Loft,Loft,Entire home,Oconnorville,Georgia,United States,12,6,1.2,474,13,2023-02-16
+200485,100165,Cook Dam Loft,Loft,Entire home,Port Jameschester,Wyoming,United States,10,5,1.6,70,25,2025-03-19
+200486,100165,John Valleys Loft,Loft,Shared room,Petersonhaven,Hawaii,United States,12,6,1.7,393,7,2025-09-24
+200487,100165,Watson Throughway Condo,Condo,Entire home,Wardbury,Georgia,United States,5,2,3.8,57,24,2022-10-28
+200488,100166,Cobb Dam Apartment,Apartment,Private room,Gutierrezchester,New Jersey,United States,12,6,3.7,436,23,2025-08-31
+200489,100166,Acevedo Mills Loft,Loft,Private room,Port Alejandro,North Dakota,United States,12,6,3.7,154,18,2026-02-01
+200490,100166,Matthew Locks Condo,Condo,Private room,South Bryan,Wisconsin,United States,5,2,2.6,244,12,2022-10-04
+200491,100166,Rachel Centers Condo,Condo,Shared room,Robertside,Maryland,United States,5,2,3.6,234,15,2022-08-14
+200492,100166,Blankenship Branch Apartment,Apartment,Private room,Rachelberg,Vermont,United States,12,6,3.7,290,12,2025-07-12
+200493,100166,Schneider Plains Condo,Condo,Shared room,Terryfurt,Wyoming,United States,7,3,3.6,73,24,2024-03-06
+200494,100166,Miller Plain House,House,Shared room,Peterberg,North Dakota,United States,1,1,3.8,183,19,2023-04-20
+200495,100167,Lewis Pass Townhouse,Townhouse,Entire home,Adrienneburgh,Alaska,United States,5,2,2.0,128,13,2024-10-05
+200496,100167,Allen Trail Loft,Loft,Shared room,Jessicahaven,Delaware,United States,4,2,3.0,305,22,2022-07-31
+200497,100167,Mckenzie Green Condo,Condo,Private room,Davidville,New Hampshire,United States,5,2,3.9,440,21,2025-07-29
+200498,100167,Shawn Freeway Townhouse,Townhouse,Shared room,West Kevin,Texas,United States,8,4,3.4,136,6,2023-09-23
+200499,100167,Jennifer Pike House,House,Private room,North Mark,Pennsylvania,United States,12,6,1.6,329,29,2025-10-19
+200500,100168,Gibson Drive Loft,Loft,Shared room,Pooleland,Colorado,United States,11,5,1.1,80,28,2023-04-13
+200501,100168,Beasley Mountains Apartment,Apartment,Entire home,South Christian,Utah,United States,11,5,2.2,74,27,2022-09-22
+200502,100169,Chapman Path House,House,Entire home,Wigginsshire,New York,United States,2,1,1.0,412,17,2024-09-12
+200503,100170,Barajas Spurs Townhouse,Townhouse,Shared room,Dennischester,Hawaii,United States,6,3,2.9,80,30,2025-03-02
+200504,100170,Todd Mount Loft,Loft,Private room,Lake William,North Dakota,United States,8,4,1.0,387,18,2023-01-28
+200505,100170,Stanley Bypass Loft,Loft,Entire home,New Mike,Delaware,United States,7,3,2.6,56,9,2022-12-18
+200506,100170,Rodriguez Land Loft,Loft,Shared room,Billyberg,Delaware,United States,5,2,3.4,58,22,2025-01-07
+200507,100170,Ritter Hollow Townhouse,Townhouse,Entire home,Toddberg,Georgia,United States,3,1,2.6,104,8,2024-01-16
+200508,100170,Williams Inlet House,House,Private room,Jasonfort,Alabama,United States,10,5,3.4,319,9,2025-10-17
+200509,100170,Jones Cape Townhouse,Townhouse,Private room,Olsonport,Oregon,United States,2,1,2.4,241,8,2022-12-25
+200510,100171,Harrington Mountains House,House,Entire home,Port Dillon,South Dakota,United States,5,2,3.0,400,28,2024-05-20
+200511,100171,Contreras Drive Apartment,Apartment,Private room,Christopherchester,Missouri,United States,2,1,2.1,257,16,2024-06-03
+200512,100171,Morgan Cape Apartment,Apartment,Shared room,Fitzgeraldland,Hawaii,United States,11,5,1.5,54,16,2023-06-14
+200513,100171,Ashley Underpass Townhouse,Townhouse,Private room,Annville,Tennessee,United States,11,5,2.7,451,28,2025-06-20
+200514,100171,James River Apartment,Apartment,Entire home,New Aimeefort,North Carolina,United States,9,4,1.6,71,28,2024-11-02
+200515,100172,David Place Loft,Loft,Entire home,North Joshua,Indiana,United States,8,4,3.8,188,22,2026-04-11
+200516,100172,Miller Place Condo,Condo,Shared room,Richardton,New York,United States,9,4,1.1,338,30,2023-07-04
+200517,100172,Matthew Falls Condo,Condo,Shared room,Johnsonhaven,Massachusetts,United States,1,1,1.4,156,27,2026-02-16
+200518,100173,Davis Courts Townhouse,Townhouse,Entire home,West Douglas,Kentucky,United States,2,1,2.7,203,19,2024-02-01
+200519,100173,Eric Lodge Townhouse,Townhouse,Private room,North Christina,Massachusetts,United States,11,5,2.2,326,24,2025-09-23
+200520,100174,Jennifer Hills House,House,Entire home,Garciaberg,Nebraska,United States,12,6,2.5,420,12,2023-03-26
+200521,100174,Scott Views Apartment,Apartment,Entire home,North Jamesshire,Kansas,United States,2,1,3.5,273,11,2026-04-05
+200522,100174,Avery Grove Loft,Loft,Private room,West Stevenchester,California,United States,10,5,3.9,354,11,2024-07-22
+200523,100175,Rick Fort Apartment,Apartment,Private room,West Angelashire,Utah,United States,11,5,2.5,189,12,2024-07-09
+200524,100175,Kathryn Run Loft,Loft,Entire home,West Ashley,New Hampshire,United States,7,3,3.0,271,22,2022-11-22
+200525,100176,Krista Divide Townhouse,Townhouse,Shared room,Amberburgh,Kansas,United States,2,1,1.9,445,8,2022-10-26
+200526,100176,Ali Point Apartment,Apartment,Entire home,Williamsmouth,South Carolina,United States,2,1,2.1,187,26,2024-09-30
+200527,100176,Aaron Orchard House,House,Private room,Carlafurt,Minnesota,United States,12,6,2.1,249,3,2023-09-10
+200528,100176,Brenda Pass Apartment,Apartment,Private room,Brandonside,Oregon,United States,5,2,3.3,277,4,2026-01-16
+200529,100177,Davis Square House,House,Private room,Port Donaldside,Louisiana,United States,2,1,2.3,145,18,2022-10-04
+200530,100177,Clark Parkways Loft,Loft,Entire home,Nicolemouth,South Dakota,United States,7,3,1.3,102,18,2026-03-13
+200531,100177,Nelson Shore Apartment,Apartment,Private room,Matthewmouth,Rhode Island,United States,10,5,3.6,356,1,2023-07-29
+200532,100178,Robin Dale Condo,Condo,Entire home,New Thomastown,Utah,United States,7,3,3.2,248,18,2023-11-10
+200533,100178,Peters Square House,House,Entire home,Farmerside,Colorado,United States,10,5,3.1,316,6,2023-03-14
+200534,100178,Amanda Village House,House,Private room,Chambersstad,Missouri,United States,5,2,2.5,204,3,2025-10-23
+200535,100179,Hughes Villages House,House,Private room,North Stevenborough,New Hampshire,United States,7,3,1.9,191,26,2025-12-24
+200536,100179,Julia Trace Apartment,Apartment,Entire home,Erinstad,Illinois,United States,6,3,3.2,178,16,2022-07-02
+200537,100179,Stokes Forges Loft,Loft,Private room,South Tammy,Arizona,United States,10,5,1.3,150,10,2022-11-04
+200538,100179,Conway Squares Apartment,Apartment,Shared room,North James,South Dakota,United States,7,3,2.1,220,28,2023-08-28
+200539,100179,Molly Port Condo,Condo,Private room,Jacksonborough,Texas,United States,8,4,3.4,221,28,2024-02-23
+200540,100179,Cameron Crossroad Loft,Loft,Private room,East Jordanshire,Iowa,United States,3,1,2.8,203,23,2025-08-08
+200541,100180,Lee Springs House,House,Entire home,Lake Ericaview,Utah,United States,8,4,3.9,210,11,2026-03-17
+200542,100181,Smith Meadow Condo,Condo,Shared room,Port Sheilachester,Nebraska,United States,12,6,2.5,405,19,2024-11-04
+200543,100181,Erin Mountain House,House,Private room,Wardton,Washington,United States,6,3,3.4,242,13,2023-08-17
+200544,100181,Joshua Manor Condo,Condo,Entire home,Stewartfurt,Illinois,United States,2,1,2.8,338,18,2023-06-01
+200545,100181,Nicole Valley House,House,Shared room,Lake Jeremiahchester,California,United States,11,5,1.1,443,24,2023-11-19
+200546,100182,James Isle Townhouse,Townhouse,Private room,Bryanville,Alaska,United States,12,6,3.4,157,27,2026-05-12
+200547,100182,Morton Ramp Apartment,Apartment,Private room,Marybury,Connecticut,United States,7,3,1.4,394,10,2024-07-02
+200548,100183,Susan Village House,House,Entire home,Port Matthewbury,California,United States,5,2,3.1,387,26,2024-06-22
+200549,100183,Duran Road Townhouse,Townhouse,Shared room,Rileyland,Arkansas,United States,2,1,2.4,279,13,2025-10-05
+200550,100184,Nicholas Vista Loft,Loft,Shared room,Port Davidmouth,Arkansas,United States,9,4,2.3,495,2,2026-05-12
+200551,100184,Jones Springs Condo,Condo,Shared room,New Brettfurt,Montana,United States,12,6,2.8,465,30,2023-09-29
+200552,100184,Hall Rapid Apartment,Apartment,Entire home,South Patrickchester,South Carolina,United States,2,1,3.0,443,12,2022-11-13
+200553,100185,Matthew Spring House,House,Entire home,South Zacharyshire,Illinois,United States,11,5,2.7,363,21,2025-02-03
+200554,100185,Alexander Station Townhouse,Townhouse,Private room,New Kristineborough,Oregon,United States,6,3,1.3,457,4,2022-12-02
+200555,100185,Kelly Orchard Condo,Condo,Shared room,Lopezberg,Arizona,United States,4,2,2.6,311,19,2022-12-30
+200556,100186,Larry Mews Loft,Loft,Private room,Larryside,Wyoming,United States,4,2,2.2,278,25,2022-09-19
+200557,100187,Terrance Rapids Loft,Loft,Entire home,Kellytown,North Dakota,United States,12,6,2.0,306,1,2023-01-30
+200558,100187,Brian Parkways Townhouse,Townhouse,Private room,South Mauriceborough,South Dakota,United States,2,1,3.8,201,3,2024-12-15
+200559,100187,Kristen Junctions Apartment,Apartment,Private room,Lake Thomas,Vermont,United States,12,6,1.9,122,15,2026-04-29
+200560,100188,Christian Port House,House,Private room,Christinachester,Michigan,United States,9,4,2.4,297,15,2024-06-13
+200561,100188,Shawn Turnpike Townhouse,Townhouse,Private room,South Jeffreytown,South Dakota,United States,6,3,1.1,84,23,2023-02-25
+200562,100189,Steven Forest Apartment,Apartment,Private room,South Jessica,Michigan,United States,1,1,2.9,484,22,2023-05-30
+200563,100189,Harris Ferry House,House,Shared room,West Alejandrostad,Alaska,United States,12,6,1.5,174,6,2025-11-23
+200564,100189,Douglas Mill Condo,Condo,Private room,Lake Brenda,Wisconsin,United States,9,4,1.7,268,13,2024-10-26
+200565,100189,Theresa Flat House,House,Shared room,West Grant,Kentucky,United States,3,1,2.3,377,1,2023-12-29
+200566,100190,Matthew Plaza Loft,Loft,Shared room,East James,Idaho,United States,4,2,2.3,280,1,2025-07-08
+200567,100190,Lozano Brooks House,House,Shared room,South Diana,Delaware,United States,4,2,3.4,192,3,2026-01-17
+200568,100190,Kevin Garden Loft,Loft,Shared room,Lisaburgh,North Dakota,United States,2,1,1.6,459,11,2023-11-25
+200569,100190,Johns Circles House,House,Private room,East Nicoleberg,Illinois,United States,8,4,3.0,108,16,2025-11-10
+200570,100190,Benson Island Loft,Loft,Shared room,Rowlandbury,Arizona,United States,11,5,2.2,210,13,2023-04-11
+200571,100190,Melissa Hill Loft,Loft,Private room,West John,South Dakota,United States,2,1,3.5,228,20,2025-09-15
+200572,100191,Salas Vista House,House,Private room,Clarkland,New Mexico,United States,11,5,3.8,411,19,2025-11-04
+200573,100191,Gary Loaf Apartment,Apartment,Private room,Victormouth,Idaho,United States,11,5,1.4,118,10,2025-10-28
+200574,100191,Fox Orchard Apartment,Apartment,Shared room,Wellsshire,Montana,United States,3,1,1.4,241,13,2023-10-30
+200575,100191,Jamie Flats Townhouse,Townhouse,Shared room,Royfurt,Indiana,United States,10,5,2.2,120,6,2025-03-05
+200576,100191,Oneal Ports Townhouse,Townhouse,Shared room,Port Neil,Oklahoma,United States,11,5,3.8,325,30,2023-10-06
+200577,100192,Karen Hill House,House,Private room,Stonebury,Pennsylvania,United States,9,4,1.9,135,6,2022-10-27
+200578,100192,Hunt Junction Condo,Condo,Entire home,Hayeschester,Nebraska,United States,8,4,3.6,367,1,2022-08-20
+200579,100192,Stewart Light Townhouse,Townhouse,Private room,East Scottview,Tennessee,United States,3,1,3.9,149,17,2024-01-09
+200580,100192,Valenzuela Hill Townhouse,Townhouse,Private room,Port Joshuabury,Connecticut,United States,7,3,2.2,400,27,2022-10-13
+200581,100192,Michael Plains Townhouse,Townhouse,Entire home,West James,Michigan,United States,8,4,2.7,135,26,2022-12-19
+200582,100193,Mcgee Trafficway House,House,Private room,Jamesberg,Wisconsin,United States,5,2,1.7,66,10,2023-07-11
+200583,100193,Smith Hills House,House,Shared room,Lynnfurt,Montana,United States,8,4,3.3,339,16,2025-07-04
+200584,100193,Thomas Passage Loft,Loft,Shared room,Port Raymond,Iowa,United States,9,4,1.3,107,25,2025-12-15
+200585,100194,Thomas Path Loft,Loft,Entire home,Sharpmouth,Michigan,United States,6,3,3.3,327,15,2025-07-15
+200586,100194,Lawrence Field Loft,Loft,Entire home,Carrillochester,Indiana,United States,4,2,3.2,267,21,2025-10-30
+200587,100194,Farrell Burgs House,House,Entire home,Donberg,Maryland,United States,5,2,2.3,497,12,2024-04-29
+200588,100195,Vincent Shoals Apartment,Apartment,Entire home,Matthewchester,Nevada,United States,8,4,3.3,493,8,2025-08-07
+200589,100196,Farmer Spurs House,House,Shared room,Marktown,Oregon,United States,12,6,2.1,351,23,2025-05-18
+200590,100196,Sandra Drives Loft,Loft,Entire home,Ashleyshire,Montana,United States,11,5,2.8,269,26,2025-10-20
+200591,100196,Stacy Circles House,House,Entire home,Lopezville,Michigan,United States,4,2,2.7,462,18,2024-01-31
+200592,100197,Fowler Hollow Condo,Condo,Entire home,East Damonside,Idaho,United States,10,5,2.0,325,23,2024-11-18
+200593,100197,Johnson Flat Condo,Condo,Private room,South Justinbury,Maine,United States,5,2,3.9,343,17,2022-08-06
+200594,100197,Shawn Land Apartment,Apartment,Private room,East Markchester,Montana,United States,3,1,3.8,434,9,2025-04-07
+200595,100197,David Manor House,House,Entire home,Paulfurt,Indiana,United States,12,6,1.7,493,23,2023-02-16
+200596,100198,Kyle Viaduct Condo,Condo,Shared room,Mooreshire,Maryland,United States,4,2,2.2,439,5,2023-01-05
+200597,100198,Wayne Spur Loft,Loft,Shared room,Hilltown,Georgia,United States,11,5,2.2,187,15,2024-12-16
+200598,100198,Makayla Rapids Apartment,Apartment,Entire home,New Mark,Oregon,United States,11,5,2.2,456,24,2024-05-10
+200599,100198,Stevens Ports Condo,Condo,Private room,Lake Christophermouth,Minnesota,United States,12,6,2.4,499,16,2026-03-14
+200600,100198,Myers View Condo,Condo,Shared room,South John,South Carolina,United States,10,5,1.3,51,15,2025-06-09
+200601,100198,Ellis Shoals Condo,Condo,Shared room,Lake Ashley,Montana,United States,2,1,2.2,457,14,2025-07-31
+200602,100199,John Ways House,House,Private room,West Nicole,Ohio,United States,8,4,3.5,187,11,2025-06-07
+200603,100199,Helen Stravenue Loft,Loft,Shared room,South Robert,Wisconsin,United States,10,5,3.6,116,26,2023-09-14
+200604,100200,Wanda Club Condo,Condo,Entire home,New Katiemouth,Nebraska,United States,11,5,1.1,440,21,2024-10-23
+200605,100201,Johnny Parkways Townhouse,Townhouse,Entire home,South Anthonymouth,Missouri,United States,1,1,2.3,113,1,2024-05-18
+200606,100201,Foley Locks Townhouse,Townhouse,Entire home,North Johnberg,Massachusetts,United States,4,2,3.6,402,10,2023-12-03
+200607,100202,Washington Cliff House,House,Shared room,New Dianemouth,Florida,United States,5,2,2.1,97,3,2025-04-24
+200608,100202,Skinner Extension Condo,Condo,Entire home,New Craigport,Delaware,United States,11,5,1.2,382,21,2024-06-18
+200609,100203,Jackson Skyway Condo,Condo,Entire home,Lake Joshuamouth,Minnesota,United States,12,6,2.3,408,3,2024-09-25
+200610,100204,Jennifer Spring Apartment,Apartment,Private room,South Heather,South Dakota,United States,1,1,1.2,159,19,2023-03-21
+200611,100204,Peter Inlet House,House,Private room,Williamstown,Arkansas,United States,9,4,1.0,398,23,2025-11-29
+200612,100205,Wang Gateway Condo,Condo,Private room,Reginaborough,Colorado,United States,2,1,3.1,490,16,2025-09-29
+200613,100205,Johnson Bridge Apartment,Apartment,Entire home,Loriland,Iowa,United States,4,2,3.2,246,4,2022-07-12
+200614,100205,Laura Village Apartment,Apartment,Private room,Lake Gary,Nebraska,United States,6,3,1.4,238,25,2026-03-19
+200615,100205,Lisa Islands House,House,Entire home,New Jamie,Ohio,United States,11,5,1.2,396,19,2024-08-22
+200616,100205,Martinez Forest Apartment,Apartment,Entire home,West Marcustown,Montana,United States,10,5,2.3,382,24,2024-02-21
+200617,100206,Smith Forest House,House,Entire home,Robinsonview,Tennessee,United States,11,5,3.8,433,20,2025-03-29
+200618,100206,Williams Forge Townhouse,Townhouse,Entire home,Turnerfort,Connecticut,United States,4,2,1.4,94,4,2025-02-11
+200619,100206,Johnathan Court Loft,Loft,Private room,Tinafurt,Utah,United States,12,6,3.9,246,11,2025-06-28
+200620,100206,Martin Roads House,House,Shared room,Tiffanyfort,California,United States,4,2,1.3,191,18,2026-05-24
+200621,100206,Charlotte Prairie Loft,Loft,Shared room,Reyesbury,North Carolina,United States,10,5,1.9,419,23,2023-11-20
+200622,100206,Jesse Ridges Apartment,Apartment,Private room,West Joelchester,Wisconsin,United States,11,5,1.6,498,20,2024-12-16
+200623,100207,Brian Landing Loft,Loft,Private room,Phillipsberg,Missouri,United States,4,2,1.9,432,2,2023-07-01
+200624,100207,John Stream House,House,Entire home,Stevensonmouth,Florida,United States,8,4,1.7,247,21,2023-05-01
+200625,100207,Schneider Trace Loft,Loft,Entire home,New Latoyachester,Tennessee,United States,2,1,4.0,320,30,2023-08-24
+200626,100207,Christensen Forks Condo,Condo,Shared room,Matthewborough,Ohio,United States,3,1,2.3,248,18,2025-12-01
+200627,100208,Laurie Square House,House,Entire home,New Monique,North Dakota,United States,8,4,1.1,444,3,2022-09-10
+200628,100208,Scott Avenue Apartment,Apartment,Entire home,Port Travisborough,Arkansas,United States,5,2,3.8,160,26,2023-10-30
+200629,100209,Shawna Crossroad Townhouse,Townhouse,Shared room,East Brittanyborough,Kansas,United States,9,4,3.1,196,25,2025-02-27
+200630,100209,Ronald Mountain Townhouse,Townhouse,Private room,Frankborough,Kansas,United States,7,3,1.2,409,18,2024-08-14
+200631,100209,Catherine Hollow Loft,Loft,Private room,Barbaraborough,Louisiana,United States,10,5,1.3,128,3,2024-04-06
+200632,100209,Miller Lake Loft,Loft,Entire home,Grayfort,New Hampshire,United States,4,2,2.6,463,13,2026-02-16
+200633,100209,Wolf Viaduct Loft,Loft,Shared room,Smithfurt,Nevada,United States,11,5,3.0,440,3,2024-04-04
+200634,100210,Katherine Hills Condo,Condo,Shared room,New Jessica,Kentucky,United States,12,6,3.9,273,8,2026-02-03
+200635,100210,Torres Haven Apartment,Apartment,Private room,Hartfort,California,United States,4,2,1.3,94,20,2024-01-30
+200636,100210,Jennifer Flat Loft,Loft,Shared room,East Adam,North Carolina,United States,1,1,3.2,208,24,2023-11-17
+200637,100210,Henry Mall House,House,Shared room,Wallerstad,Missouri,United States,2,1,1.4,56,1,2025-07-26
+200638,100211,Davidson Radial House,House,Shared room,South Nicoleville,Missouri,United States,8,4,2.6,227,27,2024-07-17
+200639,100211,James Mews Condo,Condo,Entire home,Kelseystad,North Carolina,United States,3,1,3.2,240,28,2026-06-05
+200640,100211,Reid Land Condo,Condo,Entire home,Lake Paulchester,West Virginia,United States,12,6,2.0,110,14,2025-06-23
+200641,100212,Tim Via Condo,Condo,Private room,Crystaltown,Vermont,United States,9,4,3.1,82,19,2023-07-06
+200642,100212,Jose Motorway Apartment,Apartment,Shared room,West John,Pennsylvania,United States,8,4,2.1,283,16,2025-04-17
+200643,100212,Alexander Trail Loft,Loft,Entire home,Lake Jenniferfurt,Montana,United States,3,1,1.8,238,4,2025-04-12
+200644,100212,April Field Loft,Loft,Entire home,Martinchester,Kentucky,United States,11,5,1.7,420,17,2025-06-18
+200645,100213,Mason Place Apartment,Apartment,Entire home,Willischester,Wisconsin,United States,1,1,1.7,489,16,2025-05-27
+200646,100214,Daniel Ports Condo,Condo,Entire home,Lisaview,West Virginia,United States,7,3,3.8,126,28,2026-03-10
+200647,100214,Hale Avenue Apartment,Apartment,Shared room,Port Travis,Connecticut,United States,9,4,3.2,461,14,2023-05-09
+200648,100215,Warren Shoal House,House,Private room,Jessicaburgh,Idaho,United States,6,3,3.7,177,11,2022-10-04
+200649,100215,Jane Flat Condo,Condo,Private room,Whiteville,New Hampshire,United States,2,1,1.4,342,22,2024-01-21
+200650,100216,Jacob Circle Apartment,Apartment,Shared room,Port Katherine,Kentucky,United States,3,1,3.9,164,13,2024-11-14
+200651,100216,Alexander Road Apartment,Apartment,Private room,Port Danaland,Maine,United States,8,4,3.3,493,10,2026-04-19
+200652,100216,Martinez Circles Condo,Condo,Private room,Anthonybury,New Mexico,United States,2,1,1.0,333,7,2022-10-29
+200653,100217,Albert Grove Condo,Condo,Private room,Lake Branditon,Connecticut,United States,10,5,3.2,451,8,2024-07-10
+200654,100217,Nicholas Pike Townhouse,Townhouse,Private room,Sarahfort,Wisconsin,United States,6,3,4.0,352,25,2023-05-11
+200655,100217,Rogers Springs House,House,Entire home,Yvonnebury,Mississippi,United States,12,6,1.5,329,30,2023-11-23
+200656,100217,Gray Centers Townhouse,Townhouse,Shared room,Morganville,Alabama,United States,1,1,2.0,169,27,2025-04-16
+200657,100217,Hardy Dam Apartment,Apartment,Shared room,New Davidhaven,Louisiana,United States,6,3,2.1,50,24,2024-05-27
+200658,100218,Miguel River Condo,Condo,Shared room,Robertsonborough,Alabama,United States,2,1,3.9,155,14,2025-06-08
+200659,100218,Smith Lake Townhouse,Townhouse,Shared room,Port Jillmouth,Iowa,United States,1,1,1.8,122,2,2025-03-05
+200660,100218,Ross Ridge House,House,Shared room,West Ronniefort,Texas,United States,9,4,3.7,261,15,2025-01-15
+200661,100219,Jessica Hill Apartment,Apartment,Shared room,Lake Douglas,North Dakota,United States,10,5,1.4,98,27,2026-02-08
+200662,100219,David Underpass Townhouse,Townhouse,Shared room,West Marisaside,New Jersey,United States,2,1,1.2,353,22,2026-03-10
+200663,100219,Friedman Orchard House,House,Private room,East Jason,Wisconsin,United States,4,2,3.6,199,30,2023-03-06
+200664,100219,Daniel Stravenue Townhouse,Townhouse,Shared room,East Sarahmouth,Missouri,United States,12,6,2.0,475,15,2025-04-07
+200665,100219,Robinson Glens Condo,Condo,Entire home,Lynnville,Texas,United States,4,2,1.4,88,25,2025-09-20
+200666,100220,Davis Square Loft,Loft,Entire home,Monicashire,Wyoming,United States,2,1,1.5,129,15,2023-01-14
+200667,100220,Dawn Lane Condo,Condo,Shared room,Valdezside,Nevada,United States,7,3,2.1,111,25,2026-05-23
+200668,100221,Jeffrey Crescent House,House,Private room,Christopherland,Michigan,United States,8,4,1.8,207,4,2025-11-24
+200669,100221,Julie Crescent Apartment,Apartment,Shared room,Davidmouth,Missouri,United States,3,1,1.9,463,23,2025-08-11
+200670,100221,Lance Ramp Loft,Loft,Private room,Port Paul,Nevada,United States,1,1,1.4,160,23,2024-11-30
+200671,100221,Salinas Underpass House,House,Shared room,New Elizabeth,Pennsylvania,United States,6,3,1.1,252,10,2023-10-27
+200672,100222,Randall Plain Condo,Condo,Private room,Stewartport,Iowa,United States,3,1,3.6,65,18,2023-05-29
+200673,100222,Hernandez Haven Loft,Loft,Private room,Lake Elizabeth,Vermont,United States,4,2,1.3,98,26,2024-08-02
+200674,100222,Parker Spurs House,House,Entire home,West Wendyshire,New Mexico,United States,2,1,3.5,56,8,2022-08-10
+200675,100222,Troy Squares House,House,Private room,Brownmouth,Georgia,United States,4,2,2.1,471,21,2025-02-22
+200676,100222,Melanie Valleys Apartment,Apartment,Private room,Lake Jill,Wyoming,United States,10,5,3.8,350,3,2025-12-25
+200677,100223,Luna Hills Apartment,Apartment,Shared room,North Amy,Michigan,United States,2,1,2.3,151,5,2023-03-23
+200678,100223,Mooney Throughway Apartment,Apartment,Entire home,Myershaven,Washington,United States,6,3,3.8,112,2,2024-04-04
+200679,100224,Horton Fields House,House,Shared room,Davismouth,Wisconsin,United States,10,5,2.2,271,1,2023-08-31
+200680,100225,Melissa Station Townhouse,Townhouse,Entire home,Stephenburgh,Oregon,United States,11,5,2.1,268,30,2025-10-29
+200681,100226,Dominguez Highway House,House,Private room,East Jeffery,West Virginia,United States,5,2,3.7,193,2,2023-01-17
+200682,100226,Michael Walks Loft,Loft,Entire home,Lake Kristenberg,Missouri,United States,10,5,2.9,365,16,2023-04-17
+200683,100226,Sara Court Townhouse,Townhouse,Entire home,Terriburgh,Arkansas,United States,9,4,1.3,295,13,2024-04-11
+200684,100226,Watkins Drive House,House,Shared room,Sanchezville,Kansas,United States,7,3,3.7,152,17,2022-12-17
+200685,100227,Turner Ranch House,House,Shared room,Lake Julie,Wyoming,United States,11,5,3.4,460,13,2024-02-24
+200686,100227,Kimberly Way Condo,Condo,Private room,Hillmouth,Mississippi,United States,8,4,2.0,328,19,2025-05-27
+200687,100227,Darryl Crossing Loft,Loft,Private room,Mayhaven,Iowa,United States,6,3,1.5,248,11,2022-07-06
+200688,100228,Hill Summit Loft,Loft,Private room,Port Brittanyfurt,New Mexico,United States,4,2,1.2,65,16,2022-07-23
+200689,100228,Evans Crossroad Loft,Loft,Shared room,West Bryanside,Idaho,United States,6,3,4.0,442,6,2025-03-15
+200690,100228,Phillip Viaduct Apartment,Apartment,Entire home,Brownshire,Ohio,United States,4,2,1.8,386,27,2024-03-08
+200691,100228,Karen Fords Apartment,Apartment,Private room,East Michelleburgh,Alabama,United States,4,2,2.1,344,27,2025-06-30
+200692,100229,Mcbride Crossing House,House,Shared room,East Baileyburgh,Colorado,United States,3,1,2.0,171,24,2024-10-26
+200693,100230,York Bypass Condo,Condo,Shared room,North Williamstad,Ohio,United States,10,5,3.1,64,19,2024-11-07
+200694,100231,Rowland Shoals Loft,Loft,Entire home,East Kevinhaven,Maine,United States,3,1,3.5,338,26,2023-03-11
+200695,100231,Taylor Overpass Townhouse,Townhouse,Entire home,Alexandrastad,Rhode Island,United States,9,4,2.5,208,3,2025-04-06
+200696,100232,Hailey Shore Apartment,Apartment,Entire home,East Benjaminberg,Maryland,United States,4,2,1.1,358,16,2024-10-01
+200697,100232,Susan Rapids Apartment,Apartment,Entire home,New Michael,Florida,United States,6,3,3.4,364,11,2026-02-06
+200698,100233,Jones Glens House,House,Entire home,Patrickburgh,Montana,United States,6,3,1.4,80,23,2025-07-24
+200699,100234,Shirley Springs House,House,Shared room,Bentleyberg,Ohio,United States,2,1,3.6,483,3,2024-05-26
+200700,100234,Crystal Grove Condo,Condo,Private room,Lake Nathan,Texas,United States,12,6,2.8,389,11,2023-04-30
+200701,100235,Robert Drives Condo,Condo,Entire home,Victoriachester,Missouri,United States,6,3,3.2,119,14,2025-03-20
+200702,100235,Chris Crossing Townhouse,Townhouse,Entire home,Lake Amyland,Michigan,United States,11,5,3.1,212,18,2022-07-28
+200703,100235,Michael Isle Loft,Loft,Shared room,Dustinbury,Louisiana,United States,6,3,2.8,164,6,2025-03-08
+200704,100235,Nicholas Forges Townhouse,Townhouse,Shared room,Lynnville,Idaho,United States,5,2,1.9,425,6,2022-07-03
+200705,100235,Chapman Valley Apartment,Apartment,Private room,Davisstad,Vermont,United States,12,6,3.6,343,25,2024-09-12
+200706,100236,Arnold Rest Loft,Loft,Shared room,North Georgefurt,Idaho,United States,1,1,2.0,143,26,2024-11-22
+200707,100236,Woods Crossroad Loft,Loft,Shared room,Alberthaven,Virginia,United States,4,2,1.3,377,16,2023-12-06
+200708,100237,Douglas Port House,House,Entire home,Brianstad,Virginia,United States,6,3,1.7,431,11,2023-02-14
+200709,100237,Erika Manor House,House,Shared room,Whitestad,New Jersey,United States,11,5,3.0,95,24,2025-10-07
+200710,100237,Hill Meadow Condo,Condo,Private room,West Cynthia,Colorado,United States,8,4,1.6,55,23,2024-08-06
+200711,100238,Townsend Vista Apartment,Apartment,Entire home,Lake Christopherbury,Colorado,United States,6,3,3.2,181,2,2023-10-05
+200712,100238,Christopher Heights Townhouse,Townhouse,Private room,Stokestown,Nevada,United States,8,4,3.9,425,29,2023-03-01
+200713,100238,Timothy Passage Townhouse,Townhouse,Private room,South Alexanderborough,West Virginia,United States,8,4,2.6,243,4,2025-05-04
+200714,100238,Park Summit Townhouse,Townhouse,Shared room,Johnhaven,Utah,United States,10,5,1.7,383,15,2022-06-29
+200715,100239,Catherine Extension Apartment,Apartment,Entire home,East Charles,Florida,United States,1,1,2.0,200,4,2025-01-19
+200716,100239,Farley Manors Apartment,Apartment,Private room,Graystad,Delaware,United States,6,3,1.5,137,3,2024-08-23
+200717,100240,Marie Vista Loft,Loft,Shared room,West Kevinport,Kentucky,United States,2,1,4.0,223,29,2023-11-25
+200718,100240,Joann Port Townhouse,Townhouse,Private room,Robinsonport,Tennessee,United States,12,6,3.8,65,6,2023-05-14
+200719,100241,Savannah River Loft,Loft,Entire home,Browntown,South Carolina,United States,7,3,1.3,130,7,2024-08-26
+200720,100241,Evans Coves House,House,Shared room,West Pamelaburgh,Montana,United States,7,3,3.2,406,24,2024-06-02
+200721,100242,Craig Overpass Loft,Loft,Private room,North Allison,Georgia,United States,5,2,1.9,388,4,2023-12-20
+200722,100242,Robin Avenue Apartment,Apartment,Shared room,Port Diane,Iowa,United States,7,3,3.5,342,5,2024-03-17
+200723,100242,Brooks Lakes Apartment,Apartment,Private room,Mcclainside,Louisiana,United States,6,3,1.3,51,27,2024-06-18
+200724,100242,Douglas Mill Loft,Loft,Entire home,East Michael,Nevada,United States,8,4,1.1,152,6,2022-12-03
+200725,100242,Stephenson Station Condo,Condo,Entire home,North Jake,Arizona,United States,2,1,1.9,292,13,2022-06-27
+200726,100243,Fisher Isle Townhouse,Townhouse,Private room,East Elizabethfort,Texas,United States,8,4,1.3,388,18,2023-01-11
+200727,100243,Robert Plaza Townhouse,Townhouse,Private room,Marshberg,Massachusetts,United States,3,1,2.1,239,15,2023-08-04
+200728,100243,Shaw Streets Apartment,Apartment,Private room,Andersonville,Alaska,United States,5,2,1.8,275,27,2025-08-27
+200729,100244,Maurice Bridge Condo,Condo,Entire home,North Erika,Michigan,United States,10,5,3.3,81,22,2022-12-30
+200730,100244,Ryan Highway Apartment,Apartment,Private room,Toddchester,Kansas,United States,2,1,3.4,392,14,2024-04-15
+200731,100245,Jessica Ferry Loft,Loft,Entire home,West Katie,Kentucky,United States,4,2,3.5,333,27,2025-02-01
+200732,100245,Elizabeth Meadow Loft,Loft,Shared room,South Jasmine,Connecticut,United States,7,3,3.6,324,16,2025-06-10
+200733,100245,Jacob Walk Loft,Loft,Private room,East David,Montana,United States,4,2,1.2,293,29,2025-06-11
+200734,100245,Mooney Drive Apartment,Apartment,Shared room,Smithborough,Colorado,United States,9,4,3.4,342,22,2022-08-16
+200735,100246,Omar Pine Loft,Loft,Private room,Isabelbury,Iowa,United States,3,1,1.5,111,6,2026-02-19
+200736,100246,Mendoza Pass House,House,Entire home,Schneiderport,Delaware,United States,4,2,2.3,114,22,2023-11-22
+200737,100246,Ramirez Keys Townhouse,Townhouse,Shared room,Wrightton,Idaho,United States,4,2,1.4,471,20,2023-08-10
+200738,100246,Brett Summit Condo,Condo,Entire home,Jasonfort,Louisiana,United States,6,3,1.3,422,18,2022-08-20
+200739,100246,Ryan Glen Townhouse,Townhouse,Private room,Coxport,Delaware,United States,9,4,2.6,216,30,2026-04-29
+200740,100246,Felicia Trail Apartment,Apartment,Shared room,West Michael,Mississippi,United States,12,6,2.6,369,14,2022-11-15
+200741,100246,Allen Harbor Apartment,Apartment,Entire home,New Patrick,Connecticut,United States,7,3,2.7,126,19,2025-08-15
+200742,100247,Blake Shoal Apartment,Apartment,Entire home,East Janet,Connecticut,United States,2,1,3.4,338,28,2023-01-06
+200743,100248,Turner Mountains Loft,Loft,Private room,New Jennifer,Arizona,United States,6,3,1.8,499,21,2022-10-12
+200744,100248,Robert Station Townhouse,Townhouse,Private room,Patriciaside,Minnesota,United States,10,5,1.1,361,9,2023-01-02
+200745,100248,West Stravenue Townhouse,Townhouse,Shared room,South Carloschester,North Dakota,United States,3,1,3.0,366,13,2026-04-08
+200746,100248,Gary Harbor Apartment,Apartment,Private room,West Brandon,Oregon,United States,7,3,3.1,500,2,2026-06-03
+200747,100248,Joy Locks Townhouse,Townhouse,Entire home,Cohenhaven,California,United States,5,2,2.0,240,26,2022-09-20
+200748,100248,Christensen Lights Condo,Condo,Private room,Moralesview,Indiana,United States,5,2,3.6,193,22,2023-03-02
+200749,100248,Ernest Forge Apartment,Apartment,Private room,Port Williamhaven,Virginia,United States,4,2,3.9,118,15,2023-03-30
+200750,100249,Turner Forges Condo,Condo,Private room,Jeanetteside,Delaware,United States,5,2,2.8,423,3,2025-07-11
+200751,100249,Brandon Freeway House,House,Private room,Benjaminberg,Louisiana,United States,8,4,3.2,158,25,2023-03-10
+200752,100249,Joseph Turnpike Loft,Loft,Entire home,Lake Tinaborough,Ohio,United States,6,3,2.5,470,6,2026-05-28
+200753,100250,Deborah Roads Apartment,Apartment,Shared room,Markside,Kentucky,United States,5,2,2.2,413,25,2022-12-15
+200754,100251,Ricky Ridge Loft,Loft,Entire home,Markton,South Dakota,United States,10,5,1.6,64,27,2025-07-13
+200755,100251,Madison Forges House,House,Entire home,Gregorytown,Ohio,United States,1,1,2.4,177,30,2025-12-06
+200756,100252,Jennifer Spurs Condo,Condo,Private room,Bautistaview,South Dakota,United States,12,6,2.1,151,15,2025-04-04
+200757,100253,Lisa Forges Loft,Loft,Entire home,Josephshire,South Dakota,United States,7,3,3.0,375,8,2025-02-27
+200758,100253,Moore Fort Condo,Condo,Private room,Richardsonfort,Colorado,United States,8,4,1.5,354,28,2025-11-23
+200759,100253,Stephen Via Townhouse,Townhouse,Private room,East Ashley,Washington,United States,10,5,2.0,332,27,2024-07-27
+200760,100253,Smith Estates Condo,Condo,Shared room,Port Phillip,Rhode Island,United States,12,6,1.3,475,1,2023-03-25
+200761,100254,Douglas Meadow Townhouse,Townhouse,Shared room,South Regina,Montana,United States,1,1,3.3,133,7,2023-04-05
+200762,100254,Jessica Valley House,House,Shared room,New Coryfurt,Alaska,United States,11,5,1.6,165,21,2022-11-20
+200763,100254,Kathryn Row Townhouse,Townhouse,Shared room,East Johnland,Louisiana,United States,9,4,1.0,60,30,2022-12-05
+200764,100255,Laura Branch House,House,Shared room,New Jillmouth,Virginia,United States,11,5,3.4,138,8,2023-01-25
+200765,100255,Donald Trace Condo,Condo,Private room,Ochoaport,Michigan,United States,10,5,3.1,462,23,2022-10-27
+200766,100256,John Plains Condo,Condo,Private room,Courtneyville,Alaska,United States,7,3,2.4,242,7,2024-06-30
+200767,100257,Curtis Hill Townhouse,Townhouse,Shared room,New Oliviachester,Georgia,United States,5,2,3.5,396,13,2025-12-20
+200768,100257,Andrew Meadow Loft,Loft,Shared room,Hernandezport,Iowa,United States,2,1,4.0,53,27,2022-06-19
+200769,100258,Mcdaniel Stravenue Condo,Condo,Shared room,South Gavinville,Iowa,United States,9,4,2.8,381,10,2026-05-19
+200770,100258,Howard Ridges Apartment,Apartment,Private room,Davidland,Arizona,United States,8,4,4.0,82,21,2022-11-23
+200771,100258,Gregory Pines Condo,Condo,Shared room,Carolchester,Georgia,United States,5,2,3.1,183,29,2025-01-12
+200772,100259,Weber Heights Condo,Condo,Shared room,Nancyview,New York,United States,4,2,3.3,126,29,2026-04-05
+200773,100259,Cantu Valleys Apartment,Apartment,Shared room,Port Aaronberg,Wyoming,United States,10,5,2.0,256,5,2025-04-10
+200774,100259,Luke Loaf Apartment,Apartment,Private room,Griffithfort,California,United States,11,5,1.8,304,14,2025-04-01
+200775,100260,Moyer Harbors Townhouse,Townhouse,Entire home,North Marcus,Florida,United States,7,3,2.7,427,19,2022-12-10
+200776,100261,Gomez Park House,House,Shared room,Olsonchester,Rhode Island,United States,6,3,1.7,421,18,2023-03-27
+200777,100261,Taylor Shoal Townhouse,Townhouse,Shared room,South Robert,New York,United States,11,5,1.9,233,6,2025-11-01
+200778,100261,Patel View Loft,Loft,Entire home,South Christopher,Virginia,United States,3,1,2.4,200,24,2024-10-01
+200779,100261,Jacqueline Freeway Condo,Condo,Shared room,Aarontown,Mississippi,United States,12,6,3.3,463,6,2024-04-03
+200780,100261,Rosario Creek Condo,Condo,Entire home,West Michaelberg,Maine,United States,11,5,2.1,95,24,2024-11-01
+200781,100261,Mary Plaza Condo,Condo,Private room,Sanchezbury,Arkansas,United States,7,3,2.1,453,19,2024-06-02
+200782,100261,David Square Condo,Condo,Entire home,South Jessica,Vermont,United States,8,4,2.4,485,28,2025-08-21
+200783,100262,Brown Coves Loft,Loft,Entire home,South Maryburgh,Alaska,United States,10,5,2.4,367,7,2024-04-07
+200784,100262,Thomas Gardens Loft,Loft,Shared room,North Ashleychester,Georgia,United States,2,1,2.1,494,10,2023-02-01
+200785,100263,Terry Dam Townhouse,Townhouse,Entire home,Theodoremouth,New Hampshire,United States,1,1,1.4,495,7,2025-09-19
+200786,100263,Justin Drives Condo,Condo,Private room,Lake Antonioburgh,North Carolina,United States,7,3,1.4,341,28,2025-10-13
+200787,100263,Randy Manors House,House,Private room,Spencerview,Oregon,United States,2,1,2.9,299,6,2023-02-22
+200788,100264,Fletcher Manors Condo,Condo,Entire home,West Teresa,North Dakota,United States,11,5,2.4,79,7,2024-08-05
+200789,100264,Julia Locks House,House,Entire home,East Philipside,Rhode Island,United States,10,5,2.5,441,25,2024-01-25
+200790,100264,Lisa Mountain Apartment,Apartment,Private room,Edwardsfurt,Missouri,United States,3,1,2.9,364,13,2026-01-15
+200791,100264,Linda Rue Townhouse,Townhouse,Entire home,Leeville,Connecticut,United States,8,4,1.1,246,7,2023-03-01
+200792,100265,Morrison Vista Condo,Condo,Shared room,Anthonyport,Hawaii,United States,1,1,1.6,214,22,2022-10-16
+200793,100265,Cameron Ranch Apartment,Apartment,Entire home,Port Reneeborough,Oklahoma,United States,11,5,1.7,425,29,2024-10-06
+200794,100265,John Corner Condo,Condo,Entire home,New Valeriefort,Arizona,United States,5,2,2.2,116,19,2023-04-27
+200795,100266,Davis Inlet Condo,Condo,Entire home,West Karenfurt,North Carolina,United States,3,1,1.9,83,10,2022-08-31
+200796,100266,Walton Stream Townhouse,Townhouse,Shared room,Terriville,Michigan,United States,12,6,2.6,316,14,2023-04-16
+200797,100266,Wayne Trail House,House,Private room,North Brenda,Missouri,United States,6,3,3.3,300,6,2024-03-11
+200798,100266,Kelly Drive Townhouse,Townhouse,Entire home,Millerland,Virginia,United States,1,1,3.2,166,5,2024-06-27
+200799,100266,Lindsey Shoal House,House,Shared room,Port Jennifer,North Carolina,United States,12,6,2.5,61,4,2023-06-12
+200800,100266,West Curve Condo,Condo,Entire home,Kellychester,Arizona,United States,12,6,2.1,383,21,2024-08-28
+200801,100267,Allen Ridge Condo,Condo,Entire home,East Ashleyfort,Connecticut,United States,9,4,2.8,369,2,2026-04-01
+200802,100267,Douglas Ways Apartment,Apartment,Entire home,Amyland,New York,United States,11,5,1.1,478,4,2025-11-19
+200803,100267,Edwards Hill Townhouse,Townhouse,Entire home,North Joshua,Mississippi,United States,8,4,2.6,244,16,2022-11-11
+200804,100267,Charles Station House,House,Shared room,Scottfort,Kentucky,United States,4,2,2.9,405,10,2023-12-18
+200805,100267,Santos Dam Townhouse,Townhouse,Shared room,New Tracystad,Maine,United States,11,5,2.6,101,20,2025-09-15
+200806,100268,Vincent Springs Loft,Loft,Private room,South Michael,South Carolina,United States,12,6,3.5,120,4,2024-03-01
+200807,100268,Miller Loop Loft,Loft,Entire home,Bakerton,South Carolina,United States,12,6,1.8,366,26,2023-10-18
+200808,100269,Joyce Gardens Apartment,Apartment,Shared room,East Melissaport,Missouri,United States,8,4,1.6,151,9,2025-03-14
+200809,100270,Nash Fork Loft,Loft,Shared room,Sawyerland,Minnesota,United States,4,2,2.2,233,6,2023-02-18
+200810,100270,Day Viaduct Apartment,Apartment,Entire home,Rodriguezburgh,Washington,United States,9,4,3.1,304,16,2024-06-10
+200811,100270,Tate Flats Condo,Condo,Entire home,Murphymouth,Michigan,United States,4,2,3.0,51,30,2022-12-03
+200812,100270,Lewis Streets Apartment,Apartment,Private room,Wilsonmouth,Arizona,United States,10,5,1.4,392,3,2025-01-11
+200813,100270,Stacy Drive Loft,Loft,Shared room,West Ashley,Rhode Island,United States,2,1,1.3,420,9,2024-10-11
+200814,100271,Brown Valley House,House,Private room,Kristinefort,Indiana,United States,8,4,2.4,201,4,2025-10-02
+200815,100271,Miranda Trace House,House,Private room,Nelsonburgh,Colorado,United States,1,1,2.1,486,22,2022-09-10
+200816,100271,Joshua Common Condo,Condo,Entire home,Morganmouth,Nebraska,United States,7,3,1.3,428,25,2023-01-24
+200817,100272,Elizabeth Green Apartment,Apartment,Entire home,Port Brian,Nevada,United States,1,1,3.0,486,6,2024-09-10
+200818,100272,Martin Keys Condo,Condo,Shared room,Olsonside,Vermont,United States,6,3,1.8,274,24,2023-12-01
+200819,100272,Tammy Mews Apartment,Apartment,Private room,Ritashire,Missouri,United States,6,3,1.5,467,13,2025-10-17
+200820,100272,Ann Ranch Townhouse,Townhouse,Private room,North Jennifer,Pennsylvania,United States,8,4,3.1,189,16,2025-12-17
+200821,100272,Mario View Townhouse,Townhouse,Entire home,Alexismouth,Georgia,United States,11,5,1.3,458,23,2025-01-30
+200822,100273,Wilson Spring Apartment,Apartment,Private room,Bakertown,New Hampshire,United States,3,1,3.7,103,16,2024-08-01
+200823,100274,Cynthia Route Loft,Loft,Entire home,North Jefferyborough,Nebraska,United States,11,5,2.8,274,25,2026-01-01
+200824,100274,Carolyn Forge Condo,Condo,Shared room,Jasonborough,Utah,United States,10,5,3.6,64,24,2025-06-03
+200825,100274,Mitchell Lakes House,House,Entire home,West Peggyhaven,Delaware,United States,8,4,3.7,299,15,2024-11-30
+200826,100275,Banks Motorway Apartment,Apartment,Shared room,Jenkinsstad,Ohio,United States,2,1,1.9,183,23,2025-06-08
+200827,100275,Wilson Fall Loft,Loft,Shared room,Pattersonburgh,Oklahoma,United States,12,6,2.7,345,22,2024-04-09
+200828,100275,Amy Light Condo,Condo,Shared room,Meganchester,South Dakota,United States,9,4,3.1,317,4,2024-12-28
+200829,100276,Wanda Valley Townhouse,Townhouse,Entire home,North Debrachester,Connecticut,United States,11,5,2.4,422,22,2023-09-01
+200830,100276,Cynthia Parkway Townhouse,Townhouse,Shared room,Lake Kellychester,Indiana,United States,3,1,3.7,479,20,2024-07-28
+200831,100276,Arnold Crescent Apartment,Apartment,Entire home,Port Terrence,Delaware,United States,1,1,2.5,379,16,2023-05-30
+200832,100277,Gutierrez View Townhouse,Townhouse,Private room,Smithstad,Iowa,United States,3,1,2.0,88,11,2023-12-14
+200833,100277,Adams Shoals Condo,Condo,Entire home,Kylechester,Utah,United States,1,1,2.7,309,13,2024-08-14
+200834,100278,Rachel Mall Townhouse,Townhouse,Private room,North Anthonystad,North Dakota,United States,4,2,2.3,90,19,2023-06-28
+200835,100279,Rogers Ports Townhouse,Townhouse,Private room,Allenfurt,Illinois,United States,2,1,2.3,488,4,2025-12-12
+200836,100279,Poole Unions Townhouse,Townhouse,Entire home,Andersonfurt,Washington,United States,12,6,1.3,384,14,2025-01-30
+200837,100279,Strong Path Apartment,Apartment,Entire home,South Jerry,Virginia,United States,9,4,3.5,331,26,2023-03-14
+200838,100279,William Roads Loft,Loft,Private room,Cameronview,Oklahoma,United States,10,5,3.7,376,18,2025-11-13
+200839,100280,Harris Course House,House,Private room,South Alexandershire,Georgia,United States,11,5,3.9,393,12,2023-02-20
+200840,100281,Ashley Burg Apartment,Apartment,Private room,South Cynthia,Wyoming,United States,4,2,2.0,482,25,2022-07-31
+200841,100281,John Forges Loft,Loft,Shared room,Jamesbury,Washington,United States,10,5,3.0,292,23,2023-12-26
+200842,100281,Townsend Shoals Townhouse,Townhouse,Shared room,West Christopherberg,South Dakota,United States,2,1,1.7,99,11,2025-10-11
+200843,100281,Daniel Ranch Condo,Condo,Private room,North Donaldview,Idaho,United States,11,5,2.6,459,12,2022-07-23
+200844,100281,Troy Lake Apartment,Apartment,Private room,South Craig,Alaska,United States,1,1,1.4,134,23,2022-11-09
+200845,100281,Tommy Road Townhouse,Townhouse,Shared room,East Gracefurt,Massachusetts,United States,2,1,1.6,180,4,2024-03-21
+200846,100281,Stokes Falls Townhouse,Townhouse,Entire home,Alejandroburgh,Texas,United States,4,2,3.2,284,4,2025-02-26
+200847,100282,David Junctions Townhouse,Townhouse,Shared room,Timothyside,Alabama,United States,1,1,2.8,374,25,2024-11-15
+200848,100282,House Fields Townhouse,Townhouse,Shared room,New Andrewhaven,Wisconsin,United States,8,4,3.9,387,5,2023-02-19
+200849,100283,Michelle Crescent Townhouse,Townhouse,Shared room,North Mark,Iowa,United States,1,1,1.1,321,30,2023-02-09
+200850,100283,Joseph Orchard Townhouse,Townhouse,Shared room,North Michael,Oklahoma,United States,10,5,3.3,297,30,2022-10-25
+200851,100283,Owens Valleys House,House,Entire home,Grahamfurt,Illinois,United States,12,6,3.2,346,5,2025-03-26
+200852,100284,James Vista Apartment,Apartment,Shared room,Suzanneville,Pennsylvania,United States,7,3,2.8,386,11,2023-07-11
+200853,100284,Martin Ford Loft,Loft,Shared room,Hamiltonmouth,Nevada,United States,7,3,3.7,264,25,2025-11-01
+200854,100284,Cabrera Road House,House,Private room,New Patrickborough,Oregon,United States,5,2,3.9,253,15,2024-12-30
+200855,100285,Hurst Viaduct House,House,Shared room,South Garyton,North Carolina,United States,3,1,3.1,261,24,2023-12-18
+200856,100285,Carter Views Loft,Loft,Shared room,Raymondville,Idaho,United States,5,2,2.6,481,11,2023-07-16
+200857,100285,Jordan Ferry Loft,Loft,Entire home,Johnborough,Texas,United States,11,5,1.6,161,23,2025-11-25
+200858,100285,Thomas Island Condo,Condo,Shared room,North Lucastown,Virginia,United States,11,5,1.4,226,23,2024-01-16
+200859,100285,Steven Underpass House,House,Shared room,Rachelside,California,United States,9,4,2.9,327,23,2023-11-10
+200860,100285,Guzman Pine Apartment,Apartment,Private room,North Ann,Virginia,United States,6,3,2.7,337,22,2024-02-06
+200861,100286,Audrey Rue Townhouse,Townhouse,Shared room,Flemingchester,Massachusetts,United States,11,5,1.9,432,28,2025-01-17
+200862,100286,Gonzalez Causeway Townhouse,Townhouse,Entire home,Jimenezview,Nebraska,United States,1,1,1.1,317,5,2025-12-02
+200863,100287,Shawn Rapid Apartment,Apartment,Entire home,Brittanybury,Oregon,United States,11,5,1.8,78,26,2022-12-20
+200864,100288,Smith Tunnel House,House,Private room,South Justinfurt,Arizona,United States,5,2,1.4,399,2,2022-07-21
+200865,100288,Matthew Brook Condo,Condo,Shared room,South Codychester,Washington,United States,4,2,1.1,435,27,2026-04-09
+200866,100288,Stewart Key Townhouse,Townhouse,Shared room,Millermouth,New York,United States,2,1,3.2,365,28,2023-09-28
+200867,100288,Phillip Square House,House,Shared room,Snyderville,Mississippi,United States,12,6,2.2,381,17,2025-01-24
+200868,100288,Anthony Causeway Condo,Condo,Entire home,East Danielmouth,Vermont,United States,12,6,3.8,390,13,2026-06-13
+200869,100289,Perez Corners Townhouse,Townhouse,Shared room,Lake Rachel,Mississippi,United States,11,5,1.2,210,24,2025-07-17
+200870,100289,Sarah Ways Condo,Condo,Private room,West Nicoleton,Delaware,United States,4,2,3.5,367,30,2025-12-06
+200871,100290,Jones Isle Condo,Condo,Shared room,Nelsonburgh,Florida,United States,10,5,2.8,329,25,2022-08-31
+200872,100290,Wilson Island House,House,Entire home,Port Breanna,Nebraska,United States,5,2,4.0,279,3,2024-12-10
+200873,100290,Barnett Pike House,House,Shared room,New Timothy,New York,United States,3,1,1.4,426,2,2025-03-03
+200874,100290,Barton Orchard Townhouse,Townhouse,Private room,North Joseph,Maine,United States,5,2,1.4,334,19,2023-08-27
+200875,100290,Michael Village Condo,Condo,Private room,Lake Deborah,Indiana,United States,1,1,3.1,219,5,2025-06-27
+200876,100290,Charles Park Apartment,Apartment,Shared room,East Alexanderborough,New Jersey,United States,3,1,1.2,215,30,2025-06-01
+200877,100291,Lopez Cove Loft,Loft,Private room,Jasonshire,Wisconsin,United States,11,5,3.4,204,18,2025-12-10
+200878,100291,Hodges Inlet Condo,Condo,Shared room,Rioshaven,Connecticut,United States,2,1,2.0,451,8,2024-09-14
+200879,100291,Jeffery Lakes House,House,Shared room,Hesterhaven,Illinois,United States,9,4,1.5,84,18,2026-05-08
+200880,100292,Lopez Harbors Loft,Loft,Private room,Martinport,Oregon,United States,7,3,1.7,97,7,2025-10-11
+200881,100292,Dylan Wells Condo,Condo,Private room,Lake Danieltown,New Jersey,United States,6,3,1.7,234,25,2025-03-21
+200882,100292,Johnson Shore Loft,Loft,Shared room,Bellville,Oklahoma,United States,9,4,3.5,293,21,2023-04-04
+200883,100292,Reynolds Drive Apartment,Apartment,Private room,Shawhaven,Michigan,United States,2,1,2.3,392,29,2022-10-26
+200884,100293,Nelson Courts Loft,Loft,Entire home,Lake Patrickchester,Illinois,United States,10,5,3.0,174,11,2022-09-08
+200885,100293,Richard Ranch Townhouse,Townhouse,Private room,Alyssafort,North Dakota,United States,2,1,2.6,247,10,2023-09-17
+200886,100294,Erin Rue Apartment,Apartment,Private room,North Jeffrey,Arkansas,United States,9,4,2.5,470,17,2024-04-21
+200887,100295,Barbara Garden Townhouse,Townhouse,Private room,New Craigbury,South Carolina,United States,8,4,3.7,72,7,2026-04-08
+200888,100295,Myers Courts Condo,Condo,Entire home,Lake Madison,Vermont,United States,9,4,1.5,92,25,2025-06-08
+200889,100295,Harris Turnpike Loft,Loft,Shared room,West Dana,Virginia,United States,9,4,1.2,53,22,2023-08-08
+200890,100296,Gross Court House,House,Entire home,New Rebecca,South Carolina,United States,11,5,1.6,267,27,2024-12-30
+200891,100296,Phelps Spurs Townhouse,Townhouse,Entire home,East Leslie,California,United States,11,5,3.2,468,5,2024-06-27
+200892,100296,Martin Motorway Apartment,Apartment,Private room,North Elizabeth,Nevada,United States,8,4,1.1,417,3,2023-03-03
+200893,100296,Gregory Greens Apartment,Apartment,Private room,East Erintown,Rhode Island,United States,3,1,2.7,456,19,2023-11-18
+200894,100296,Aguilar Overpass House,House,Private room,South Daniel,Alaska,United States,5,2,2.4,258,13,2023-12-17
+200895,100297,Conley Pine Townhouse,Townhouse,Private room,Port Dwayne,Connecticut,United States,6,3,3.0,58,18,2024-11-15
+200896,100297,Lara Isle Apartment,Apartment,Shared room,Henrystad,Ohio,United States,11,5,1.2,418,24,2022-11-20
+200897,100297,King Mount Loft,Loft,Entire home,Port Michaelmouth,North Dakota,United States,1,1,2.1,408,17,2023-07-22
+200898,100298,Rodriguez Spur Apartment,Apartment,Shared room,East Tiffanybury,Texas,United States,5,2,1.9,452,3,2025-10-03
+200899,100298,Jimenez Gardens Condo,Condo,Private room,Howardland,Illinois,United States,8,4,3.5,245,1,2023-01-24
+200900,100299,Fowler Harbor Townhouse,Townhouse,Entire home,Archerhaven,Idaho,United States,3,1,1.4,323,13,2026-05-18
+200901,100299,Barron Lock Loft,Loft,Entire home,Landryview,Maryland,United States,5,2,1.9,374,29,2023-08-04
+200902,100299,Bethany Squares Condo,Condo,Shared room,Maryville,Nevada,United States,1,1,1.4,333,2,2023-04-10
+200903,100300,Knight Turnpike Apartment,Apartment,Private room,Keithtown,New York,United States,10,5,2.6,355,3,2025-11-04
+200904,100300,Steven Drive Condo,Condo,Shared room,Cindyburgh,Maryland,United States,4,2,3.7,433,12,2026-05-28
+200905,100300,Brown Hill House,House,Shared room,South Blakeport,Pennsylvania,United States,7,3,1.4,380,6,2024-07-13
+200906,100301,Tracy Avenue House,House,Private room,Belltown,Arkansas,United States,10,5,1.6,477,6,2022-12-26
+200907,100301,Michael Haven Loft,Loft,Shared room,North Jennifer,Georgia,United States,1,1,2.4,485,18,2023-07-13
+200908,100302,Ryan Common Apartment,Apartment,Entire home,Jefferyfort,Minnesota,United States,5,2,1.8,393,7,2025-07-30
+200909,100302,Henderson Courts Loft,Loft,Private room,Samanthaport,Idaho,United States,8,4,1.4,219,21,2023-07-09
+200910,100303,Shelton Islands House,House,Shared room,Lake Katrina,Kentucky,United States,2,1,1.2,195,7,2024-11-09
+200911,100303,Spencer Hollow Condo,Condo,Private room,Christophershire,South Dakota,United States,8,4,2.8,280,10,2023-01-14
+200912,100303,Nicholas Wells Loft,Loft,Shared room,Davishaven,New Hampshire,United States,3,1,2.1,339,11,2024-06-03
+200913,100304,Gordon Spur Townhouse,Townhouse,Private room,Taylorchester,New Jersey,United States,3,1,1.7,52,8,2025-05-31
+200914,100304,Murray Points Townhouse,Townhouse,Private room,Port Robertberg,South Carolina,United States,5,2,1.4,480,24,2024-04-01
+200915,100305,Buchanan Prairie Condo,Condo,Private room,Davidside,Oregon,United States,8,4,2.1,286,10,2026-04-26
+200916,100306,Brown Vista Townhouse,Townhouse,Entire home,Martineztown,New Jersey,United States,9,4,2.9,105,3,2026-03-12
+200917,100306,Combs Corner Condo,Condo,Entire home,West Mariaville,Michigan,United States,3,1,1.8,325,29,2025-11-23
+200918,100307,Lynn Port Apartment,Apartment,Entire home,Vaughnton,Delaware,United States,12,6,3.5,88,21,2024-12-27
+200919,100307,Jacqueline Path Apartment,Apartment,Private room,New Joy,New York,United States,10,5,3.3,346,7,2025-08-11
+200920,100307,Patty Route Apartment,Apartment,Shared room,West Courtney,Washington,United States,9,4,3.7,183,18,2023-01-15
+200921,100307,Linda Road Townhouse,Townhouse,Entire home,North Carlos,Georgia,United States,11,5,2.1,446,8,2026-06-11
+200922,100308,April Gateway Loft,Loft,Private room,North Thomas,North Carolina,United States,12,6,1.4,488,17,2025-01-10
+200923,100308,Brown Crossing Loft,Loft,Private room,Richardburgh,Kansas,United States,2,1,2.5,253,22,2024-05-07
+200924,100308,Underwood Springs House,House,Entire home,Villarrealville,Nevada,United States,10,5,3.3,400,5,2026-01-15
+200925,100308,Jack Viaduct Townhouse,Townhouse,Shared room,East William,Vermont,United States,3,1,3.8,141,22,2023-01-31
+200926,100309,Thomas Highway House,House,Private room,Elizabethshire,New York,United States,12,6,3.8,424,2,2024-10-14
+200927,100309,Myers Square House,House,Entire home,South Robertchester,Georgia,United States,8,4,1.8,168,8,2024-01-09
+200928,100309,Bryant Port Apartment,Apartment,Shared room,Smithport,Arizona,United States,11,5,3.7,155,12,2022-07-31
+200929,100309,Williams Knoll Townhouse,Townhouse,Entire home,South Nicole,New Jersey,United States,8,4,1.1,282,21,2025-03-16
+200930,100310,Tina Knolls Condo,Condo,Shared room,West Rachel,North Dakota,United States,2,1,2.9,410,9,2023-08-22
+200931,100310,Greg Drive Condo,Condo,Shared room,Dianashire,Michigan,United States,10,5,1.5,328,21,2024-02-14
+200932,100310,Joshua Track Townhouse,Townhouse,Shared room,Sandraland,Tennessee,United States,6,3,3.7,350,3,2024-05-31
+200933,100311,Estes Rest Loft,Loft,Entire home,New Jeanette,North Carolina,United States,5,2,2.5,242,12,2024-07-08
+200934,100311,Anderson Islands Condo,Condo,Private room,Breannafurt,California,United States,8,4,3.7,455,1,2025-10-04
+200935,100311,Melissa Estate Loft,Loft,Entire home,North Elizabeth,New York,United States,3,1,1.7,275,17,2022-08-26
+200936,100312,Morris Fort Condo,Condo,Entire home,North Rachel,Idaho,United States,4,2,1.5,126,20,2026-06-08
+200937,100313,Campos Manor Apartment,Apartment,Private room,North Cherylville,Arizona,United States,11,5,3.4,167,24,2025-07-23
+200938,100313,Scott Landing Apartment,Apartment,Private room,East Manuelmouth,Missouri,United States,8,4,2.4,395,19,2026-01-23
+200939,100313,James Overpass House,House,Private room,Sheltonbury,Illinois,United States,11,5,1.1,476,2,2023-01-10
+200940,100313,Ryan Pines House,House,Entire home,North Brandi,South Dakota,United States,10,5,1.4,353,17,2025-08-13
+200941,100314,James Valleys Apartment,Apartment,Entire home,North Michael,Nebraska,United States,10,5,1.5,125,30,2025-04-21
+200942,100314,Matthew Springs House,House,Shared room,Leeborough,Oregon,United States,9,4,3.9,257,21,2024-11-16
+200943,100315,Mason Knolls Apartment,Apartment,Shared room,Port Carlos,Nevada,United States,12,6,3.5,422,3,2025-12-24
+200944,100315,Sawyer Port House,House,Private room,East Kimberlyport,Connecticut,United States,8,4,3.6,360,6,2025-02-13
+200945,100316,Hall Rapid House,House,Entire home,Andrewport,Kentucky,United States,7,3,3.4,357,27,2022-12-18
+200946,100316,Jones Well House,House,Shared room,West Charles,Oregon,United States,10,5,1.8,387,24,2024-02-14
+200947,100317,Ross Centers Condo,Condo,Shared room,New Thomasview,Tennessee,United States,8,4,1.2,355,13,2023-06-27
+200948,100317,Matthew Green Townhouse,Townhouse,Entire home,West Pamela,Arkansas,United States,3,1,1.6,105,28,2022-08-03
+200949,100317,Amy Street Loft,Loft,Entire home,Sandraton,Kansas,United States,11,5,2.8,264,6,2023-01-20
+200950,100317,Linda Port Townhouse,Townhouse,Entire home,West Tinachester,Rhode Island,United States,10,5,3.6,357,18,2024-07-23
+200951,100317,Paige Neck Loft,Loft,Private room,West Jennifer,Connecticut,United States,2,1,3.0,97,29,2025-08-09
+200952,100317,Romero Run Loft,Loft,Entire home,Ryanport,Iowa,United States,9,4,3.7,473,25,2022-08-12
+200953,100318,Anthony Tunnel Townhouse,Townhouse,Private room,New Cathy,Missouri,United States,9,4,3.6,265,23,2022-07-21
+200954,100319,Angela Center Loft,Loft,Private room,Cannonberg,Nevada,United States,7,3,3.4,167,13,2025-05-12
+200955,100319,Dunn Crescent Condo,Condo,Shared room,Wilsonstad,Minnesota,United States,10,5,3.7,461,27,2025-06-11
+200956,100320,Kim Centers Loft,Loft,Entire home,East Christopher,Alabama,United States,2,1,1.8,267,25,2023-04-14
+200957,100320,Burgess Valley House,House,Shared room,Port Alexisbury,Arkansas,United States,2,1,3.6,195,14,2023-06-05
+200958,100321,David Falls Condo,Condo,Shared room,Bradleystad,Rhode Island,United States,4,2,3.2,52,1,2022-10-15
+200959,100321,Whitney Curve Loft,Loft,Shared room,Mendozaville,Texas,United States,9,4,1.0,110,21,2025-03-31
+200960,100322,John Plains House,House,Private room,South Janet,Minnesota,United States,12,6,2.2,461,4,2022-10-15
+200961,100322,Scott Hollow House,House,Shared room,Kimberlyport,Tennessee,United States,7,3,1.8,383,28,2026-04-12
+200962,100322,Flores Plains Loft,Loft,Private room,North Michaelchester,Virginia,United States,7,3,2.8,339,22,2023-07-02
+200963,100322,Ramirez Ford Townhouse,Townhouse,Shared room,Port Theresa,Iowa,United States,4,2,3.4,261,16,2025-02-08
+200964,100322,David Stream House,House,Shared room,North Tiffany,Vermont,United States,6,3,2.5,336,10,2023-10-04
+200965,100323,Benton Brooks Loft,Loft,Shared room,Huffview,Louisiana,United States,6,3,2.2,446,5,2024-05-01
+200966,100323,Evans Corner Apartment,Apartment,Private room,West Melissafurt,New York,United States,12,6,3.3,167,6,2024-12-17
+200967,100323,Cruz Cape Apartment,Apartment,Private room,East Nicolas,Texas,United States,4,2,3.4,310,26,2022-07-17
+200968,100324,Donna Bypass Loft,Loft,Shared room,Sharonmouth,Kentucky,United States,10,5,3.1,406,6,2024-04-17
+200969,100325,Katherine Junctions Townhouse,Townhouse,Entire home,Glennton,Connecticut,United States,11,5,3.5,52,16,2025-11-27
+200970,100325,Farley Springs Loft,Loft,Entire home,Micheleside,New Jersey,United States,7,3,1.8,95,12,2024-10-24
+200971,100325,Martin Light Apartment,Apartment,Shared room,Reesebury,Florida,United States,10,5,2.2,69,13,2024-04-06
+200972,100326,Juan Springs Loft,Loft,Private room,Christopherbury,Wyoming,United States,11,5,3.1,316,20,2026-04-28
+200973,100326,Morgan Locks Apartment,Apartment,Private room,New Joshuaview,Texas,United States,3,1,2.3,377,7,2024-10-08
+200974,100326,David Port Loft,Loft,Entire home,Maryburgh,New Hampshire,United States,5,2,3.4,149,17,2023-07-12
+200975,100326,Scott Mountain Loft,Loft,Shared room,West Timothyside,Indiana,United States,12,6,1.5,168,2,2024-06-05
+200976,100326,Bethany Common Condo,Condo,Entire home,Pennyside,Massachusetts,United States,4,2,3.9,385,3,2024-03-13
+200977,100327,White Trafficway Condo,Condo,Shared room,Jordanfort,Florida,United States,7,3,2.2,230,19,2022-09-25
+200978,100327,Dylan River House,House,Shared room,East Dannyton,Idaho,United States,9,4,3.1,57,30,2023-06-06
+200979,100327,Riley Canyon Apartment,Apartment,Shared room,North Stephanie,Kentucky,United States,9,4,3.5,195,30,2025-05-16
+200980,100327,Erika Walks Loft,Loft,Private room,Amberton,Rhode Island,United States,6,3,1.7,227,7,2023-07-22
+200981,100328,Rodriguez Parkways Townhouse,Townhouse,Entire home,Wilsonland,Kansas,United States,7,3,1.8,344,14,2023-06-17
+200982,100328,Hudson Village Loft,Loft,Entire home,Joneschester,Maine,United States,2,1,2.5,336,11,2023-04-30
+200983,100328,Mark Turnpike Apartment,Apartment,Shared room,Matthewchester,Tennessee,United States,9,4,3.4,181,19,2023-01-26
+200984,100328,Dunlap Hill Condo,Condo,Private room,East Michealport,Georgia,United States,12,6,2.7,276,25,2024-01-21
+200985,100329,Daniel Forest House,House,Private room,Williamhaven,Pennsylvania,United States,6,3,3.0,447,29,2026-05-04
+200986,100329,Case Lane Loft,Loft,Entire home,Lake Jessicafurt,Wisconsin,United States,1,1,1.8,296,13,2025-06-29
+200987,100329,Stephanie Fork House,House,Entire home,Ryanville,North Dakota,United States,11,5,3.4,409,14,2025-03-22
+200988,100329,Catherine Shoals Condo,Condo,Entire home,Stewartborough,Oregon,United States,9,4,3.1,324,9,2025-11-08
+200989,100329,Mark Union House,House,Private room,Jerrymouth,West Virginia,United States,5,2,3.0,97,27,2023-09-16
+200990,100330,Sean Lodge Condo,Condo,Entire home,Christopherside,North Carolina,United States,2,1,2.4,333,12,2022-12-14
+200991,100330,Valdez Rapids House,House,Entire home,South Kristie,Iowa,United States,10,5,3.8,187,22,2022-10-14
+200992,100331,Sara Gardens House,House,Entire home,Craigberg,Rhode Island,United States,8,4,1.7,427,8,2024-11-18
+200993,100331,Peterson Crest Condo,Condo,Entire home,South Robertberg,Oregon,United States,4,2,3.5,167,27,2023-07-27
+200994,100331,Rachel Wells Loft,Loft,Entire home,Smithville,Nebraska,United States,6,3,1.4,129,3,2024-07-24
+200995,100332,Newton Crossroad Townhouse,Townhouse,Shared room,Port Ryanburgh,California,United States,10,5,3.9,53,28,2023-08-01
+200996,100332,Strong Knoll Townhouse,Townhouse,Private room,South Heidi,Kansas,United States,6,3,2.5,367,29,2023-01-09
+200997,100333,Wilson Views Loft,Loft,Entire home,Brittanyville,Washington,United States,5,2,4.0,301,30,2025-06-28
+200998,100333,Joanne Knoll Loft,Loft,Entire home,Lozanomouth,West Virginia,United States,5,2,3.3,253,5,2022-08-27
+200999,100333,Roberts Neck Apartment,Apartment,Private room,Lake Isaac,Wyoming,United States,9,4,2.4,459,18,2026-01-04
+201000,100333,Edwin Avenue Apartment,Apartment,Private room,Emilymouth,Missouri,United States,9,4,3.6,227,25,2024-12-19
+201001,100333,Thompson Stravenue House,House,Shared room,Shirleyville,Iowa,United States,8,4,2.6,111,11,2023-10-28
+201002,100333,Peterson Port Apartment,Apartment,Entire home,Mitchellfurt,Massachusetts,United States,1,1,2.1,395,4,2023-09-22
+201003,100333,Stephanie Canyon Condo,Condo,Private room,South April,Oregon,United States,6,3,1.6,363,9,2025-09-06
+201004,100333,Garcia Haven House,House,Shared room,North Keith,New York,United States,5,2,2.0,291,6,2026-03-15
+201005,100334,Nicole Heights Townhouse,Townhouse,Private room,Vanessaville,Iowa,United States,7,3,3.1,157,12,2024-04-29
+201006,100334,Thomas Ford Condo,Condo,Private room,North Carmen,Arizona,United States,7,3,1.5,193,5,2025-04-18
+201007,100334,Adam Village Loft,Loft,Entire home,West Jamesshire,Nevada,United States,11,5,3.2,167,26,2026-04-01
+201008,100335,Meyer Village House,House,Private room,Phillipsville,Virginia,United States,9,4,1.6,271,26,2025-07-29
+201009,100335,Sean Meadows House,House,Entire home,Bakerberg,Louisiana,United States,8,4,1.5,462,16,2025-06-19
+201010,100335,Tanya Unions House,House,Shared room,Lake Lauraland,Massachusetts,United States,11,5,3.2,314,26,2025-07-28
+201011,100335,Hill Roads Townhouse,Townhouse,Shared room,Lake Haileyton,Nevada,United States,5,2,3.6,178,2,2023-02-16
+201012,100336,Lee Point Townhouse,Townhouse,Entire home,Lake Courtneybury,Florida,United States,2,1,1.2,403,27,2022-11-21
+201013,100336,Wiggins Forges Condo,Condo,Shared room,West Theodore,New York,United States,8,4,1.3,479,24,2024-12-14
+201014,100336,Jessica Haven Condo,Condo,Private room,East Cynthia,Colorado,United States,5,2,2.7,234,30,2025-12-03
+201015,100336,Aaron Cliff Condo,Condo,Private room,Grantborough,Virginia,United States,6,3,1.4,60,28,2024-08-28
+201016,100336,Robert Greens Loft,Loft,Shared room,Welchbury,South Dakota,United States,4,2,2.9,345,18,2023-03-21
+201017,100337,Moreno Falls House,House,Private room,Maryport,Texas,United States,5,2,3.0,231,16,2023-12-11
+201018,100337,Robles Lock Townhouse,Townhouse,Shared room,Amyport,Connecticut,United States,2,1,1.9,245,21,2024-07-10
+201019,100337,Sydney Throughway House,House,Private room,Robertmouth,Massachusetts,United States,3,1,2.3,377,20,2023-05-24
+201020,100337,Wilson Mountain Loft,Loft,Entire home,Donnastad,Vermont,United States,7,3,1.2,484,11,2023-07-07
+201021,100338,Kim Orchard House,House,Shared room,Burkebury,Alaska,United States,6,3,1.9,212,9,2024-02-26
+201022,100338,Romero Vista Loft,Loft,Private room,Brownmouth,Kentucky,United States,11,5,3.7,252,25,2023-09-12
+201023,100338,Jenkins Valleys Condo,Condo,Shared room,Colemanview,Arkansas,United States,12,6,3.9,350,14,2025-05-01
+201024,100339,Chandler Junction House,House,Entire home,West Sethbury,Oregon,United States,3,1,1.4,487,8,2023-08-08
+201025,100339,Amanda Tunnel Condo,Condo,Shared room,New Cherylberg,Rhode Island,United States,12,6,1.2,408,6,2026-03-09
+201026,100339,Stephanie Brooks Townhouse,Townhouse,Entire home,Davismouth,Minnesota,United States,2,1,3.8,98,16,2024-10-03
+201027,100340,Diana Path Loft,Loft,Private room,West Amanda,Hawaii,United States,1,1,2.6,63,3,2025-09-21
+201028,100341,Heath Forks Apartment,Apartment,Entire home,Lauriestad,Michigan,United States,5,2,1.3,366,30,2026-01-10
+201029,100341,Angela Gateway Townhouse,Townhouse,Entire home,North Meganhaven,Connecticut,United States,5,2,3.2,167,15,2024-03-21
+201030,100341,Moody Canyon House,House,Entire home,West Kevin,Iowa,United States,3,1,1.1,319,22,2024-08-05
+201031,100341,Arthur Summit Condo,Condo,Private room,Port Kristenfurt,Florida,United States,6,3,2.4,492,28,2025-02-23
+201032,100342,Atkins Club Loft,Loft,Private room,New Jenniferchester,Alaska,United States,5,2,1.4,330,23,2025-12-10
+201033,100342,Cody Radial Loft,Loft,Shared room,Leeport,Massachusetts,United States,3,1,2.4,352,24,2022-07-10
+201034,100342,Kevin Mount Loft,Loft,Shared room,North Joseph,Tennessee,United States,7,3,2.9,318,10,2024-04-08
+201035,100342,Bennett Meadow Condo,Condo,Entire home,East Tammyside,Louisiana,United States,8,4,3.4,326,15,2024-11-29
+201036,100343,Velez Place Condo,Condo,Private room,South Andre,New York,United States,6,3,1.5,261,1,2024-07-07
+201037,100343,Bean Track Apartment,Apartment,Entire home,South Jeffreytown,Montana,United States,9,4,2.0,467,16,2025-07-22
+201038,100343,Sergio Neck Loft,Loft,Private room,Lake Lanceberg,South Dakota,United States,1,1,3.8,402,16,2025-09-28
+201039,100344,Ann Fords Condo,Condo,Private room,Watkinsland,Georgia,United States,1,1,3.4,442,20,2022-10-25
+201040,100344,Mills Villages House,House,Private room,North Katrina,Kentucky,United States,1,1,1.6,330,29,2024-03-05
+201041,100345,Yang Village Loft,Loft,Entire home,North Marc,Oregon,United States,7,3,1.5,252,24,2024-03-18
+201042,100345,Savage Grove Townhouse,Townhouse,Private room,Port Anna,New York,United States,7,3,1.2,162,21,2025-01-03
+201043,100345,Edwards Run House,House,Shared room,West Steven,New Mexico,United States,9,4,3.4,441,22,2024-10-12
+201044,100345,Samantha Manors Condo,Condo,Shared room,South Davidtown,Hawaii,United States,5,2,2.6,382,9,2024-08-25
+201045,100345,Gabriel Mill Townhouse,Townhouse,Entire home,North Nicolefort,Hawaii,United States,4,2,1.5,486,10,2024-09-02
+201046,100346,Taylor Well Apartment,Apartment,Shared room,Rossport,Delaware,United States,11,5,2.4,283,23,2025-02-14
+201047,100347,Cortez Springs Loft,Loft,Private room,Alexandrastad,Oregon,United States,8,4,1.1,146,2,2024-04-24
+201048,100347,Donald Pike Loft,Loft,Entire home,Port Christina,Virginia,United States,1,1,1.8,145,5,2025-03-24
+201049,100347,Kennedy Fords Townhouse,Townhouse,Entire home,Saraberg,Hawaii,United States,12,6,1.3,54,1,2024-01-15
+201050,100347,Smith Mall Townhouse,Townhouse,Private room,East Thomas,Alabama,United States,4,2,1.9,225,26,2024-09-09
+201051,100347,James Court Townhouse,Townhouse,Shared room,Riveraton,South Carolina,United States,6,3,3.4,287,11,2023-10-15
+201052,100347,Carl Roads Apartment,Apartment,Private room,West Courtney,Illinois,United States,3,1,3.3,78,3,2024-06-15
+201053,100347,Hoover Ways Loft,Loft,Entire home,Silvaport,Mississippi,United States,8,4,3.7,142,9,2023-08-18
+201054,100348,Villa Points Townhouse,Townhouse,Shared room,North Brittany,Connecticut,United States,1,1,1.7,112,25,2025-02-12
+201055,100348,Joshua Greens Townhouse,Townhouse,Entire home,East Laurashire,Tennessee,United States,4,2,1.6,427,24,2025-07-27
+201056,100348,Rivera Trail Apartment,Apartment,Entire home,Tammyfort,Indiana,United States,9,4,2.4,390,22,2025-09-20
+201057,100349,Krista Forge Condo,Condo,Shared room,Port Christinaberg,Hawaii,United States,6,3,3.2,131,24,2023-03-06
+201058,100349,Marcus Center Loft,Loft,Private room,New Lindsay,Nevada,United States,9,4,2.4,112,10,2024-06-25
+201059,100349,Murphy Parkway House,House,Shared room,East Annfurt,Wyoming,United States,6,3,1.7,76,4,2025-04-15
+201060,100349,Kelly Villages House,House,Private room,Alyssaborough,Hawaii,United States,11,5,1.0,272,26,2024-02-06
+201061,100350,Dawson Ville Condo,Condo,Private room,Castrofort,Vermont,United States,10,5,3.4,111,1,2025-02-26
+201062,100350,Jennings Point Apartment,Apartment,Shared room,Pearsonburgh,Alaska,United States,10,5,2.4,451,20,2025-10-25
+201063,100351,Wyatt Trail House,House,Entire home,Jessicaborough,South Carolina,United States,6,3,1.7,444,16,2026-02-22
+201064,100352,Patrick Fall Apartment,Apartment,Private room,East Scotthaven,Illinois,United States,11,5,3.8,366,25,2024-11-03
+201065,100352,Murphy Land Apartment,Apartment,Shared room,Wesleytown,Rhode Island,United States,1,1,1.5,232,18,2022-06-26
+201066,100352,Deborah Row Apartment,Apartment,Entire home,Sandersview,Louisiana,United States,3,1,2.0,299,18,2023-08-16
+201067,100352,Teresa View Condo,Condo,Entire home,Port Jenniferfort,Rhode Island,United States,8,4,1.1,425,13,2025-02-13
+201068,100353,Henry Mountains Condo,Condo,Private room,North Mikeberg,Virginia,United States,12,6,3.7,118,16,2025-02-24
+201069,100353,Monica Curve Townhouse,Townhouse,Shared room,South Maryville,Arkansas,United States,9,4,3.1,200,7,2025-08-04
+201070,100353,Leon Walks Loft,Loft,Private room,Tonyaborough,Tennessee,United States,3,1,2.0,328,15,2024-05-06
+201071,100354,Marvin Spring Condo,Condo,Shared room,Rachaelburgh,Pennsylvania,United States,10,5,1.5,490,17,2025-01-26
+201072,100354,Black Shores House,House,Private room,Butlerton,California,United States,8,4,2.6,201,15,2025-07-13
+201073,100354,Jessica Corner Apartment,Apartment,Private room,South Bradley,Rhode Island,United States,11,5,3.2,309,29,2023-04-13
+201074,100354,Thompson Summit Apartment,Apartment,Private room,West Joshuastad,Delaware,United States,10,5,3.3,488,8,2023-04-22
+201075,100355,Carroll Square Condo,Condo,Shared room,New Sarahland,Delaware,United States,12,6,3.9,82,27,2023-11-30
+201076,100355,Ian Corners Townhouse,Townhouse,Shared room,West Brittany,Alaska,United States,4,2,2.5,318,18,2026-05-14
+201077,100355,Kristina Forge House,House,Private room,Stevenbury,Maryland,United States,10,5,2.2,194,11,2025-09-21
+201078,100356,Julie Street Apartment,Apartment,Shared room,West Brian,Virginia,United States,2,1,1.2,317,27,2026-01-08
+201079,100357,Joshua Port House,House,Entire home,Robertborough,Louisiana,United States,3,1,1.6,497,16,2023-09-06
+201080,100358,Gregory Hill House,House,Shared room,Heidiview,Colorado,United States,2,1,2.9,66,13,2026-03-21
+201081,100358,Lane Keys Townhouse,Townhouse,Shared room,Gallegosburgh,Arizona,United States,9,4,2.8,369,2,2024-07-18
+201082,100358,Moore Port Condo,Condo,Shared room,Lake Ryan,Tennessee,United States,4,2,1.2,360,30,2026-01-04
+201083,100359,Clark Squares House,House,Entire home,Christopherborough,Kentucky,United States,11,5,2.4,301,21,2025-11-28
+201084,100359,Green Crescent Apartment,Apartment,Shared room,South Donald,Pennsylvania,United States,6,3,3.8,335,14,2023-05-23
+201085,100360,Elliott Shoals Condo,Condo,Shared room,West Jacquelinestad,Alabama,United States,12,6,1.8,79,2,2023-11-01
+201086,100360,Alvarez Junction Apartment,Apartment,Entire home,East Robinport,Hawaii,United States,5,2,3.9,89,4,2023-02-19
+201087,100360,Karen Mill Apartment,Apartment,Shared room,Watkinschester,Washington,United States,12,6,2.2,168,7,2024-06-12
+201088,100360,Flowers Glen Loft,Loft,Shared room,Carolynfort,Utah,United States,11,5,2.9,177,6,2024-02-28
+201089,100360,Williams Wells Loft,Loft,Private room,Port Sarah,North Carolina,United States,12,6,3.2,335,25,2024-03-02
+201090,100360,Simmons Grove Loft,Loft,Private room,Watkinsburgh,North Carolina,United States,6,3,3.1,395,14,2022-12-02
+201091,100361,Tanner Square Apartment,Apartment,Entire home,New Karen,Florida,United States,3,1,2.6,455,17,2023-03-03
+201092,100361,Kramer Center Condo,Condo,Shared room,West Lauraberg,Minnesota,United States,11,5,4.0,130,15,2025-04-13
+201093,100362,Martin Alley Condo,Condo,Private room,East Nicole,Maryland,United States,6,3,3.5,331,14,2024-05-30
+201094,100362,Jack Walks Townhouse,Townhouse,Shared room,South Christopher,Kansas,United States,12,6,1.7,215,18,2023-10-08
+201095,100362,Smith Estate House,House,Shared room,Coryside,Utah,United States,7,3,3.8,442,9,2023-02-12
+201096,100362,Roberta Skyway Condo,Condo,Private room,Guerrabury,Wisconsin,United States,8,4,1.0,279,2,2024-02-20
+201097,100363,Paul Island Condo,Condo,Shared room,South Kerri,Maine,United States,10,5,1.4,58,29,2026-05-12
+201098,100363,Carlson Place Condo,Condo,Entire home,West Tracyshire,Alaska,United States,1,1,1.6,203,11,2025-12-12
+201099,100363,Katrina Land Apartment,Apartment,Private room,Matthewtown,South Carolina,United States,12,6,3.8,471,17,2023-05-28
+201100,100364,Melendez Rue Loft,Loft,Entire home,East Vincent,Arizona,United States,10,5,1.3,342,15,2025-01-03
+201101,100364,Graham Junction Condo,Condo,Private room,Valdezchester,Georgia,United States,3,1,2.1,120,19,2023-05-12
+201102,100364,Hughes View House,House,Private room,Johnsonchester,Idaho,United States,4,2,1.3,181,13,2023-09-03
+201103,100364,Fleming Village Loft,Loft,Entire home,South Lindastad,Utah,United States,4,2,3.2,425,26,2023-02-27
+201104,100364,Diana Lodge Townhouse,Townhouse,Shared room,East Luisshire,North Carolina,United States,3,1,3.1,299,27,2025-07-30
+201105,100364,Smith Shoal Apartment,Apartment,Private room,Hendersonton,Maryland,United States,10,5,1.1,378,26,2024-02-04
+201106,100364,Harmon Crescent Loft,Loft,Entire home,Shawfort,Virginia,United States,7,3,3.8,90,11,2024-04-08
+201107,100365,Rodriguez Fall Condo,Condo,Entire home,Schmidtfurt,Utah,United States,7,3,3.6,263,8,2023-11-20
+201108,100365,Adam Station Loft,Loft,Shared room,Jamesmouth,Nevada,United States,1,1,2.1,374,10,2022-10-20
+201109,100365,Campbell Crossing Loft,Loft,Shared room,Stevenston,Rhode Island,United States,1,1,2.7,213,11,2022-09-01
+201110,100365,King Junction Loft,Loft,Entire home,Katietown,Ohio,United States,12,6,1.2,163,24,2025-05-19
+201111,100365,Kelly Mall Townhouse,Townhouse,Shared room,South Markton,Rhode Island,United States,8,4,2.7,435,3,2023-08-07
+201112,100366,Dennis Place House,House,Private room,Wrightland,Ohio,United States,7,3,1.4,198,11,2022-12-08
+201113,100366,Jessica Roads Apartment,Apartment,Shared room,Jordanview,Minnesota,United States,8,4,1.1,342,13,2022-11-11
+201114,100366,Samantha Village Condo,Condo,Shared room,Williamsmouth,Mississippi,United States,2,1,2.3,254,23,2024-05-29
+201115,100366,Chelsea Stream House,House,Shared room,South Williamland,Michigan,United States,3,1,1.6,296,13,2022-08-16
+201116,100367,Henderson Brooks Loft,Loft,Shared room,Lake Jonathan,Tennessee,United States,4,2,4.0,337,17,2026-05-28
+201117,100368,Mary Meadows House,House,Private room,Port Jamesview,Maryland,United States,4,2,3.3,86,11,2025-08-14
+201118,100368,Heather Causeway Loft,Loft,Shared room,Ashleyborough,Wisconsin,United States,2,1,2.2,107,12,2025-01-29
+201119,100368,Hill Spurs Condo,Condo,Private room,West Walter,Arizona,United States,4,2,2.8,214,1,2026-06-10
+201120,100368,Browning Springs Condo,Condo,Shared room,Josephchester,Indiana,United States,3,1,3.5,229,26,2025-01-12
+201121,100368,Sandoval Harbor Townhouse,Townhouse,Private room,Stevenmouth,Connecticut,United States,10,5,1.1,124,27,2022-07-17
+201122,100368,Andrew Islands House,House,Private room,North Cheryl,Washington,United States,4,2,1.5,400,24,2023-05-27
+201123,100369,Matthews Roads Apartment,Apartment,Entire home,Amberfort,Oklahoma,United States,2,1,1.7,428,20,2025-06-28
+201124,100370,Peterson Key House,House,Private room,Hernandezfort,Indiana,United States,5,2,3.1,57,4,2022-07-07
+201125,100370,Emily Glens Condo,Condo,Entire home,Johnsonshire,Colorado,United States,8,4,2.0,291,24,2024-09-21
+201126,100371,Hoffman Key Loft,Loft,Shared room,East Juliehaven,Mississippi,United States,4,2,2.6,154,9,2025-02-22
+201127,100372,Potter Mission Loft,Loft,Shared room,Johnsonshire,Hawaii,United States,8,4,4.0,368,23,2023-10-03
+201128,100372,Cunningham Mall Apartment,Apartment,Shared room,Port Teresaside,West Virginia,United States,7,3,2.6,348,9,2025-02-11
+201129,100372,Nicholas Plain House,House,Entire home,South Catherine,Delaware,United States,1,1,3.4,195,20,2024-07-19
+201130,100373,Robinson Creek Condo,Condo,Shared room,Gregoryburgh,Wyoming,United States,1,1,3.8,288,3,2022-11-15
+201131,100373,Pierce Knoll Townhouse,Townhouse,Shared room,South Rachel,Louisiana,United States,11,5,3.6,188,22,2025-10-07
+201132,100374,Mccoy Shores Condo,Condo,Private room,Wayneside,Montana,United States,2,1,3.6,59,21,2023-10-27
+201133,100375,Simpson Mountain Townhouse,Townhouse,Shared room,Margaretmouth,Hawaii,United States,4,2,3.9,244,4,2023-06-02
+201134,100376,Ricardo Alley Condo,Condo,Shared room,Kathrynburgh,Utah,United States,8,4,2.6,493,6,2026-05-23
+201135,100377,Patrick Shoal House,House,Shared room,Mccannchester,Illinois,United States,9,4,3.8,284,1,2026-04-27
+201136,100378,Christine Dam Apartment,Apartment,Private room,New Ashleychester,Alaska,United States,4,2,2.0,321,13,2025-03-02
+201137,100378,Garrett Road House,House,Shared room,Cohenstad,Alaska,United States,1,1,2.1,227,21,2023-11-04
+201138,100378,Arnold Way Condo,Condo,Private room,Port Robin,New Jersey,United States,4,2,3.4,306,21,2025-08-15
+201139,100378,Gregory Station Condo,Condo,Entire home,West David,California,United States,7,3,3.8,467,9,2024-01-12
+201140,100378,Jamie Mountain House,House,Private room,Sanchezmouth,Kansas,United States,3,1,3.0,224,3,2026-04-07
+201141,100379,Teresa Parkway Townhouse,Townhouse,Shared room,Port Cassandramouth,Hawaii,United States,9,4,3.6,397,22,2025-11-06
+201142,100379,Bowen Cliff House,House,Shared room,Lake Antoniochester,North Dakota,United States,7,3,1.5,173,10,2023-07-03
+201143,100380,Jones Mall Loft,Loft,Shared room,Nicoleside,Delaware,United States,6,3,1.4,279,21,2024-06-17
+201144,100380,Samuel Views House,House,Shared room,West Lisaton,Mississippi,United States,10,5,3.4,327,28,2025-07-03
+201145,100380,Patterson Crossing House,House,Shared room,East Melanieshire,Wisconsin,United States,5,2,3.7,402,30,2024-02-28
+201146,100380,Jennifer Lakes House,House,Entire home,Douglasberg,Kansas,United States,7,3,3.0,444,19,2025-10-29
+201147,100380,Clark Court House,House,Shared room,Dawnland,New Jersey,United States,6,3,2.6,84,24,2025-11-04
+201148,100380,Goodwin Throughway Apartment,Apartment,Entire home,Matthewmouth,Michigan,United States,3,1,3.2,212,25,2026-04-14
+201149,100381,Lyons Port Condo,Condo,Private room,Brookeberg,Georgia,United States,7,3,2.3,260,30,2025-10-23
+201150,100381,Johnson Land Condo,Condo,Entire home,Jenniferport,Virginia,United States,3,1,1.3,448,6,2024-09-05
+201151,100382,Alvarez Mill Apartment,Apartment,Private room,Ericberg,Georgia,United States,10,5,2.8,365,20,2023-02-18
+201152,100382,Villarreal Glens House,House,Entire home,North Melissa,Pennsylvania,United States,10,5,3.1,168,12,2025-01-16
+201153,100382,Breanna Green Apartment,Apartment,Private room,Jenniferhaven,Montana,United States,12,6,1.4,449,28,2023-10-01
+201154,100382,Teresa Row Loft,Loft,Shared room,New Melissa,Massachusetts,United States,8,4,2.1,414,28,2024-06-27
+201155,100382,Gray Oval Townhouse,Townhouse,Entire home,Port Alicia,Idaho,United States,8,4,1.5,292,8,2024-09-07
+201156,100383,Smith Circles Apartment,Apartment,Entire home,Jeffreyborough,Iowa,United States,7,3,3.8,441,14,2024-07-08
+201157,100383,Franklin Stream House,House,Entire home,Lake Jamesfort,New Jersey,United States,12,6,3.3,393,3,2023-02-06
+201158,100384,Mary Vista House,House,Shared room,Lake James,Texas,United States,8,4,2.5,493,11,2024-11-18
+201159,100385,Sims Isle Townhouse,Townhouse,Private room,West Angelaside,West Virginia,United States,4,2,3.3,268,20,2022-08-08
+201160,100386,Tara Centers Townhouse,Townhouse,Private room,Knightbury,Kansas,United States,12,6,2.8,210,24,2024-09-30
+201161,100386,Hannah Run Loft,Loft,Shared room,East Hannah,New Jersey,United States,10,5,2.9,324,23,2023-07-20
+201162,100387,Tiffany Grove Apartment,Apartment,Private room,Christopherborough,Washington,United States,9,4,2.4,105,29,2023-03-20
+201163,100387,Rebecca Curve Apartment,Apartment,Shared room,Brucebury,Kansas,United States,4,2,2.2,315,24,2025-12-29
+201164,100387,Marshall Plain Apartment,Apartment,Shared room,West Kristyland,Illinois,United States,9,4,3.3,248,2,2024-12-13
+201165,100388,Scott Mountains House,House,Private room,North Amy,Indiana,United States,5,2,3.7,275,25,2024-06-30
+201166,100388,Evans Branch Condo,Condo,Private room,Callahanville,Washington,United States,8,4,1.9,135,30,2025-01-02
+201167,100389,Waters Fields Apartment,Apartment,Entire home,Gayview,Wisconsin,United States,12,6,2.4,314,21,2026-03-26
+201168,100390,Vasquez Fall Townhouse,Townhouse,Shared room,Williamhaven,Maine,United States,2,1,1.3,419,25,2024-03-11
+201169,100390,Baker Place Loft,Loft,Entire home,West Joshua,Oklahoma,United States,12,6,2.2,329,11,2025-03-16
+201170,100390,Garrett Creek Townhouse,Townhouse,Private room,South Adam,North Carolina,United States,1,1,2.8,141,23,2024-08-07
+201171,100390,Martin Circles House,House,Private room,Chambersville,New Hampshire,United States,8,4,2.0,96,21,2024-06-17
+201172,100390,James Coves House,House,Entire home,East Kyle,Maryland,United States,12,6,1.3,425,23,2023-12-01
+201173,100391,Garcia Hills Townhouse,Townhouse,Entire home,New Emily,Massachusetts,United States,11,5,2.6,235,13,2023-10-28
+201174,100391,Katie Turnpike Loft,Loft,Private room,Port Eric,Texas,United States,10,5,2.7,131,2,2023-02-15
+201175,100391,Frye Mountains House,House,Shared room,Chanview,Iowa,United States,6,3,3.6,339,6,2023-02-17
+201176,100391,Kennedy Walks House,House,Shared room,Nathanport,Michigan,United States,3,1,1.2,443,10,2026-06-06
+201177,100391,Calderon Island Condo,Condo,Private room,Parkershire,Montana,United States,12,6,1.9,443,6,2025-07-20
+201178,100392,Smith Lodge Apartment,Apartment,Entire home,South Michaelberg,New Jersey,United States,3,1,2.9,153,9,2025-09-14
+201179,100392,Smith Squares Apartment,Apartment,Private room,East Ebony,Kentucky,United States,8,4,2.6,304,1,2025-09-21
+201180,100393,Johnson Meadow Loft,Loft,Entire home,Nguyenside,West Virginia,United States,8,4,2.8,171,16,2023-09-18
+201181,100394,Christina Mill Townhouse,Townhouse,Entire home,Danielbury,Hawaii,United States,7,3,2.8,276,1,2023-04-23
+201182,100394,David Ramp House,House,Shared room,Craneton,Wyoming,United States,9,4,2.9,192,27,2023-11-05
+201183,100394,Watts Squares House,House,Entire home,Wrightshire,Missouri,United States,1,1,1.2,144,12,2025-04-07
+201184,100395,Brian Junctions Apartment,Apartment,Entire home,Amandamouth,Maine,United States,3,1,3.0,487,27,2022-09-18
+201185,100396,Taylor Summit Loft,Loft,Entire home,West Tiffanychester,Georgia,United States,5,2,1.1,219,14,2022-12-07
+201186,100396,Brittany Ports House,House,Private room,New Christopher,Kansas,United States,3,1,2.8,394,23,2026-03-06
+201187,100397,Hawkins Viaduct Loft,Loft,Shared room,Hannahberg,Wyoming,United States,10,5,1.5,453,15,2023-11-09
+201188,100397,Monica Squares Loft,Loft,Entire home,Susanstad,Wyoming,United States,6,3,3.3,68,11,2025-09-26
+201189,100397,Jack Mountain Condo,Condo,Entire home,South Michael,Illinois,United States,7,3,3.3,469,27,2024-05-10
+201190,100397,Scott Summit Loft,Loft,Private room,East Davidchester,Nevada,United States,2,1,1.4,199,23,2025-05-05
+201191,100397,Yates Village Condo,Condo,Private room,New Nathanielshire,Nevada,United States,6,3,2.6,319,23,2024-02-23
+201192,100397,Tyler Overpass House,House,Entire home,Baileyland,West Virginia,United States,10,5,2.7,79,21,2022-08-06
+201193,100398,Terri Tunnel Loft,Loft,Shared room,New Erichaven,Colorado,United States,2,1,3.1,297,30,2022-10-13
+201194,100398,Bishop Field Condo,Condo,Private room,Port Gabriellaview,New Jersey,United States,7,3,1.8,361,19,2024-11-25
+201195,100398,Debra Cliffs Loft,Loft,Shared room,Lake Barbara,New Jersey,United States,6,3,2.7,116,17,2024-05-19
+201196,100398,Preston Locks Townhouse,Townhouse,Entire home,Adamfurt,Alaska,United States,8,4,3.7,463,8,2024-09-14
+201197,100398,Marcus Drive Condo,Condo,Entire home,Melissashire,Utah,United States,4,2,1.1,50,21,2022-07-01
+201198,100398,Patel Shoal Apartment,Apartment,Entire home,Port Lorraine,Minnesota,United States,12,6,3.4,484,14,2025-09-22
+201199,100398,Jacob Drive Townhouse,Townhouse,Private room,West Hunter,Alaska,United States,1,1,2.7,220,21,2026-04-05
+201200,100399,Kimberly Plains House,House,Entire home,Stephaniemouth,Massachusetts,United States,1,1,3.1,377,9,2024-09-23
+201201,100399,Dominique Flats Apartment,Apartment,Shared room,Frankview,Iowa,United States,5,2,2.6,203,25,2026-05-30
+201202,100399,Kelsey Burg Apartment,Apartment,Private room,South David,Missouri,United States,2,1,2.0,401,24,2026-06-11
+201203,100400,Dillon Walk Loft,Loft,Entire home,South Brandon,New Hampshire,United States,10,5,1.6,64,27,2022-07-27
+201204,100400,Jamie Light Condo,Condo,Private room,North Tanyahaven,Pennsylvania,United States,11,5,3.4,295,21,2024-02-28
+201205,100400,Frank Fords House,House,Shared room,South Joystad,West Virginia,United States,8,4,2.4,129,28,2025-07-17
+201206,100401,Lee Course Loft,Loft,Private room,Timothyhaven,Delaware,United States,6,3,3.8,286,2,2023-10-23
+201207,100401,Adrian Unions Loft,Loft,Shared room,Rossville,Minnesota,United States,5,2,3.0,339,18,2024-05-27
+201208,100401,Copeland Mews Loft,Loft,Shared room,Jeromeland,Tennessee,United States,1,1,3.1,156,26,2023-12-29
+201209,100402,Liu Brook Condo,Condo,Private room,Jessicamouth,Arizona,United States,2,1,3.5,126,11,2025-03-13
+201210,100403,Gregory Branch Townhouse,Townhouse,Entire home,New Eric,Vermont,United States,11,5,2.7,323,13,2023-01-22
+201211,100403,Bruce Unions House,House,Private room,Port Jodi,Maine,United States,10,5,3.1,109,11,2024-06-16
+201212,100403,Morrow Manor Apartment,Apartment,Entire home,East Sharon,Georgia,United States,5,2,2.5,261,8,2024-01-16
+201213,100404,Michael Creek Condo,Condo,Private room,North Tyler,Maryland,United States,8,4,1.6,474,10,2025-08-13
+201214,100404,Stout Greens House,House,Entire home,Anthonytown,Michigan,United States,2,1,3.3,241,30,2024-03-06
+201215,100404,Johnson Well Apartment,Apartment,Entire home,South Brandon,Missouri,United States,8,4,3.4,309,29,2022-08-01
+201216,100404,Eric Bridge Loft,Loft,Private room,Phyllisland,Nebraska,United States,3,1,3.8,147,24,2025-09-14
+201217,100405,Tanya Mountain Loft,Loft,Private room,Chaseside,New Hampshire,United States,5,2,1.4,447,28,2022-09-29
+201218,100405,Larry Mountains Apartment,Apartment,Entire home,Davidside,Mississippi,United States,9,4,1.6,396,2,2023-01-12
+201219,100405,Tim Summit Townhouse,Townhouse,Shared room,East Jeffrey,Florida,United States,7,3,1.3,415,10,2025-01-26
+201220,100405,Jeremiah Corner Apartment,Apartment,Shared room,Lake Richardville,Kansas,United States,11,5,3.6,484,11,2025-11-20
+201221,100406,Lopez Shoals Townhouse,Townhouse,Shared room,Markmouth,Texas,United States,1,1,3.3,102,24,2023-06-04
+201222,100407,Wolf Curve Condo,Condo,Private room,Robertberg,Pennsylvania,United States,1,1,2.9,345,7,2024-12-21
+201223,100407,Julie Union Condo,Condo,Private room,Welchborough,Idaho,United States,4,2,1.8,148,11,2025-08-04
+201224,100407,Cynthia Village Townhouse,Townhouse,Private room,East Randy,Alabama,United States,11,5,1.4,110,9,2022-07-10
+201225,100408,Webb Key Apartment,Apartment,Shared room,Lake Molly,Oregon,United States,1,1,2.5,368,7,2024-11-22
+201226,100409,Haney Motorway Loft,Loft,Private room,Amyville,West Virginia,United States,6,3,1.8,331,23,2024-03-09
+201227,100409,Rogers Ferry Condo,Condo,Entire home,Matthewfort,Wyoming,United States,10,5,1.2,175,20,2023-08-25
+201228,100410,Alvarado Skyway Condo,Condo,Entire home,Kathrynview,California,United States,9,4,1.4,277,16,2024-10-17
+201229,100410,Simmons Burg Apartment,Apartment,Entire home,North Jeremy,New Jersey,United States,2,1,1.3,246,13,2025-10-14
+201230,100410,David Station House,House,Shared room,Davidstad,Maryland,United States,12,6,2.9,355,23,2025-12-28
+201231,100410,Tran Corner Townhouse,Townhouse,Private room,South Lori,North Carolina,United States,10,5,2.0,232,7,2024-05-21
+201232,100411,Mary Forges Loft,Loft,Private room,East Jessicastad,North Dakota,United States,2,1,2.7,436,3,2023-04-16
+201233,100411,Anna Pines Townhouse,Townhouse,Private room,Port Amandaside,Iowa,United States,2,1,3.1,283,23,2025-01-06
+201234,100411,Nicholas Courts Townhouse,Townhouse,Entire home,Lake Cynthia,South Carolina,United States,8,4,1.4,168,29,2025-05-30
+201235,100411,Amber Ridge Loft,Loft,Private room,Garrisonview,Arkansas,United States,5,2,1.6,236,30,2023-06-04
+201236,100411,Price Pike Condo,Condo,Private room,Englishmouth,Massachusetts,United States,6,3,1.1,282,16,2024-03-01
+201237,100411,Smith Glen Apartment,Apartment,Private room,Jasonland,Arkansas,United States,6,3,3.5,295,10,2023-01-15
+201238,100412,Taylor Orchard Condo,Condo,Entire home,Port Teresa,Kansas,United States,10,5,2.5,344,13,2025-09-03
+201239,100412,Debbie Lock Apartment,Apartment,Shared room,East Mary,California,United States,6,3,1.2,334,10,2024-02-15
+201240,100412,Taylor Locks Loft,Loft,Shared room,Lake Jodiberg,Indiana,United States,8,4,2.2,255,20,2023-06-04
+201241,100413,Emily Trace House,House,Private room,Alexville,North Dakota,United States,9,4,2.2,131,11,2024-05-06
+201242,100413,Kelsey Rapid House,House,Private room,Hallmouth,Maryland,United States,12,6,3.4,352,14,2023-10-14
+201243,100414,Amber Ridge Loft,Loft,Shared room,Hernandezmouth,Louisiana,United States,6,3,1.7,328,22,2025-12-16
+201244,100414,Massey Glens Apartment,Apartment,Shared room,Lake Stevenshire,Hawaii,United States,12,6,3.5,414,4,2022-08-20
+201245,100414,Blake Fork Loft,Loft,Private room,North Whitneystad,Kansas,United States,10,5,2.7,287,27,2026-03-10
+201246,100414,Copeland Meadows Townhouse,Townhouse,Private room,Brownville,Wyoming,United States,3,1,1.2,207,4,2026-02-27
+201247,100415,Conway Route Loft,Loft,Private room,Robertview,Minnesota,United States,7,3,2.9,217,2,2023-08-27
+201248,100415,Craig Valley Apartment,Apartment,Entire home,Sanchezfort,Iowa,United States,4,2,3.7,468,29,2022-10-25
+201249,100416,Wade Cove Apartment,Apartment,Entire home,Castroshire,Missouri,United States,3,1,2.4,388,10,2024-12-22
+201250,100416,Williams Coves Townhouse,Townhouse,Private room,New Codybury,Mississippi,United States,10,5,1.6,345,22,2025-01-15
+201251,100416,Ochoa Stravenue Condo,Condo,Shared room,West Deborahmouth,New Jersey,United States,5,2,1.9,341,30,2024-12-05
+201252,100416,Shelby Via Townhouse,Townhouse,Entire home,Caldwelltown,Indiana,United States,12,6,2.7,226,20,2024-11-24
+201253,100417,Andrew Isle Loft,Loft,Entire home,West Samanthatown,Washington,United States,7,3,3.6,483,2,2024-11-14
+201254,100417,Howard Springs Condo,Condo,Entire home,Michaelbury,Louisiana,United States,9,4,3.1,77,27,2024-05-27
+201255,100418,Mark Square Condo,Condo,Private room,Kaylaburgh,Indiana,United States,2,1,3.6,490,8,2024-05-10
+201256,100418,Yang Terrace Townhouse,Townhouse,Private room,Kimberlyburgh,New York,United States,12,6,2.9,352,23,2024-11-01
+201257,100418,Matthew Ridges Townhouse,Townhouse,Private room,West Maria,Connecticut,United States,7,3,2.6,245,22,2026-02-07
+201258,100418,Danielle Island House,House,Entire home,Fowlerfurt,Illinois,United States,8,4,2.7,121,27,2026-05-08
+201259,100418,Bell Valley Condo,Condo,Private room,Huangburgh,Hawaii,United States,7,3,4.0,128,22,2023-08-03
+201260,100418,Daniel Prairie House,House,Entire home,Reginaside,Maine,United States,3,1,2.9,55,5,2023-11-01
+201261,100419,Raymond Square Townhouse,Townhouse,Entire home,East Clarencefurt,Kentucky,United States,11,5,1.3,273,21,2025-09-05
+201262,100419,Patel Locks Townhouse,Townhouse,Shared room,South Dale,West Virginia,United States,8,4,2.8,453,14,2023-01-30
+201263,100420,Austin Corner Loft,Loft,Shared room,Yvonnemouth,Arizona,United States,3,1,2.3,282,27,2025-12-04
+201264,100421,Elizabeth Harbor Townhouse,Townhouse,Entire home,South Jeffreybury,Kansas,United States,7,3,1.6,231,20,2023-07-04
+201265,100421,Scott Valleys Apartment,Apartment,Shared room,East Alexander,Kansas,United States,10,5,1.7,305,17,2026-03-08
+201266,100421,Massey Mall Condo,Condo,Shared room,South Jacob,North Dakota,United States,7,3,2.1,329,2,2022-07-20
+201267,100421,Burton Loaf Loft,Loft,Private room,Jasminestad,Kentucky,United States,8,4,1.3,410,16,2024-12-06
+201268,100421,Diaz Freeway Apartment,Apartment,Shared room,Amberland,Vermont,United States,3,1,2.6,423,28,2024-04-18
+201269,100422,Heath Squares Condo,Condo,Entire home,Port Amanda,Florida,United States,8,4,2.6,314,20,2023-01-12
+201270,100422,Nichols Cove Apartment,Apartment,Shared room,Lake Michael,Vermont,United States,4,2,3.2,291,22,2022-11-15
+201271,100422,Steven Ports Apartment,Apartment,Shared room,South Christinefort,Pennsylvania,United States,11,5,3.4,374,10,2025-03-15
+201272,100423,Stephanie Extension Loft,Loft,Shared room,New Shaneton,Minnesota,United States,1,1,3.3,225,16,2024-04-25
+201273,100423,Bryce Knoll Townhouse,Townhouse,Shared room,Lake Joshuaview,Washington,United States,9,4,3.2,290,14,2024-06-27
+201274,100424,Jordan Track Condo,Condo,Entire home,South Jason,New Hampshire,United States,5,2,1.1,198,30,2022-07-30
+201275,100424,Rivera Port Loft,Loft,Shared room,Thomasside,Utah,United States,12,6,3.4,205,9,2023-10-12
+201276,100424,Huffman Ridge Apartment,Apartment,Shared room,Lake Karenshire,Delaware,United States,11,5,1.5,292,2,2024-12-15
+201277,100424,Christina Pines Condo,Condo,Entire home,Crossborough,Kansas,United States,12,6,1.9,369,3,2025-10-03
+201278,100424,Mary Burgs House,House,Private room,Chandlermouth,Colorado,United States,9,4,1.8,89,20,2025-01-07
+201279,100425,Berry Spur Condo,Condo,Private room,Ballardfurt,Vermont,United States,5,2,1.0,489,4,2022-11-11
+201280,100425,Melanie Falls Loft,Loft,Shared room,West Michaelchester,Kentucky,United States,3,1,1.5,352,15,2024-06-23
+201281,100425,Jack Locks Condo,Condo,Shared room,East Michael,Tennessee,United States,3,1,1.7,183,6,2024-08-02
+201282,100425,Matthew Terrace Loft,Loft,Entire home,New Jonathanton,Oklahoma,United States,1,1,3.9,225,20,2025-02-25
+201283,100426,Davis Alley House,House,Private room,North Markport,Alaska,United States,8,4,3.3,435,8,2022-09-17
+201284,100426,Villarreal Extensions Townhouse,Townhouse,Entire home,Lake Christine,Idaho,United States,12,6,1.6,376,24,2025-11-11
+201285,100426,Theresa Court Condo,Condo,Private room,New Neil,Idaho,United States,1,1,3.3,378,4,2024-09-26
+201286,100426,Mccarthy Trail Apartment,Apartment,Private room,New Eduardo,New Hampshire,United States,3,1,2.4,287,16,2026-04-02
+201287,100427,Savannah Underpass Loft,Loft,Shared room,Port Sarahport,Connecticut,United States,4,2,3.1,244,16,2022-08-04
+201288,100427,Brittany Expressway Condo,Condo,Private room,South Jamesberg,South Carolina,United States,3,1,1.0,321,30,2023-12-12
+201289,100427,Pace Shoals Townhouse,Townhouse,Private room,Bowersville,Texas,United States,7,3,3.9,397,22,2026-05-17
+201290,100427,Matthew Lakes Apartment,Apartment,Shared room,East Susan,New York,United States,2,1,2.1,322,28,2024-10-26
+201291,100427,Williams Circle Townhouse,Townhouse,Private room,Cochranshire,Connecticut,United States,10,5,2.0,383,9,2023-04-06
+201292,100427,Elizabeth Islands Apartment,Apartment,Shared room,Shermanborough,Maine,United States,5,2,2.2,385,25,2026-01-24
+201293,100427,Seth Flat House,House,Shared room,Sherylchester,Montana,United States,12,6,3.3,394,17,2023-10-28
+201294,100428,Miller Burg Condo,Condo,Entire home,Garciaside,New Mexico,United States,11,5,1.9,403,1,2024-04-23
+201295,100428,Torres Turnpike Apartment,Apartment,Private room,Kelliton,North Dakota,United States,2,1,1.3,56,4,2025-01-20
+201296,100429,Jacob Corners Townhouse,Townhouse,Shared room,Patriciashire,Ohio,United States,6,3,1.8,162,7,2025-12-30
+201297,100429,Stevenson Place Apartment,Apartment,Entire home,North Tammyfurt,Illinois,United States,1,1,1.2,367,20,2023-03-14
+201298,100430,Madison Spur House,House,Entire home,Rodgershaven,Idaho,United States,10,5,3.1,376,4,2023-12-16
+201299,100430,Maldonado Cape Apartment,Apartment,Private room,North Stephen,Idaho,United States,10,5,3.0,116,29,2024-08-16
+201300,100430,Jennifer Cliffs Loft,Loft,Shared room,South Jamie,South Dakota,United States,3,1,1.6,106,10,2026-04-04
+201301,100430,Brandon Light Townhouse,Townhouse,Shared room,Lake Darren,Maine,United States,11,5,2.4,88,9,2025-01-25
+201302,100430,Donna Village Townhouse,Townhouse,Private room,Traceyfurt,Iowa,United States,12,6,1.8,391,25,2022-06-25
+201303,100431,Williams Divide Apartment,Apartment,Entire home,New Elizabeth,Nevada,United States,5,2,2.1,447,11,2024-01-16
+201304,100431,Harris Wells Apartment,Apartment,Private room,Roberttown,Nebraska,United States,5,2,1.5,466,3,2025-05-09
+201305,100431,Bennett Ville Townhouse,Townhouse,Private room,Port Kimberly,Kentucky,United States,4,2,1.5,362,16,2025-12-18
+201306,100431,Courtney Locks Apartment,Apartment,Private room,Lake Katieberg,Texas,United States,3,1,1.7,326,21,2025-01-05
+201307,100432,Chad Crescent Apartment,Apartment,Private room,East Rachelfort,California,United States,8,4,1.3,416,3,2025-05-24
+201308,100432,Jackson Streets Apartment,Apartment,Private room,Stephaniefurt,Maine,United States,10,5,3.3,422,1,2023-03-29
+201309,100432,Mitchell Port Townhouse,Townhouse,Shared room,Danielville,Montana,United States,3,1,1.0,384,2,2024-09-28
+201310,100433,Stephanie Point Townhouse,Townhouse,Shared room,Gonzalezhaven,Arizona,United States,5,2,2.0,127,13,2025-12-17
+201311,100433,Rodriguez Forks Loft,Loft,Shared room,Port Paulland,Wisconsin,United States,1,1,3.8,313,16,2024-06-15
+201312,100434,John Ridges Townhouse,Townhouse,Shared room,Samuelberg,New Hampshire,United States,7,3,3.3,256,26,2025-05-30
+201313,100434,Elizabeth Parkway Apartment,Apartment,Entire home,Port Jason,Massachusetts,United States,9,4,2.2,165,23,2024-12-31
+201314,100434,Stacy Junctions Townhouse,Townhouse,Shared room,Sandrastad,New Jersey,United States,2,1,3.8,340,12,2022-08-24
+201315,100434,Peter Drives Condo,Condo,Private room,Williambury,Idaho,United States,11,5,1.2,205,21,2023-04-25
+201316,100435,Matthew Stravenue Apartment,Apartment,Private room,Johnsonmouth,California,United States,6,3,1.2,323,15,2025-02-16
+201317,100435,Carolyn Heights Condo,Condo,Entire home,East Amy,Massachusetts,United States,11,5,2.7,153,13,2026-01-18
+201318,100435,Gail Lodge House,House,Private room,New Jennifermouth,Mississippi,United States,5,2,3.7,406,21,2022-09-14
+201319,100435,Rachel Spur Condo,Condo,Shared room,North Patrick,Oregon,United States,8,4,2.3,93,7,2022-08-16
+201320,100436,Mack Crest House,House,Entire home,Port Courtney,Oregon,United States,1,1,3.2,148,19,2022-09-16
+201321,100436,Andrew View House,House,Entire home,Pinedafurt,Maine,United States,8,4,3.4,249,21,2024-10-12
+201322,100436,Cole Summit Condo,Condo,Private room,Lake Tracy,Kentucky,United States,8,4,3.9,323,1,2025-05-18
+201323,100436,Mendoza Drives Apartment,Apartment,Private room,Herrerastad,Iowa,United States,6,3,3.4,78,2,2023-12-06
+201324,100436,Walsh Extensions Townhouse,Townhouse,Shared room,Kiddburgh,Mississippi,United States,2,1,3.0,158,15,2023-01-28
+201325,100437,Ryan Hills Loft,Loft,Shared room,North Steve,Virginia,United States,3,1,1.7,429,3,2025-08-10
+201326,100438,Vanessa Crossroad Apartment,Apartment,Private room,Jaredfurt,Nebraska,United States,12,6,3.0,122,16,2026-03-15
+201327,100438,Murray Mission Loft,Loft,Shared room,Farleymouth,Mississippi,United States,1,1,2.9,174,1,2026-03-21
+201328,100439,Ortega Dale House,House,Private room,East Jay,Illinois,United States,11,5,3.5,75,4,2023-11-24
+201329,100440,Stacy Stream Townhouse,Townhouse,Shared room,Rachelside,Wisconsin,United States,10,5,1.2,137,27,2024-11-16
+201330,100440,Brooks Inlet Apartment,Apartment,Shared room,South Donald,Connecticut,United States,2,1,3.4,304,8,2025-10-30
+201331,100440,Evans Village Apartment,Apartment,Private room,Williamsborough,Michigan,United States,4,2,3.4,268,24,2024-10-08
+201332,100440,Donna Path Townhouse,Townhouse,Shared room,Whitemouth,Alaska,United States,6,3,2.7,111,5,2024-10-22
+201333,100441,Paul Shores Condo,Condo,Entire home,West Tonya,Utah,United States,4,2,2.8,441,11,2025-05-31
+201334,100442,Danielle Ports Apartment,Apartment,Entire home,East Robert,New Jersey,United States,2,1,3.3,190,6,2024-11-09
+201335,100442,Kathryn Oval Condo,Condo,Private room,Cherylhaven,West Virginia,United States,9,4,1.7,134,19,2023-07-04
+201336,100442,Erica Turnpike Apartment,Apartment,Shared room,North Andrewton,Michigan,United States,3,1,2.8,101,25,2025-02-17
+201337,100443,Lawrence Knolls House,House,Private room,Lake Edward,Indiana,United States,1,1,1.2,500,1,2026-02-01
+201338,100444,Michael Island House,House,Shared room,Alvarezburgh,Maine,United States,2,1,2.8,411,10,2023-10-08
+201339,100444,Leah Estate Townhouse,Townhouse,Private room,East Robert,Ohio,United States,12,6,3.1,463,7,2023-10-02
+201340,100445,Moore Plaza House,House,Shared room,Gravesview,Vermont,United States,11,5,2.4,188,8,2026-05-01
+201341,100445,Theresa Shore House,House,Entire home,South Colton,Arizona,United States,10,5,2.8,404,23,2026-01-25
+201342,100445,Kennedy Neck Townhouse,Townhouse,Shared room,Port Andrew,Vermont,United States,10,5,3.5,95,10,2023-01-14
+201343,100445,Galvan Prairie Condo,Condo,Shared room,South Patricia,New York,United States,7,3,1.7,52,4,2025-12-09
+201344,100445,Blackwell Corner Loft,Loft,Private room,Caseyberg,South Carolina,United States,2,1,3.6,366,18,2025-04-26
+201345,100446,Rangel Creek Loft,Loft,Shared room,Lake Malik,Virginia,United States,4,2,3.0,287,9,2023-09-27
+201346,100446,Michael Union Apartment,Apartment,Entire home,Smithshire,Nebraska,United States,4,2,3.1,107,30,2025-10-31
+201347,100446,York Fields Townhouse,Townhouse,Entire home,Tinatown,New York,United States,8,4,3.0,140,2,2023-03-07
+201348,100446,Brett Garden Apartment,Apartment,Private room,Josechester,Michigan,United States,11,5,1.6,236,9,2023-10-25
+201349,100447,Brady Trace Condo,Condo,Private room,Hopkinsmouth,Oklahoma,United States,10,5,1.1,462,24,2022-08-19
+201350,100447,Monica Road Apartment,Apartment,Entire home,Lake Ashleyport,Missouri,United States,9,4,3.4,140,16,2022-08-05
+201351,100447,James Camp Loft,Loft,Entire home,Heidimouth,Mississippi,United States,2,1,3.2,86,19,2023-04-24
+201352,100448,Russell Junctions Loft,Loft,Entire home,West Jennifer,Oklahoma,United States,6,3,3.2,264,29,2025-11-16
+201353,100448,Campbell Corner Condo,Condo,Entire home,Sellersland,Texas,United States,4,2,2.0,448,4,2023-04-13
+201354,100448,Hensley Crescent House,House,Entire home,Port Davidville,Kansas,United States,12,6,2.1,261,8,2026-05-06
+201355,100449,Nathaniel Drives Apartment,Apartment,Private room,Port Christopher,California,United States,8,4,1.2,349,14,2022-10-11
+201356,100449,Jill Junctions House,House,Private room,East Brandimouth,South Dakota,United States,4,2,1.5,362,12,2022-07-02
+201357,100449,Hartman Coves House,House,Entire home,North Janetborough,West Virginia,United States,8,4,2.9,418,9,2026-03-05
+201358,100449,Jacob Stravenue House,House,Entire home,North Ryanbury,Indiana,United States,6,3,3.1,115,2,2026-05-27
+201359,100449,Paul Road Condo,Condo,Private room,South Lisa,Virginia,United States,3,1,2.4,106,6,2022-09-03
+201360,100450,Taylor Street Condo,Condo,Shared room,South Jacksontown,Colorado,United States,4,2,1.5,201,26,2024-07-26
+201361,100450,Jose Wells Loft,Loft,Shared room,Lake David,Wisconsin,United States,3,1,3.6,345,3,2023-03-18
+201362,100450,Jacob Islands Townhouse,Townhouse,Entire home,East Ralph,Pennsylvania,United States,9,4,2.8,300,27,2022-10-13
+201363,100451,Hunter Heights Townhouse,Townhouse,Shared room,South John,Minnesota,United States,5,2,2.3,57,28,2023-09-21
+201364,100451,Alyssa Shoal House,House,Private room,Juanburgh,California,United States,4,2,2.7,217,29,2025-08-03
+201365,100452,Troy Street Loft,Loft,Entire home,New Katelynchester,Colorado,United States,3,1,2.3,343,2,2022-09-21
+201366,100453,Smith Summit Apartment,Apartment,Shared room,West Briannastad,Vermont,United States,8,4,1.1,425,17,2025-04-30
+201367,100453,Ashley Stream Townhouse,Townhouse,Shared room,Shannonfort,Mississippi,United States,8,4,3.5,464,15,2025-05-11
+201368,100454,Hines Island Townhouse,Townhouse,Shared room,East Brenda,Arizona,United States,4,2,3.3,92,23,2024-08-02
+201369,100455,Ortiz Mountain Townhouse,Townhouse,Private room,Sandrafurt,New Jersey,United States,4,2,1.9,117,21,2025-05-26
+201370,100455,Hayes Divide Apartment,Apartment,Shared room,Barnestown,Florida,United States,1,1,1.9,295,23,2026-02-26
+201371,100456,James Ways Townhouse,Townhouse,Shared room,South Michael,Nevada,United States,10,5,1.1,432,15,2025-10-24
+201372,100457,Edward Ferry Townhouse,Townhouse,Shared room,North Allen,New Mexico,United States,3,1,2.2,497,26,2025-10-29
+201373,100457,Rogers Brooks Condo,Condo,Shared room,Myersport,Oklahoma,United States,11,5,2.9,287,28,2023-02-05
+201374,100457,James Rest Apartment,Apartment,Private room,Reynoldsburgh,New York,United States,7,3,2.6,403,10,2023-08-23
+201375,100458,Michael Coves Townhouse,Townhouse,Shared room,West Janiceport,Georgia,United States,5,2,2.6,407,26,2025-04-17
+201376,100458,Lara Mall House,House,Shared room,Smithport,South Dakota,United States,11,5,3.6,91,24,2023-06-18
+201377,100458,Mccoy Spur Apartment,Apartment,Private room,Carrberg,North Dakota,United States,9,4,3.7,395,4,2023-02-19
+201378,100459,Hardy Valley Townhouse,Townhouse,Shared room,West Annette,New Mexico,United States,6,3,1.1,288,12,2023-08-29
+201379,100459,Sergio Mall House,House,Shared room,East Shirley,Vermont,United States,11,5,1.2,336,23,2022-09-24
+201380,100459,Schultz Mountains House,House,Entire home,Angelashire,Michigan,United States,3,1,2.6,221,21,2023-06-15
+201381,100459,Rachel Islands Townhouse,Townhouse,Shared room,Lake Brittany,Kansas,United States,12,6,3.6,435,23,2025-06-06
+201382,100459,Tracy Mountains House,House,Entire home,West Williamville,Missouri,United States,12,6,2.0,439,29,2025-12-02
+201383,100459,Cindy Common Condo,Condo,Private room,Fordview,California,United States,9,4,1.8,398,3,2025-08-26
+201384,100460,Waters Turnpike Condo,Condo,Private room,Jenniferstad,Wyoming,United States,6,3,2.5,281,27,2024-05-16
+201385,100460,Wright Roads Apartment,Apartment,Shared room,West Michaelfort,Oklahoma,United States,8,4,3.0,413,18,2022-09-17
+201386,100460,Frye Oval Condo,Condo,Private room,Cassandraside,Illinois,United States,8,4,3.4,367,23,2023-01-30
+201387,100460,Susan Ranch Apartment,Apartment,Entire home,West Jessicaborough,North Dakota,United States,4,2,1.2,284,29,2025-12-19
+201388,100460,Wright Lane House,House,Entire home,Haynestown,Maryland,United States,5,2,1.5,89,4,2025-11-09
+201389,100461,Douglas Burg House,House,Entire home,Lake Dawnchester,Colorado,United States,8,4,2.6,127,21,2023-07-28
+201390,100461,Parsons Drive Apartment,Apartment,Shared room,Garrettside,Hawaii,United States,5,2,2.6,263,5,2024-01-11
+201391,100461,Blake Coves Townhouse,Townhouse,Private room,Stephenborough,Virginia,United States,6,3,3.2,265,1,2024-12-26
+201392,100461,Mitchell Radial Condo,Condo,Entire home,West Stephanie,Delaware,United States,4,2,3.6,82,8,2025-01-15
+201393,100461,Tran Land Loft,Loft,Private room,West Marie,Missouri,United States,11,5,2.7,221,21,2022-09-07
+201394,100461,Cristina Rue Condo,Condo,Shared room,Randallmouth,South Carolina,United States,8,4,3.1,353,27,2024-10-19
+201395,100462,Dawn Islands Loft,Loft,Private room,New Brianberg,New York,United States,8,4,2.7,284,29,2026-01-06
+201396,100463,Donald Cove Condo,Condo,Private room,Lake Jimmy,Wisconsin,United States,3,1,1.7,454,12,2022-09-25
+201397,100463,Morgan Loop Condo,Condo,Private room,Karenfort,Montana,United States,1,1,1.9,125,6,2023-12-29
+201398,100464,Alicia Row Loft,Loft,Shared room,Nealside,Colorado,United States,3,1,1.9,414,6,2024-10-11
+201399,100464,Shane Crescent House,House,Entire home,Jeremyton,Tennessee,United States,3,1,1.1,171,11,2025-12-04
+201400,100464,Brian Ville Loft,Loft,Private room,South Bobby,Iowa,United States,3,1,2.1,275,7,2025-05-14
+201401,100464,Stephanie Ways Loft,Loft,Shared room,New Luis,Missouri,United States,12,6,2.0,67,12,2025-09-08
+201402,100465,Smith Track House,House,Shared room,Travischester,Oklahoma,United States,6,3,3.9,279,18,2025-09-04
+201403,100465,James Camp Condo,Condo,Private room,East Brandi,Alabama,United States,2,1,3.8,62,25,2022-10-01
+201404,100466,Bonnie Land House,House,Entire home,South Jason,Ohio,United States,8,4,1.0,213,24,2023-12-12
+201405,100467,Baker Landing Loft,Loft,Shared room,Mooreborough,Wisconsin,United States,9,4,3.1,219,16,2022-06-29
+201406,100467,Cook Islands Condo,Condo,Entire home,Philipport,New Hampshire,United States,10,5,3.4,391,24,2025-01-16
+201407,100467,Morrison Run Townhouse,Townhouse,Entire home,Harrisville,Arizona,United States,6,3,3.2,402,29,2022-08-01
+201408,100467,Julia Well Apartment,Apartment,Shared room,East Kathleen,West Virginia,United States,3,1,1.4,397,1,2024-02-09
+201409,100468,Whitaker Spring Townhouse,Townhouse,Entire home,New Lisa,Mississippi,United States,10,5,2.3,480,3,2025-08-21
+201410,100468,Deborah Forks Condo,Condo,Shared room,Jaytown,Maryland,United States,1,1,1.6,361,17,2024-06-07
+201411,100468,Maria Wall House,House,Entire home,Jamiefurt,Washington,United States,5,2,1.3,150,28,2022-07-07
+201412,100468,Joyce Rapids Townhouse,Townhouse,Entire home,South Timothy,Rhode Island,United States,11,5,3.9,393,13,2023-11-08
+201413,100469,Chris Coves House,House,Shared room,Port Anthonyton,Alabama,United States,8,4,2.8,212,2,2023-09-04
+201414,100470,Kevin Light Condo,Condo,Shared room,North Brian,Indiana,United States,7,3,3.6,125,12,2023-08-18
+201415,100470,Tasha Streets Townhouse,Townhouse,Private room,Charleschester,Tennessee,United States,6,3,2.0,56,10,2025-03-17
+201416,100470,Townsend Crest Townhouse,Townhouse,Entire home,Donaldmouth,Indiana,United States,9,4,3.2,94,15,2022-07-22
+201417,100470,Nicole Mountains Townhouse,Townhouse,Entire home,North Daniel,Washington,United States,8,4,3.4,197,29,2022-12-21
+201418,100471,Kane Prairie Townhouse,Townhouse,Entire home,Josephshire,New Mexico,United States,12,6,3.5,262,20,2023-06-17
+201419,100471,Jason Locks Apartment,Apartment,Private room,Johnsonfort,Nevada,United States,3,1,2.4,156,28,2022-09-24
+201420,100471,Gutierrez Bridge Loft,Loft,Shared room,Lake Bryanview,Virginia,United States,6,3,3.3,83,3,2025-12-29
+201421,100472,Harris Grove Apartment,Apartment,Private room,Lake Josephborough,Kansas,United States,7,3,2.2,377,18,2023-08-29
+201422,100473,Patrick Run Townhouse,Townhouse,Entire home,Port Annachester,Oklahoma,United States,12,6,1.6,340,27,2025-05-24
+201423,100473,Conner Stravenue Townhouse,Townhouse,Private room,West Michaelstad,New Jersey,United States,5,2,1.1,333,27,2025-06-13
+201424,100474,Stephens Landing Condo,Condo,Private room,Jessicaside,Georgia,United States,10,5,2.7,205,15,2025-12-13
+201425,100475,Russell Prairie House,House,Entire home,Watsonstad,Wyoming,United States,1,1,1.5,455,10,2023-10-29
+201426,100475,Lisa Terrace Townhouse,Townhouse,Shared room,Lowechester,Mississippi,United States,2,1,3.7,384,14,2023-09-15
+201427,100476,Carrie Dam House,House,Shared room,Sandymouth,New Hampshire,United States,8,4,1.7,402,4,2024-04-18
+201428,100476,Pamela Junctions Condo,Condo,Shared room,New Matthew,South Dakota,United States,8,4,3.2,84,19,2025-08-31
+201429,100477,Melissa Ports Townhouse,Townhouse,Private room,Port Laura,Vermont,United States,10,5,2.9,273,16,2025-12-31
+201430,100477,Madeline Creek Apartment,Apartment,Shared room,New Daletown,Kentucky,United States,6,3,2.7,312,28,2024-02-23
+201431,100477,Jodi Spur Condo,Condo,Entire home,Tracymouth,Washington,United States,3,1,1.4,347,15,2026-06-08
+201432,100478,Kelley Locks House,House,Entire home,Robinsonstad,West Virginia,United States,6,3,1.8,133,14,2026-01-07
+201433,100478,Jeremiah Row Condo,Condo,Private room,Mooreborough,Virginia,United States,1,1,2.6,198,30,2024-03-12
+201434,100478,Tyler Cliffs Apartment,Apartment,Shared room,Johnfurt,Maryland,United States,9,4,1.5,149,4,2022-06-18
+201435,100478,Amber Court Loft,Loft,Private room,North Allen,Maine,United States,3,1,3.6,328,27,2025-12-20
+201436,100479,Jacob Trail Condo,Condo,Shared room,North Jonville,Nevada,United States,5,2,3.1,400,4,2022-12-23
+201437,100479,Smith Ranch Loft,Loft,Entire home,Matthewstad,Indiana,United States,10,5,1.0,230,17,2023-12-25
+201438,100479,Harvey Neck Condo,Condo,Private room,Lake Traviston,New York,United States,6,3,2.2,448,30,2023-10-02
+201439,100479,Johnson Squares House,House,Entire home,Callahanfurt,Wisconsin,United States,2,1,2.5,161,27,2023-10-27
+201440,100480,Roberto Radial House,House,Shared room,Stacyfort,Alaska,United States,9,4,3.5,364,17,2024-10-02
+201441,100481,Sydney Trace Loft,Loft,Shared room,South Johnnyland,Colorado,United States,12,6,3.3,332,4,2024-01-29
+201442,100481,Shawn Summit Townhouse,Townhouse,Entire home,Johnfort,Arizona,United States,8,4,3.5,89,30,2023-07-04
+201443,100481,Tran Squares Apartment,Apartment,Private room,Robinsonchester,Connecticut,United States,8,4,3.1,228,5,2023-11-01
+201444,100482,Brittney Spring Townhouse,Townhouse,Private room,New Seanhaven,Idaho,United States,10,5,1.5,317,10,2022-07-03
+201445,100483,Terry Loaf Apartment,Apartment,Entire home,West Brendahaven,New York,United States,12,6,1.7,467,28,2024-06-06
+201446,100483,Carter Estates House,House,Private room,West Carolynchester,Delaware,United States,12,6,1.4,166,5,2023-03-15
+201447,100483,Tanya Club Apartment,Apartment,Entire home,South Todd,Alabama,United States,7,3,1.2,403,25,2025-05-19
+201448,100484,Kelsey Cape Townhouse,Townhouse,Entire home,Ianmouth,Utah,United States,7,3,1.3,71,26,2024-02-09
+201449,100485,Perez Mills Loft,Loft,Private room,North Frankberg,West Virginia,United States,10,5,1.4,80,9,2024-12-10
+201450,100485,Samuel Lakes Apartment,Apartment,Shared room,Smithhaven,Vermont,United States,2,1,1.0,204,4,2025-01-13
+201451,100485,Robert Bypass Apartment,Apartment,Shared room,Samuelchester,California,United States,10,5,3.7,155,6,2024-01-11
+201452,100485,Jose Shores Condo,Condo,Entire home,Thomashaven,Kansas,United States,1,1,3.5,96,9,2022-09-27
+201453,100486,David Estates Loft,Loft,Entire home,New Jacobborough,New Hampshire,United States,6,3,3.6,230,25,2026-04-26
+201454,100486,Grant Neck Loft,Loft,Shared room,Port Dianashire,Nebraska,United States,4,2,1.2,308,27,2025-04-08
+201455,100486,Jesse Drive Loft,Loft,Entire home,Deanfurt,Alabama,United States,1,1,3.1,320,10,2022-12-14
+201456,100486,William Bridge House,House,Shared room,New Elizabethshire,North Dakota,United States,9,4,1.3,52,7,2024-01-16
+201457,100486,Beard Dam Loft,Loft,Private room,Samanthafort,Indiana,United States,12,6,3.1,293,6,2022-07-01
+201458,100487,Mendoza Forest Townhouse,Townhouse,Entire home,East Paulside,California,United States,11,5,3.5,104,13,2023-04-07
+201459,100488,Michaela Drive Townhouse,Townhouse,Entire home,South Williamland,Oregon,United States,4,2,2.2,313,25,2023-01-30
+201460,100488,Courtney Loop Condo,Condo,Entire home,Sharonview,Nebraska,United States,2,1,2.6,288,16,2023-02-28
+201461,100488,Williams Islands Condo,Condo,Shared room,Johnsonstad,Montana,United States,12,6,3.2,197,3,2022-09-18
+201462,100489,Kaitlyn Crossroad Condo,Condo,Private room,Mendezhaven,Nebraska,United States,8,4,1.9,109,20,2024-05-16
+201463,100489,John Pike Condo,Condo,Private room,Tylerland,Nevada,United States,11,5,1.7,480,14,2025-03-17
+201464,100489,Robert Points Condo,Condo,Entire home,Lake Patriciaberg,Wyoming,United States,7,3,3.7,146,26,2025-01-04
+201465,100490,Mike Lock Townhouse,Townhouse,Entire home,Stevenmouth,Maryland,United States,11,5,1.0,238,22,2025-03-10
+201466,100490,Calhoun Walk Townhouse,Townhouse,Private room,Dixonfurt,Wisconsin,United States,11,5,2.3,103,22,2026-01-07
+201467,100490,Taylor Course Apartment,Apartment,Private room,Hesterside,North Dakota,United States,2,1,2.2,123,19,2026-03-02
+201468,100491,John Grove Apartment,Apartment,Entire home,Nancyhaven,Iowa,United States,12,6,2.1,136,7,2025-01-30
+201469,100491,Solomon Port Condo,Condo,Private room,West Teresa,Illinois,United States,4,2,1.4,354,27,2023-10-17
+201470,100492,Holmes Loop Townhouse,Townhouse,Private room,Josephchester,Texas,United States,12,6,3.3,305,25,2025-12-21
+201471,100492,Kayla Turnpike Loft,Loft,Shared room,Port Kayla,Maine,United States,10,5,3.8,189,12,2025-04-06
+201472,100492,Marquez Plaza Townhouse,Townhouse,Private room,Jamesmouth,Pennsylvania,United States,11,5,4.0,358,17,2023-04-09
+201473,100493,David Stream Condo,Condo,Private room,Danielleborough,Rhode Island,United States,3,1,1.3,443,9,2024-09-02
+201474,100493,White Rue Townhouse,Townhouse,Shared room,Brooksfurt,New Mexico,United States,8,4,3.8,168,1,2025-10-27
+201475,100493,Randolph Mount Apartment,Apartment,Entire home,Dustinland,Kentucky,United States,12,6,2.5,77,1,2025-07-05
+201476,100494,Li Lock House,House,Shared room,North Jacobview,New York,United States,7,3,2.0,359,10,2022-12-28
+201477,100494,Dixon Manor Loft,Loft,Entire home,West Brent,Nevada,United States,10,5,3.0,99,17,2024-05-24
+201478,100494,Larson Mountains Townhouse,Townhouse,Private room,Hughesville,Florida,United States,8,4,3.0,153,16,2025-02-17
+201479,100494,Michael Unions Loft,Loft,Private room,North Melanieview,Connecticut,United States,5,2,3.4,327,18,2023-03-26
+201480,100495,Anderson Court Loft,Loft,Entire home,Harrisshire,Arkansas,United States,1,1,4.0,441,29,2024-10-17
+201481,100495,Matthew Road Apartment,Apartment,Private room,Justinbury,Iowa,United States,7,3,3.6,280,15,2022-07-03
+201482,100495,Reilly Knoll Townhouse,Townhouse,Entire home,East Andrew,Pennsylvania,United States,1,1,2.7,66,28,2023-05-26
+201483,100496,George Views Condo,Condo,Private room,Harristown,Hawaii,United States,12,6,2.3,134,10,2023-10-23
+201484,100497,Pacheco Crossing Townhouse,Townhouse,Entire home,East Meganbury,Kansas,United States,8,4,2.7,441,16,2022-11-06
+201485,100497,Patricia Forges Loft,Loft,Shared room,Danielbury,Texas,United States,11,5,2.4,326,18,2024-05-31
+201486,100498,Riley Rapid House,House,Private room,Griffinbury,Connecticut,United States,9,4,1.8,78,19,2023-10-10
+201487,100498,Ricky Mills Townhouse,Townhouse,Private room,Hernandezfurt,South Carolina,United States,10,5,3.3,396,10,2026-01-24
+201488,100498,Johnson Track Condo,Condo,Shared room,Jamiefort,Nevada,United States,1,1,1.1,64,27,2025-08-27
+201489,100498,Morris Parks Condo,Condo,Shared room,Masseyborough,Mississippi,United States,6,3,2.8,464,25,2025-10-26
+201490,100499,Carolyn Square Condo,Condo,Private room,Jacksonfurt,Indiana,United States,7,3,2.0,99,12,2023-01-28

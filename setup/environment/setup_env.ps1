@@ -6,7 +6,7 @@ Write-Host ""
 Write-Host "Setting dbt environment: $env" -ForegroundColor Cyan
 
 # Common variables (shared across environments)
-$env:SNOWFLAKE_ACCOUNT = "SJANPLY-ZQC35611"
+$env:SNOWFLAKE_ACCOUNT = "SNOWFLAKE_ACCOUNT"
 $env:SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
 
 <#

@@ -20,6 +20,8 @@
   - [Snowflake and VS code Setup](#snowflake-and-vs-code-setup)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+  - [Deployment](#deployment)
+    - [CI/CD](#cicd)
   - [Key Learning Outcomes](#key-learning-outcomes)
     - [1. Modern ELT pipeline design using](#1-modern-elt-pipeline-design-using)
     - [2. Environment-based deployment workflows](#2-environment-based-deployment-workflows)
@@ -31,10 +33,15 @@
     - [8. Scalable SQL transformation architecture using Jinja](#8-scalable-sql-transformation-architecture-using-jinja)
     - [9. Dbt Parameterization](#9-dbt-parameterization)
     - [10. Data Lineage](#10-data-lineage)
+      - [Upstream Dependencies](#upstream-dependencies)
+      - [Downstream Impacts and Modal Relationships](#downstream-impacts-and-modal-relationships)
+      - [Checks Performed](#checks-performed)
     - [11. Documentation generation](#11-documentation-generation)
   - [Best practices](#best-practices)
   - [dbt Commands](#dbt-commands)
   - [Future Enhancements](#future-enhancements)
+- [AI usage](#ai-usage)
+  - [KPI](#kpi)
 
 </details>
 
@@ -137,8 +144,11 @@ dbt_aws_snowflake
       └── 📁environment
           ├── setup_env.ps1                       # script to set up environment variables
       └── 📁infrastructure
-          ├── 1_airbnb_setup.sql                  # script for db, schema, tables, role, grants, stage, file_format, storage_integration and pipes for multiple environments (dev/test/prod)
-          └── 2_clean_airbnb_setup.sql            # script to clean up the entire database infrastructure
+          ├── 0_seed_config.sql                  # script to create configuraton for databases, schemas, tables and roles
+          ├── 1_environment_setup.sql            # script for db, schema, tables for multiple environments raw/dev/test/prod
+          ├── 2_ingestion_setup.sql              # script to create pipes for data ingestion
+          ├── 3_security_setup.sql               # script to grant permissions for the assigned roles
+          └── 4_query_pipes.sql                  # script to debug issues with pipe
   └── 📁dbt_aws_snowflake_project                # Main dbt project
     └── 📁analyses                                # ad-hoc queries for exploring the state of the tables
           ├── explore_bronze_bookings.sql
@@ -180,6 +190,10 @@ dbt_aws_snowflake
         └── 📁generic
             ├── is_valid_date.sql               # generic test for date validilty
         ├── tst_sources.sql                     # custom test for invalid values
+    └── 📁.github/                              
+        └── 📁workflows/                        # Github 
+            ├── dbt_ci.yml                      # dbt compile and test. pushes code to main branch
+            └── deploy.yml                      # deploys to prod, running full build in Snowflake
 
 ```
 
@@ -442,7 +456,7 @@ dbt_aws_snowflake
 
       output:
 
-        <img src="dbt_aws_snowflake_project\diagrams\architecture_images\set_environment_variables.png" alt="Data Transformation" width="800" height="300">
+        <img src="dbt_aws_snowflake_project\diagrams\architecture_images\set_environment_variables.png" alt="Data Transformation" width="900" height="250">
 
 8. Configure sources in sources.yml
    <details>
@@ -457,7 +471,15 @@ dbt_aws_snowflake
           - name: hosts
           - name: listings
     </details>
-      
+
+## Deployment    
+### CI/CD
+  1. Continuous Integration (CI)
+    - Triggered on every pull request to main, this pipeline ensures code quality before changes are merged.
+  2. Continuous Deployment (CD)
+    - Triggered on every merge/push to main, this pipeline deploys the dbt models into snowflake.
+  3. Secrets Management
+    - All sensitive credentials are stored securely in GitHub Secrets and injected at runtime.
 
 ## Key Learning Outcomes
 
@@ -606,10 +628,14 @@ This project demonstrates:
 
 ### 10. Data Lineage
   dbt tracks data lineage showing 
-  - upstream dependencies
-  - downstream impacts
-  - modal relationships 
-  - checks performed
+  #### Upstream Dependencies
+  <img src="dbt_aws_snowflake_project\diagrams\architecture_images\lineage_airbnb.png" alt="Lineage Airbnb" width="1600" height="500">
+  
+  #### Downstream Impacts and Modal Relationships
+  <img src="dbt_aws_snowflake_project\diagrams\architecture_images\lineage_bookings.png" alt="Lineage Airbnb" width="1600" height="500">
+  
+  #### Checks Performed
+  <img src="dbt_aws_snowflake_project\diagrams\architecture_images\bronze_tests.png" alt="Bronze Checks" width="1400" height="400">
   
 ### 11. Documentation generation
   ```powershell
@@ -655,8 +681,9 @@ This project demonstrates:
 ---
 ## Future Enhancements
 Model enhancements:
-- dynamically create table structures bsed on the .csv headers /table headers
-- quarantine test failures in dedicated quarantine schema
+- Dynamically create table structures based on the .csv headers / table headers
+- Quarantine test failures in dedicated quarantine schema
+- Infrastructure as code
   
 Business Enhancements:
 - Top revenue listings	and highest earning properties
@@ -666,5 +693,15 @@ Business Enhancements:
 - Average stay duration
 
 
+# AI usage
+## KPI
+ - gross_bookings  = count of all bookings
+ - successful_bookings = count of bookings wth status 'Cancelled' and 'Confirmed'
+ - gross_revenue = sum(total_price + service_fee + cleaning_fee)
+ - avg_booking_value = gross_revenue / succesful_bookings
+ - cancellation_rate = 100 * countif(booking_status = 'Cancelled') / gross_bookings
+ - pct_long_stay = 100 * countif(booking_status = 'Cancelled') / successful_bookings
+ - avg_nights_booked = avg(nights_booked)
+ - revenue_per_night = gross_revenue / sum(nights_booked)
 
 

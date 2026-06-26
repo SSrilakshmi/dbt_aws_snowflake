@@ -1,0 +1,73 @@
+/*
+=========================================================================
+Purpose:    Populates DB_AIRBNB_ADMIN.CONFIG.CONFIG_DATABASES with objects that drive the Airbnb dbt project setup. 
+Description:Creates and populates three config tables:
+                CONFIG_DATABASES – maps database names to environment types (RAW/DEV/TEST/PROD)
+                CONFIG_ROLES     – maps dbt roles to their target environment
+                CONFIG_TABLES    – maps table names and corresponding pipe objects for downstream usage
+Dependency: None
+Usage:      Run once during initial project provisioning
+Author:     Shree
+=========================================================================
+*/
+
+CREATE DATABASE IF NOT EXISTS DB_AIRBNB_ADMIN;
+CREATE SCHEMA IF NOT EXISTS DB_AIRBNB_ADMIN.CONFIG;
+
+-- CONFIG DATABASES
+CREATE OR REPLACE TABLE DB_AIRBNB_ADMIN.CONFIG.CONFIG_DATABASES
+(
+    DATABASE_NAME VARCHAR,
+    DATABASE_TYPE VARCHAR
+);
+
+INSERT INTO DB_AIRBNB_ADMIN.CONFIG.CONFIG_DATABASES
+VALUES
+('DB_AIRBNB_RAW','RAW'),
+('DB_AIRBNB_DEV','DEV'),
+('DB_AIRBNB_TEST','TEST'),
+('DB_AIRBNB','PROD');
+
+
+-- CONFIG SCHEMAS
+CREATE OR REPLACE TABLE DB_AIRBNB_ADMIN.CONFIG.CONFIG_SCHEMAS
+(
+    SCHEMA_NAME VARCHAR
+);
+
+INSERT INTO DB_AIRBNB_ADMIN.CONFIG.CONFIG_SCHEMAS
+VALUES
+('STAGING'),
+('BRONZE'),
+('SILVER'),
+('GOLD');
+
+-- CONFIG_ROLES
+CREATE OR REPLACE TABLE DB_AIRBNB_ADMIN.CONFIG.CONFIG_ROLES
+(
+    ROLE_NAME VARCHAR,
+    DATABASE_NAME VARCHAR
+);
+
+INSERT INTO DB_AIRBNB_ADMIN.CONFIG.CONFIG_ROLES
+VALUES
+('DBT_DEV_ROLE','DB_AIRBNB_DEV'),
+('DBT_TEST_ROLE','DB_AIRBNB_TEST'),
+('DBT_PROD_ROLE','DB_AIRBNB'),
+('ALL','DB_AIRBNB_RAW');
+
+
+-- CONFIG_TABLES
+CREATE OR REPLACE TABLE DB_AIRBNB_ADMIN.CONFIG.CONFIG_TABLES
+(
+    TABLE_NAME VARCHAR,
+    PIPE_NAME VARCHAR,
+    STAGE_PATH VARCHAR,
+    FILE_PATTERN VARCHAR
+);
+
+INSERT INTO DB_AIRBNB_ADMIN.CONFIG.CONFIG_TABLES
+VALUES
+('BOOKINGS','BOOKINGS_PIPE','@DB_AIRBNB_RAW.STAGING.STG_AIRBNB_S3', ''),
+('LISTINGS','LISTINGS_PIPE','@DB_AIRBNB_RAW.STAGING.STG_AIRBNB_S3', ''),
+('HOSTS','HOSTS_PIPE','@DB_AIRBNB_RAW.STAGING.STG_AIRBNB_S3', '');
